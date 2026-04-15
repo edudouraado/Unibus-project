@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable bg_input
+drawable bg_rounded_top
+drawable btn_amarelo
+id bgAzul
+id btnConfirmar
+id btnEnviar
+id btnReenviar
+id btnSalvar
+id btnVoltar
+id editCodigo
+id editConfirmarSenha
+id editEmail
+id editNovaSenha
+id imgMascote
+id txtSubtitulo
+id txtTitulo
+layout activity_alterar_senha
+layout activity_confirmar_codigo
+layout activity_recuperar_senha
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.Unibus
