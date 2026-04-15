@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Unibus</string>
+    <string name="error_unexpected">Erro inesperado</string>
+    <string name="error_description">Oops! Algo deu errado&#8230; Mas fique tranquilo(a), nossa equipe já está correndo para resolver. Tente novamente mais tarde!</string>
+    <string name="btn_ok">OK</string>
+    <string name="back_button_desc">Voltar</string>
+    <string name="unibus_logo">UniBus</string>
 </resources>
