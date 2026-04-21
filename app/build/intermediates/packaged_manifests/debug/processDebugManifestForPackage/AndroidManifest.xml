@@ -23,7 +23,6 @@
         android:label="Unibus"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity
             android:name="com.example.unibus.RecuperarSenhaActivity"
@@ -39,6 +38,9 @@
             android:exported="false" />
         <activity
             android:name="com.example.unibus.AlterarSenhaActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.unibus.ErrorActivity"
             android:exported="false" />
 
         <provider

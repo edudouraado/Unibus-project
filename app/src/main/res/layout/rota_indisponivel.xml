@@ -38,31 +38,33 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvLogo">
 
-        <!-- Imagem da Ema que você já colocou -->
+        <!-- Imagem da Ema atualizada para image2 -->
         <ImageView
             android:id="@+id/ivErrorImage"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/imagem_ema"
             android:contentDescription="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/image2"
             app:layout_constraintBottom_toTopOf="@+id/tvErrorTitle"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_weight="1" />
+            app:layout_constraintVertical_weight="1"
+            app:srcCompat="@drawable/image2" />
 
         <TextView
             android:id="@+id/tvErrorTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/error_unexpected"
+            android:text="@string/route_unavailable_title"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/tvErrorDescription"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/ivErrorImage" />
 
@@ -72,7 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:gravity="center"
-            android:text="@string/error_description"
+            android:text="@string/route_unavailable_description"
             android:textColor="@color/white"
             android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@+id/btnOk"
