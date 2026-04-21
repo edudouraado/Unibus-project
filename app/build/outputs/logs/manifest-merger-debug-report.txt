@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:2:1-35:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Eduardo\.gradle\caches\8.10.2\transforms\c6f87c6347fca6445839a1e65bf6f56a\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Eduardo\.gradle\caches\8.10.2\transforms\c5b325d768c227d3e440a8f0b8bc8229\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Eduardo\.gradle\caches\8.10.2\transforms\6b274a4ff51ce85011c6c5f26b337bb9\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -54,8 +54,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Eduardo\.gradle\caches\8.10.2\
 	xmlns:android
 		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:4:5-29:19
-INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:4:5-29:19
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:4:5-33:19
+INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:4:5-33:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Eduardo\.gradle\caches\8.10.2\transforms\c6f87c6347fca6445839a1e65bf6f56a\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Eduardo\.gradle\caches\8.10.2\transforms\c6f87c6347fca6445839a1e65bf6f56a\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Eduardo\.gradle\caches\8.10.2\transforms\c5b325d768c227d3e440a8f0b8bc8229\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -116,6 +116,12 @@ ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\Android
 		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
 		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:26:13-49
+activity#com.example.unibus.ErrorActivity
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:29:9-31:40
+	android:exported
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:30:13-42
 uses-sdk
 INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml

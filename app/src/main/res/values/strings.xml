@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Unibus</string>
+    <string name="error_unexpected">Erro inesperado</string>
+    <string name="error_description">Oops! Algo deu errado&#8230; Mas fique tranquilo(a), nossa equipe já está correndo para resolver. Tente novamente mais tarde!</string>
+    <string name="btn_ok">OK</string>
+    <string name="back_button_desc">Voltar</string>
+    <string name="unibus_logo">UniBus</string>
+
+    <!-- Strings para a tela de Rota Indisponível -->
+    <string name="route_unavailable_title">Rota indisponível</string>
+    <string name="route_unavailable_description">Não conseguimos acessar essa parte do app no momento. A rota solicitada está temporariamente indisponível. Por favor, tente novamente mais tarde.</string>
+
+    <!-- Strings para a tela de Suporte -->
+    <string name="support_title">Suporte</string>
+    <string name="hint_name">Seu nome</string>
+    <string name="hint_id">Sua matrícula</string>
+    <string name="hint_email">Seu email</string>
+    <string name="hint_description">Conte o que aconteceu</string>
+    <string name="btn_send">Enviar</string>
+
+    <!-- Strings para a tela de Sucesso Suporte -->
+    <string name="support_success_title">Solicitação enviada com sucesso!</string>
+    <string name="support_success_description">Obrigado por nos contatar, em até 24 horas nossa equipe lhe retornará por email</string>
+    <string name="btn_back_to_start">Retornar ao início</string>
 </resources>

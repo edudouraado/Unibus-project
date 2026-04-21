@@ -26,6 +26,10 @@
             android:name=".AlterarSenhaActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".ErrorActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
