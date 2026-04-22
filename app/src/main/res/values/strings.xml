@@ -5,6 +5,17 @@
     <string name="btn_ok">OK</string>
     <string name="back_button_desc">Voltar</string>
     <string name="unibus_logo">UniBus</string>
+    <string name="loading_subtitle">sua rota para o campus</string>
+    <string name="greeting_user">Olá, Leandro!</string>
+    <string name="user_id">2121054</string>
+    <string name="qr_instruction">Apresente o QR-code ao motorista para validação.</string>
+    <string name="title_avisos">Avisos</string>
+    <string name="warning_title">Unibus - Rota Indisponível</string>
+    <string name="warning_date">24/01/2025</string>
+    <string name="warning_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet metus nec lacus dictum ultrices.</string>
+    <string name="menu_home">Início</string>
+    <string name="menu_prefs">Preferências</string>
+    <string name="menu_support">Suporte</string>
 
     <!-- Strings para a tela de Rota Indisponível -->
     <string name="route_unavailable_title">Rota indisponível</string>
