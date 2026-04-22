@@ -10,4 +10,8 @@
     <color name="background_beige">#F8F4E1</color>
     <color name="error_red">#F25C5C</color>
     <color name="unibus_blue">#134B70</color>
+    <color name="unibus_blue_dark">#0E3B5A</color>
+    <color name="card_gray">#C1BEB2</color>
+    <color name="text_gray">#4A4A4A</color>
+    <color name="divider_gray">#8E8E8E</color>
 </resources>
