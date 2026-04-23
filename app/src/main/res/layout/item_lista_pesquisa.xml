@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/tvNomePonto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ponto Leandro 1"
+        android:textColor="#1A5F8A"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="100m"
+        android:textColor="#1A5F8A"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNomePonto"
+        android:layout_marginTop="4dp"
+        android:text="Av. Leandro, nº 123 - Leandrópolis/LE"
+        android:textColor="#1A5F8A"
+        android:alpha="0.7"
+        android:textSize="13sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="12dp"
+        android:background="#D1D1D1" />
+
+</RelativeLayout>
