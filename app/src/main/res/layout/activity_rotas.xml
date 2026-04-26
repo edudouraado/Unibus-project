@@ -28,8 +28,8 @@
 
     <LinearLayout
         android:id="@+id/cardAzul"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="370dp"
+        android:layout_height="430dp"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="24dp"
         android:layout_marginBottom="16dp"
@@ -39,8 +39,10 @@
         android:padding="24dp"
         app:layout_constraintBottom_toTopOf="@+id/menuInferior"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnVoltar">
+        app:layout_constraintTop_toBottomOf="@+id/btnVoltar"
+        app:layout_constraintVertical_bias="0.427">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -60,8 +62,8 @@
                 android:layout_height="60dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
-                android:background="#FFFFFF"
-                android:alpha="0.8"/>
+                android:alpha="0.8"
+                android:background="#FFFFFF" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -87,11 +89,11 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:background="@drawable/bg_botao_branco"
+            android:elevation="2dp"
             android:text="Parangaba"
             android:textAllCaps="false"
             android:textColor="#1A5F8A"
-            android:textStyle="bold"
-            android:elevation="2dp"/>
+            android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnRota2"
@@ -99,11 +101,11 @@
             android:layout_height="55dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/bg_botao_branco"
+            android:elevation="2dp"
             android:text="Ant. Bezerra / Papicu"
             android:textAllCaps="false"
             android:textColor="#1A5F8A"
-            android:textStyle="bold"
-            android:elevation="2dp"/>
+            android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnRota3"
@@ -111,11 +113,11 @@
             android:layout_height="55dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/bg_botao_branco"
+            android:elevation="2dp"
             android:text="Messejana / Eusébio"
             android:textAllCaps="false"
             android:textColor="#1A5F8A"
-            android:textStyle="bold"
-            android:elevation="2dp"/>
+            android:textStyle="bold" />
 
     </LinearLayout>
 

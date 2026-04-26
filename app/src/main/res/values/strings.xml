@@ -1,35 +1,66 @@
 <resources>
     <string name="app_name">Unibus</string>
+    <string name="unibus_logo">UniBus</string>
+    <string name="back_button_desc">Voltar</string>
+    <string name="btn_ok">OK</string>
+
+    <!-- Erros Gerais -->
     <string name="error_unexpected">Erro inesperado</string>
     <string name="error_description">Oops! Algo deu errado&#8230; Mas fique tranquilo(a), nossa equipe já está correndo para resolver. Tente novamente mais tarde!</string>
-    <string name="btn_ok">OK</string>
-    <string name="back_button_desc">Voltar</string>
-    <string name="unibus_logo">UniBus</string>
-    <string name="loading_subtitle">sua rota para o campus</string>
-    <string name="greeting_user">Olá, Leandro!</string>
-    <string name="user_id">2121054</string>
-    <string name="qr_instruction">Apresente o QR-code ao motorista para validação.</string>
-    <string name="title_avisos">Avisos</string>
-    <string name="warning_title">Unibus - Rota Indisponível</string>
-    <string name="warning_date">24/01/2025</string>
-    <string name="warning_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet metus nec lacus dictum ultrices.</string>
-    <string name="menu_home">Início</string>
-    <string name="menu_prefs">Preferências</string>
-    <string name="menu_support">Suporte</string>
 
-    <!-- Strings para a tela de Rota Indisponível -->
+    <!-- Tela Inicial do Motorista -->
+    <string name="driver_greeting">Olá, Motora!</string>
+    <string name="driver_id">2121054</string>
+    <string name="notices_title">Avisos</string>
+    <string name="notice_subject">Unibus - Rota Indisponível</string>
+    <string name="notice_date">24/01/2025</string>
+    <string name="lorem_ipsum_short">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet metus nec lacus dictum ultrices.</string>
+    <string name="btn_start_route">Iniciar Rota</string>
+    <string name="nav_home">Início</string>
+    <string name="nav_preferences">Preferências</string>
+    <string name="nav_support">Suporte</string>
+
+    <!-- Popup Iniciar Rota -->
+    <string name="popup_start_route_title">Iniciar rota</string>
+    <string name="popup_start_route_instruction">Selecione a rota que deseja iniciar</string>
+    <string name="route_parangaba">Parangaba</string>
+    <string name="route_ant_bezerra">Ant. Bezerra / Papicu</string>
+    <string name="route_messejana">Messejana / Eusébio</string>
+
+    <!-- Popup Selecionar Origem -->
+    <string name="popup_select_origin_title">Selecionar origem</string>
+    <string name="popup_select_origin_instruction">Selecione o ponto de partida</string>
+    <string name="origin_terminal">Terminal</string>
+    <string name="origin_campus">Campus</string>
+
+    <!-- Tela Ler QR Code -->
+    <string name="scan_qr_instruction">Aponte a câmara para o código QR</string>
+
+    <!-- Tela Rota em Andamento / Capacidade -->
+    <string name="title_route_started">Rota Iniciada</string>
+    <string name="current_route_detail">Terminal Ant. Bezerra / Papicu</string>
+    <string name="label_occupied_seats">Vagas ocupadas</string>
+    <string name="label_free_seats">Vagas livres</string>
+    <string name="btn_scan_qr_code">LER QR CODE</string>
+    <string name="btn_map">MAPA</string>
+
+    <!-- Status de Entrada (Feedback) -->
+    <string name="entry_allowed">Entrada liberada!</string>
+    <string name="entry_denied">Entrada recusada</string>
+    <string name="full_capacity_title">Lotação atingida</string>
+    <string name="full_capacity_desc">Atenção, a capacidade máxima desse veículo foi atingida!</string>
+
+    <!-- Rota Indisponível -->
     <string name="route_unavailable_title">Rota indisponível</string>
     <string name="route_unavailable_description">Não conseguimos acessar essa parte do app no momento. A rota solicitada está temporariamente indisponível. Por favor, tente novamente mais tarde.</string>
 
-    <!-- Strings para a tela de Suporte -->
+    <!-- Suporte -->
     <string name="support_title">Suporte</string>
     <string name="hint_name">Seu nome</string>
     <string name="hint_id">Sua matrícula</string>
     <string name="hint_email">Seu email</string>
     <string name="hint_description">Conte o que aconteceu</string>
     <string name="btn_send">Enviar</string>
-
-    <!-- Strings para a tela de Sucesso Suporte -->
     <string name="support_success_title">Solicitação enviada com sucesso!</string>
     <string name="support_success_description">Obrigado por nos contatar, em até 24 horas nossa equipe lhe retornará por email</string>
     <string name="btn_back_to_start">Retornar ao início</string>
