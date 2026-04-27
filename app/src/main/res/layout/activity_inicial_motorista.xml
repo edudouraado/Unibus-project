@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_beige">
+
+    <!-- Logo Superior -->
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo_unibus_texto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/unibus_logo" />
+
+    <!-- Card Azul do Motorista -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="12dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp"
+        app:layout_constraintTop_toBottomOf="@id/ivLogo">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/unibus_blue"
+            android:padding="20dp">
+
+            <!-- Avatar Circular -->
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ivAvatar"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:background="@color/white"
+                android:padding="3dp"
+                android:src="@drawable/chatgpt_image_11_de_mai__de_2025__15_39_41_removebg_preview_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full" />
+
+            <TextView
+                android:id="@+id/tvGreeting"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/driver_greeting"
+                android:textColor="@color/white"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/tvId"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/ivAvatar"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <TextView
+                android:id="@+id/tvId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/driver_id"
+                android:textColor="#B3FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@id/tvGreeting"
+                app:layout_constraintTop_toBottomOf="@id/tvGreeting" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Card de Avisos -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvNotices"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/cvStartRoute"
+        app:layout_constraintTop_toBottomOf="@id/cvHeader">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/card_gray"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tvNoticesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notices_title"
+                android:textColor="#444444"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvNoticesTitle">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Aviso 1 -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView android:id="@+id/st1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notice_subject" android:textStyle="bold" android:textColor="#555"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:text="@string/notice_date" android:textColor="#555"/>
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/st1" android:layout_marginTop="4dp" android:text="@string/lorem_ipsum_short" android:textColor="#666"/>
+                    </RelativeLayout>
+
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginVertical="12dp" android:background="#A6A295" />
+
+                    <!-- Aviso 2 -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView android:id="@+id/st2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notice_subject" android:textStyle="bold" android:textColor="#555"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:text="@string/notice_date" android:textColor="#555"/>
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/st2" android:layout_marginTop="4dp" android:text="@string/lorem_ipsum_short" android:textColor="#666"/>
+                    </RelativeLayout>
+
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginVertical="12dp" android:background="#A6A295" />
+
+                    <!-- Aviso 3 -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView android:id="@+id/st3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notice_subject" android:textStyle="bold" android:textColor="#555"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:text="@string/notice_date" android:textColor="#555"/>
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/st3" android:layout_marginTop="4dp" android:text="@string/lorem_ipsum_short" android:textColor="#666"/>
+                    </RelativeLayout>
+
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginVertical="12dp" android:background="#A6A295" />
+
+                    <!-- Aviso 4 -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView android:id="@+id/st4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notice_subject" android:textStyle="bold" android:textColor="#555"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:text="@string/notice_date" android:textColor="#555"/>
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/st4" android:layout_marginTop="4dp" android:text="@string/lorem_ipsum_short" android:textColor="#666"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </ScrollView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Botão Iniciar Rota -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvStartRoute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/llBottomNav">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="18dp">
+
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:src="@android:drawable/ic_media_play"
+                app:tint="@color/unibus_blue"
+                android:contentDescription="@null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/btn_start_route"
+                android:textColor="@color/unibus_blue"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Menu Inferior -->
+    <LinearLayout
+        android:id="@+id/llBottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingVertical="12dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_home" app:tint="@color/unibus_blue" android:contentDescription="@string/nav_home" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nav_home" android:textColor="@color/unibus_blue" android:textSize="12sp"/>
+        </LinearLayout>
+
+        <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#D9D9D9" />
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_menu" app:tint="@color/unibus_blue" android:contentDescription="@string/nav_preferences" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nav_preferences" android:textColor="@color/unibus_blue" android:textSize="12sp"/>
+        </LinearLayout>
+
+        <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#D9D9D9" />
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_suport" app:tint="@color/unibus_blue" android:contentDescription="@string/nav_support" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nav_support" android:textColor="@color/unibus_blue" android:textSize="12sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
