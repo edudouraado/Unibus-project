@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Fundo: A tela de avisos do motorista que acabamos de fazer -->
+    <include
+        layout="@layout/activity_avisos_motorista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Overlay escurecido para dar o efeito de popup -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000" />
+
+    <!-- O Pop-up centralizado -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F0F0F0"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/tvTitlePopup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avisos"
+                android:textColor="@color/unibus_blue"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/btnClosePopup"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@android:drawable/ic_menu_close_clear_cancel"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/unibus_blue"
+                android:contentDescription="Fechar" />
+
+            <EditText
+                android:id="@+id/etAvisoInput"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bg_input_bordered"
+                android:gravity="top"
+                android:hint="Digite o aviso"
+                android:padding="16dp"
+                android:textColor="@color/unibus_blue"
+                app:layout_constraintTop_toBottomOf="@id/tvTitlePopup" />
+
+            <Button
+                android:id="@+id/btnEnviarAviso"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="@color/unibus_blue"
+                android:text="ENVIAR"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:cornerRadius="100dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etAvisoInput" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
