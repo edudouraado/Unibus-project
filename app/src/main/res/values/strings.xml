@@ -70,4 +70,5 @@
     <string name="btn_enviar">ENVIAR</string>
     <string name="msg_enviada_sucesso">Mensagem enviada com sucesso!</string>
     <string name="btn_retornar_inicio">Retornar ao início</string>
+    <string name="sim">SIM</string>
 </resources>
