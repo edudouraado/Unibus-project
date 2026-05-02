@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_beige">
+
+    <!-- 1. Conteúdo de Fundo (Mesma estrutura da tela principal) -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.4"> <!-- Deixa o fundo mais opaco -->
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="16dp"
+            app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/ic_arrow_back" app:tint="@color/unibus_blue" />
+            <ImageView android:layout_width="90dp" android:layout_height="wrap_content" android:adjustViewBounds="true" android:src="@drawable/logo_unibus_texto" app:layout_constraintEnd_toEndOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="8dp"
+            app:cardBackgroundColor="@color/unibus_blue"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintTop_toBottomOf="@id/clHeader">
+            <androidx.constraintlayout.widget.ConstraintLayout android:padding="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View android:layout_width="2dp" android:layout_height="40dp" android:background="@color/white" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:text="@string/title_manage_users" android:textColor="@color/white" android:textSize="36sp" android:textStyle="bold" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Lista de usuários ao fundo -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="80dp" android:padding="20dp" android:orientation="vertical" app:layout_constraintTop_toBottomOf="@id/cvTitle">
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginVertical="8dp" app:cardCornerRadius="16dp" app:cardElevation="2dp" />
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginVertical="8dp" app:cardCornerRadius="16dp" app:cardElevation="2dp" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- 2. Camada de Escurecimento (Dim) -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66000000" />
+
+    <!-- 3. Barra de Pesquisa Ativa (Exatamente na posição da original) -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSearchActive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="160dp"
+        app:cardBackgroundColor="#C4C0B3"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="12dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="10dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.2" android:text="@string/hint_search_user" android:textColor="@color/white" android:textSize="14sp" android:textStyle="bold" />
+            <androidx.cardview.widget.CardView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:cardBackgroundColor="@color/white" app:cardCornerRadius="10dp" app:cardElevation="0dp">
+                <RelativeLayout android:paddingHorizontal="8dp" android:paddingVertical="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@null" android:textSize="14sp" android:text="Leandro" android:textColor="@color/unibus_blue" />
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_alignParentEnd="true" android:layout_centerVertical="true" android:src="@drawable/ic_search" app:tint="@color/unibus_blue" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- 4. Dropdown de Resultados (Anexado à barra acima) -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSearchResults"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-4dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="12dp"
+        app:layout_constraintEnd_toEndOf="@id/cvSearchActive"
+        app:layout_constraintStart_toStartOf="@id/cvSearchActive"
+        app:layout_constraintTop_toBottomOf="@id/cvSearchActive">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingVertical="8dp">
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="20dp" android:paddingVertical="12dp" android:text="João Silva - 123456" android:textColor="@color/unibus_blue" android:textSize="16sp" />
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginHorizontal="20dp" android:background="#E0E0E0" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="20dp" android:paddingVertical="12dp" android:text="Motora Leandro - 123654" android:textColor="@color/unibus_blue" android:textSize="16sp" />
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginHorizontal="20dp" android:background="#E0E0E0" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="20dp" android:paddingVertical="12dp" android:text="Leandro Soares - 789456" android:textColor="@color/unibus_blue" android:textSize="16sp" />
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginHorizontal="20dp" android:background="#E0E0E0" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="20dp" android:paddingVertical="12dp" android:text="Pedro Pinheiro - 789456" android:textColor="@color/unibus_blue" android:textSize="16sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
