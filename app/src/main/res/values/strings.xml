@@ -20,6 +20,63 @@
     <string name="nav_preferences">Preferências</string>
     <string name="nav_support">Suporte</string>
 
+    <!-- Tela Inicial Admin -->
+    <string name="admin_greeting">Olá, Admin</string>
+    <string name="label_active_students">Alunos ativos:</string>
+    <string name="label_drivers">Motorista:</string>
+    <string name="label_trips">Viagens:</string>
+    <string name="label_tickets">Chamados:</string>
+    <string name="btn_general_stats">Estatísticas Gerais</string>
+    <string name="btn_manage_routes">Gerenciar Rotas</string>
+    <string name="btn_manage_users">Gerenciar Usuário</string>
+    <string name="btn_reports">Relatórios</string>
+
+    <!-- Tela Chamados Admin -->
+    <string name="title_tickets_admin">Chamados</string>
+    <string name="title_latest_tickets">Últimos chamados</string>
+    <string name="btn_see_more">ver mais</string>
+
+    <!-- Tela Relatórios -->
+    <string name="title_reports">Relatórios</string>
+    <string name="label_filters">Filtros:</string>
+    <string name="tab_invalid_attempts">Tentativas\nInválidas</string>
+    <string name="tab_usage_peaks">Picos de Uso</string>
+    <string name="tab_accessibility">Solicitações de\nAcessibilidade</string>
+    <string name="report_qr_invalid">QR inválido - %1$s</string>
+
+    <!-- Tela Gerenciar Usuários -->
+    <string name="title_manage_users">Gerenciar Usuários</string>
+    <string name="hint_search_user">Pesquisar por nome\nou matrícula:</string>
+    <string name="btn_generate_qr">GERAR QR</string>
+    <string name="label_liberado">Liberado</string>
+    <string name="label_qr_code_status">QR code</string>
+
+    <!-- Tela Gerenciar Rotas -->
+    <string name="title_manage_routes">Gerenciar Rotas</string>
+    <string name="btn_new_route">+ Nova Rota</string>
+    <string name="label_route">Rota:</string>
+    <string name="label_schedules">Horários:</string>
+    <string name="btn_edit">EDITAR</string>
+    <string name="btn_delete">EXCLUIR</string>
+
+    <!-- Tela Criar/Editar Rota -->
+    <string name="label_route_name">Nome da Rota:</string>
+    <string name="label_direction">Sentido:</string>
+    <string name="btn_cancel">CANCELAR</string>
+    <string name="btn_save">SALVAR</string>
+
+    <!-- Tela Estatísticas -->
+    <string name="title_statistics">Estatísticas</string>
+    <string name="label_period">Período</string>
+    <string name="date_start_default">01/04/2025</string>
+    <string name="date_end_default">30/04/2025</string>
+    <string name="title_top_routes">Top rotas:</string>
+    <string name="route_parangaba_stat">Parangaba - 420 usos</string>
+    <string name="route_papicu_stat">Ant. Bezerra / Papicu - 300 usos</string>
+    <string name="title_usage_by_time">Uso por horário:</string>
+    <string name="choose_date_title">Escolha a data desejada:</string>
+    <string name="month_year_sample">Abril de 2025</string>
+
     <!-- Popup Iniciar Rota -->
     <string name="popup_start_route_title">Iniciar rota</string>
     <string name="popup_start_route_instruction">Selecione a rota que deseja iniciar</string>
