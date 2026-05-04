@@ -7,16 +7,42 @@
         android:label="Unibus"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        android:theme="@style/Theme.Unibus">
 
         <activity
-            android:name=".RecuperarSenhaActivity"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".MapaActivity" />
+        <activity android:name=".RotasActivity" />
+        <activity android:name=".QrCodeActivity" />
+        <activity android:name=".AvisosActivity" />
+        <activity android:name=".SuporteActivity" />
+        <activity android:name=".InicialMotoristaActivity" />
+        <activity android:name=".InicialAdminActivity" />
+        <activity android:name=".ChamadosActivity" />
+        <activity android:name=".ChamadosDetalhadosActivity" />
+        <activity android:name=".ChamadoEspecificadoActivity" />
+        <activity android:name=".ResponderChamadoActivity" />
+        <activity android:name=".Estatisticas2Activity" />
+        <activity android:name=".CriarRotaActivity" />
+        <activity android:name=".EditarRotaActivity" />
+        <activity android:name=".GerenciarRotasActivity" />
+        <activity android:name=".GerenciarRotas1Activity" />
+        <activity android:name=".GerenciarRotas2Activity" />
+        <activity android:name=".ExcluirRotaActivity" />
+        <activity android:name=".ExcluirRota2Activity" />
+        <activity android:name=".SucessoExclusaoParangabaActivity" />
+        <activity android:name=".SucessoExclusaoPapicuActivity" />
+
+        <activity
+            android:name=".RecuperarSenhaActivity"
+            android:exported="false" />
 
         <activity
             android:name=".ConfirmarCodigoActivity"

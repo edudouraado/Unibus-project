@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:alpha="0.4">
 
-        <include layout="@layout/activity_chamados_detalhados" />
+        <include layout="@layout/activity_chamado_especificado" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="24dp"
-        app:cardBackgroundColor="#E0E0E0"
+        app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="24dp"
         app:cardElevation="15dp"
         app:layout_constraintBottom_toBottomOf="parent"

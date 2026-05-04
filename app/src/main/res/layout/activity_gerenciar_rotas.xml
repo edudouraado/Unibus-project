@@ -131,7 +131,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="16dp">
+                    android:padding="24dp">
 
                     <TextView
                         android:id="@+id/lblRoute1"
@@ -139,7 +139,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/label_route"
                         android:textColor="@color/unibus_blue"
-                        android:textSize="18sp"
+                        android:textSize="20sp"
                         android:textStyle="bold"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -150,72 +150,62 @@
                         android:text="Parangaba > Campus"
                         android:textColor="@color/text_gray"
                         android:textSize="18sp"
+                        android:textStyle="bold"
                         app:layout_constraintBaseline_toBaselineOf="@id/lblRoute1"
                         app:layout_constraintEnd_toEndOf="parent" />
-
-                    <TextView
-                        android:id="@+id/lblSchedules1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:text="@string/label_schedules"
-                        android:textColor="#A6A295"
-                        android:textSize="14sp"
-                        app:layout_constraintTop_toBottomOf="@id/lblRoute1"
-                        app:layout_constraintEnd_toStartOf="@+id/tvSchedules1"
-                        android:layout_marginEnd="4dp" />
 
                     <TextView
                         android:id="@+id/tvSchedules1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="07:00, 12:00, 18:00"
+                        android:layout_marginTop="8dp"
+                        android:text="Horários: 07:00, 12:00, 18:00"
                         android:textColor="#A6A295"
-                        android:textSize="14sp"
-                        app:layout_constraintBaseline_toBaselineOf="@id/lblSchedules1"
+                        android:textSize="16sp"
+                        app:layout_constraintTop_toBottomOf="@id/lblRoute1"
                         app:layout_constraintEnd_toEndOf="parent" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
+                        android:layout_marginTop="24dp"
                         android:orientation="horizontal"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/tvSchedules1">
 
                         <androidx.cardview.widget.CardView
                             android:id="@+id/btnEdit1"
-                            android:layout_width="wrap_content"
+                            android:layout_width="120dp"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="12dp"
                             app:cardBackgroundColor="@color/unibus_blue"
-                            app:cardCornerRadius="8dp"
+                            app:cardCornerRadius="10dp"
                             app:cardElevation="2dp">
                             <TextView
-                                android:paddingHorizontal="24dp"
-                                android:paddingVertical="8dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:paddingVertical="12dp"
                                 android:text="@string/btn_edit"
                                 android:textColor="@color/white"
-                                android:textStyle="bold"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content" />
+                                android:textStyle="bold" />
                         </androidx.cardview.widget.CardView>
 
                         <androidx.cardview.widget.CardView
                             android:id="@+id/btnDelete1"
-                            android:layout_width="wrap_content"
+                            android:layout_width="120dp"
                             android:layout_height="wrap_content"
                             app:cardBackgroundColor="@color/unibus_blue"
-                            app:cardCornerRadius="8dp"
+                            app:cardCornerRadius="10dp"
                             app:cardElevation="2dp">
                             <TextView
-                                android:paddingHorizontal="24dp"
-                                android:paddingVertical="8dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:paddingVertical="12dp"
                                 android:text="@string/btn_delete"
                                 android:textColor="@color/white"
-                                android:textStyle="bold"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content" />
+                                android:textStyle="bold" />
                         </androidx.cardview.widget.CardView>
                     </LinearLayout>
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -233,7 +223,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="16dp">
+                    android:padding="24dp">
 
                     <TextView
                         android:id="@+id/lblRoute2"
@@ -241,7 +231,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/label_route"
                         android:textColor="@color/unibus_blue"
-                        android:textSize="18sp"
+                        android:textSize="20sp"
                         android:textStyle="bold"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -252,76 +242,67 @@
                         android:text="Papicu > Campus"
                         android:textColor="@color/text_gray"
                         android:textSize="18sp"
+                        android:textStyle="bold"
                         app:layout_constraintBaseline_toBaselineOf="@id/lblRoute2"
                         app:layout_constraintEnd_toEndOf="parent" />
-
-                    <TextView
-                        android:id="@+id/lblSchedules2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:text="@string/label_schedules"
-                        android:textColor="#A6A295"
-                        android:textSize="14sp"
-                        app:layout_constraintTop_toBottomOf="@id/lblRoute2"
-                        app:layout_constraintEnd_toStartOf="@+id/tvSchedules2"
-                        android:layout_marginEnd="4dp" />
 
                     <TextView
                         android:id="@+id/tvSchedules2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="06:30, 13:00, 17:00"
+                        android:layout_marginTop="8dp"
+                        android:text="Horários: 06:30, 13:00, 17:00"
                         android:textColor="#A6A295"
-                        android:textSize="14sp"
-                        app:layout_constraintBaseline_toBaselineOf="@id/lblSchedules2"
+                        android:textSize="16sp"
+                        app:layout_constraintTop_toBottomOf="@id/lblRoute2"
                         app:layout_constraintEnd_toEndOf="parent" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
+                        android:layout_marginTop="24dp"
                         android:orientation="horizontal"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/tvSchedules2">
 
                         <androidx.cardview.widget.CardView
                             android:id="@+id/btnEdit2"
-                            android:layout_width="wrap_content"
+                            android:layout_width="120dp"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="12dp"
                             app:cardBackgroundColor="@color/unibus_blue"
-                            app:cardCornerRadius="8dp"
+                            app:cardCornerRadius="10dp"
                             app:cardElevation="2dp">
                             <TextView
-                                android:paddingHorizontal="24dp"
-                                android:paddingVertical="8dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:paddingVertical="12dp"
                                 android:text="@string/btn_edit"
                                 android:textColor="@color/white"
-                                android:textStyle="bold"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content" />
+                                android:textStyle="bold" />
                         </androidx.cardview.widget.CardView>
 
                         <androidx.cardview.widget.CardView
                             android:id="@+id/btnDelete2"
-                            android:layout_width="wrap_content"
+                            android:layout_width="120dp"
                             android:layout_height="wrap_content"
                             app:cardBackgroundColor="@color/unibus_blue"
-                            app:cardCornerRadius="8dp"
+                            app:cardCornerRadius="10dp"
                             app:cardElevation="2dp">
                             <TextView
-                                android:paddingHorizontal="24dp"
-                                android:paddingVertical="8dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:paddingVertical="12dp"
                                 android:text="@string/btn_delete"
                                 android:textColor="@color/white"
-                                android:textStyle="bold"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content" />
+                                android:textStyle="bold" />
                         </androidx.cardview.widget.CardView>
                     </LinearLayout>
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
+
 
         </LinearLayout>
     </ScrollView>
