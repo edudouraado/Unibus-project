@@ -119,6 +119,18 @@
             android:textColor="#1A5F8A"
             android:textStyle="bold" />
 
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnNovaRota"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_button_blue"
+            android:elevation="2dp"
+            android:text="@string/btn_new_route"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
     <LinearLayout

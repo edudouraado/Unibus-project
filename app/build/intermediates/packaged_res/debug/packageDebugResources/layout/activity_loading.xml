@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/unibus_blue">
+
+    <ImageView
+        android:id="@+id/ivEmaLoading"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/chatgpt_image_11_de_mai__de_2025__15_39_41_removebg_preview_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="Ema" />
+
+    <ImageView
+        android:id="@+id/ivLogoUnibusImage"
+        android:layout_width="320dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/logo_unibus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivEmaLoading"
+        android:contentDescription="Logo UniBus" />
+
+    <TextView
+        android:id="@+id/tvSubtitleLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loading_subtitle"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivLogoUnibusImage" />
+
+    <ImageView
+        android:id="@+id/ivLoadingCircle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/loading_imagem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSubtitleLoading"
+        android:contentDescription="Loading" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

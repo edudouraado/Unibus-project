@@ -83,7 +83,7 @@
                 android:layout_height="0dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
-                app:layout_constraintBottom_toTopOf="@+id/btnResponderContainer"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tvTitle">
 
                 <LinearLayout
@@ -227,35 +227,145 @@
                             app:layout_constraintTop_toBottomOf="@id/tvBody2" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
+                    <!-- Ticket Item 3 -->
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingVertical="12dp">
+
+                        <TextView
+                            android:id="@+id/tvSubject3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/notice_subject"
+                            android:textColor="#555555"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toStartOf="@+id/tvDate3"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/tvDate3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/notice_date"
+                            android:textColor="#555555"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/tvBody3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginEnd="16dp"
+                            android:text="@string/lorem_ipsum_short"
+                            android:textColor="#777777"
+                            android:textSize="15sp"
+                            app:layout_constraintEnd_toStartOf="@+id/cvArrow3"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/tvSubject3" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cvArrow3"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="24dp"
+                            app:cardElevation="4dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/tvDate3">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:padding="12dp"
+                                android:rotation="180"
+                                android:src="@drawable/ic_arrow_back"
+                                app:tint="@color/unibus_blue"
+                                android:contentDescription="@null" />
+                        </androidx.cardview.widget.CardView>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="16dp"
+                            android:background="#A6A295"
+                            app:layout_constraintTop_toBottomOf="@id/tvBody3" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <!-- Ticket Item 4 -->
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingVertical="12dp">
+
+                        <TextView
+                            android:id="@+id/tvSubject4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/notice_subject"
+                            android:textColor="#555555"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toStartOf="@+id/tvDate4"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/tvDate4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/notice_date"
+                            android:textColor="#555555"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/tvBody4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginEnd="16dp"
+                            android:text="@string/lorem_ipsum_short"
+                            android:textColor="#777777"
+                            android:textSize="15sp"
+                            app:layout_constraintEnd_toStartOf="@+id/cvArrow4"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/tvSubject4" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cvArrow4"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="24dp"
+                            app:cardElevation="4dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/tvDate4">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:padding="12dp"
+                                android:rotation="180"
+                                android:src="@drawable/ic_arrow_back"
+                                app:tint="@color/unibus_blue"
+                                android:contentDescription="@null" />
+                        </androidx.cardview.widget.CardView>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="16dp"
+                            android:background="#A6A295"
+                            app:layout_constraintTop_toBottomOf="@id/tvBody4" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
                 </LinearLayout>
             </ScrollView>
 
-            <!-- Botão RESPONDER -->
-            <androidx.cardview.widget.CardView
-                android:id="@+id/btnResponderContainer"
-                android:layout_width="220dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:clickable="true"
-                android:focusable="true"
-                android:foreground="?attr/selectableItemBackground"
-                app:cardBackgroundColor="#E0E0E0"
-                app:cardCornerRadius="30dp"
-                app:cardElevation="2dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:paddingVertical="12dp"
-                    android:text="RESPONDER"
-                    android:textColor="@color/unibus_blue"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            </androidx.cardview.widget.CardView>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>

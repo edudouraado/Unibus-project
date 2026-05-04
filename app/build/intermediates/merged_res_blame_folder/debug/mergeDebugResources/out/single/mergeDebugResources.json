@@ -1,0 +1,386 @@
+[
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_gerenciar_usuarios.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_gerenciar_usuarios.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_lotacao_atingida_alerta.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_lotacao_atingida_alerta.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_finalizar_rota.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_finalizar_rota.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_ler_qrcode.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_ler_qrcode.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_sucesso_aviso.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_sucesso_aviso.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_popup.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_popup.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_img_mapa_exemplo.jpg.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/img_mapa_exemplo.jpg"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_loading_imagem.png.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/loading_imagem.png"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_ic_home.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/mipmap_ic_launcher.xml.flat",
+        "source": "com.example.unibus.app-main-33:/mipmap/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_avisos_card.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_avisos_card.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_logo_unibus.png.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/logo_unibus.png"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_avatar_ema_circle.png.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/avatar_ema_circle.png"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_lotacao_atingida.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_lotacao_atingida.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_avisos.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_avisos.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_item_lista_pesquisa.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/item_lista_pesquisa.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_popup_sucesso_rota.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/popup_sucesso_rota.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_mapa.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_mapa.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_input.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_input.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_chatgpt_image_11_de_mai__de_2025__15_39_41_removebg_preview_1.png.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/chatgpt_image_11_de_mai__de_2025__15_39_41_removebg_preview_1.png"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_ic_menu.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_recuperar_senha.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_recuperar_senha.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_ic_close.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_imagem_ema.png.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/imagem_ema.png"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_error_card.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_error_card.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_add_aviso.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_add_aviso.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_notices_card.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_notices_card.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_qr_code_img.png.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/qr_code_img.png"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_card_azul.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_card_azul.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_editar_rota.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_editar_rota.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_confirmar_codigo.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_confirmar_codigo.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_sucesso_suporte.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_sucesso_suporte.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_botao_branco.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_botao_branco.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_relatorios.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_relatorios.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_driver_header.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_driver_header.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_botao_azul.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_botao_azul.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_search_bar.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_search_bar.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_rota_andamento.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_rota_andamento.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_dialog_calendario.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/dialog_calendario.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_button_blue.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_button_blue.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_unibus_button.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_unibus_button.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_chamados_detalhados.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_chamados_detalhados.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_gerenciar_usuarios_pesquisa.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_gerenciar_usuarios_pesquisa.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_dialog_responder_chamado.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/dialog_responder_chamado.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_gerenciar_usuarios_busca.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_gerenciar_usuarios_busca.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_circular_progress_bar.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/circular_progress_bar.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_foto_ponto_real.jpg.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/foto_ponto_real.jpg"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_botao_azul_cinza.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_botao_azul_cinza.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_dialog_selecionar_origem.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/dialog_selecionar_origem.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_dialog_iniciar_rota.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/dialog_iniciar_rota.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_acompanhamento_rota.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_acompanhamento_rota.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_ic_usage_graph.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/ic_usage_graph.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_white_qr.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_white_qr.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_rota_indisponivel.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/rota_indisponivel.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_responder_chamado.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_responder_chamado.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_shape_login_container.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/shape_login_container.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_popup_confirmacao_rota.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/popup_confirmacao_rota.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_image2.png.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/image2.png"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_logo_unibus_texto.png.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/logo_unibus_texto.png"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_rotas.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_rotas.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_button_white.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_button_white.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_input_bordered.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_input_bordered.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_popup_detalhes_ponto.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/popup_detalhes_ponto.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_inicial_motorista.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_inicial_motorista.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_entrada_liberada.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_entrada_liberada.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_ic_search.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/mipmap_ic_launcher_round.xml.flat",
+        "source": "com.example.unibus.app-main-33:/mipmap/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_estatisticas_calendar.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_estatisticas_calendar.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_suporte.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_suporte.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_ic_qr_code.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/ic_qr_code.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_alterar_senha.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_alterar_senha.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_login.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_estatisticas.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_estatisticas.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_editar_usuario.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_editar_usuario.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_avisos_motorista.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_avisos_motorista.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_loading.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_loading.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable-widecg_image_2.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable-widecg/image_2.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_dialog_add_aviso.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/dialog_add_aviso.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_edit_text_border.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_edit_text_border.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_chamados.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_chamados.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_inicial_admin.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_inicial_admin.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_ic_suport.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/ic_suport.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_confirmacao_aviso.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_confirmacao_aviso.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_gerenciar_rotas.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_gerenciar_rotas.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_error.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_error.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_search_results.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_search_results.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_qrcode.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_qrcode.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_btn_amarelo.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/btn_amarelo.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_popup_pesquisa_rotas.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/popup_pesquisa_rotas.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_qr_card.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_qr_card.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_ic_location_pin.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/ic_location_pin.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/layout_activity_entrada_recusada.xml.flat",
+        "source": "com.example.unibus.app-main-33:/layout/activity_entrada_recusada.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-31:/drawable_bg_rounded_top.xml.flat",
+        "source": "com.example.unibus.app-main-33:/drawable/bg_rounded_top.xml"
+    }
+]

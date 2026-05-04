@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="200dp"
+    android:viewportWidth="300"
+    android:viewportHeight="200">
+
+    <!-- Grid Lines (Horizontal) -->
+    <path
+        android:pathData="M0,0 L300,0"
+        android:strokeColor="#E0E0E0"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M0,40 L300,40"
+        android:strokeColor="#E0E0E0"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M0,80 L300,80"
+        android:strokeColor="#E0E0E0"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M0,120 L300,120"
+        android:strokeColor="#E0E0E0"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M0,160 L300,160"
+        android:strokeColor="#E0E0E0"
+        android:strokeWidth="1"/>
+
+    <!-- Usage Line (Matching the Figma curve) -->
+    <path
+        android:pathData="M0,180 L60,160 L120,130 L180,100 L240,60 L300,20"
+        android:strokeColor="#134B70"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+</vector>
