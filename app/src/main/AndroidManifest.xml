@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,15 +12,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Unibus">
 
+<<<<<<< HEAD
         <activity
             android:name=".LoginActivity"
             android:exported="true">
+=======
+        <activity android:name=".LoadingActivity" android:exported="true">
+>>>>>>> 24b4973 (Feat: Concluindo todas as novas telas do Unibus)
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+<<<<<<< HEAD
         <activity android:name=".MapaActivity" />
         <activity android:name=".RotasActivity" />
         <activity android:name=".QrCodeActivity" />
@@ -47,14 +55,63 @@
         <activity
             android:name=".ConfirmarCodigoActivity"
             android:exported="false" />
+=======
+        <activity android:name=".LoginActivity" android:exported="false" />
+        <activity android:name=".RecuperarSenhaActivity" android:exported="false" />
+        <activity android:name=".ConfirmarCodigoActivity" android:exported="false" />
+        <activity android:name=".AlterarSenhaActivity" android:exported="false" />
+        <activity android:name=".ErrorActivity" android:exported="false" />
+        <activity android:name=".HomeAlunoActivity" android:exported="false" />
+        <activity android:name=".InicialAdminActivity" android:exported="false" />
+        <activity android:name=".InicialMotoristaActivity" android:exported="false" />
+        <activity android:name=".IniciarRotaMotoristaActivity" android:exported="false" />
+        <activity android:name=".SelecionarOrigemMotoristaActivity" android:exported="false" />
+        <activity android:name=".EstatisticasActivity" android:exported="false" />
+        <activity android:name=".EstatisticasCalendarActivity" android:exported="false" />
+        <activity android:name=".GerenciarRotasActivity" android:exported="false" />
+        <activity android:name=".EditarRotaActivity" android:exported="false" />
+        <activity android:name=".GerenciarUsuariosActivity" android:exported="false" />
+        <activity android:name=".GerenciarUsuariosPesquisaActivity" android:exported="false" />
+        <activity android:name=".EditarUsuarioActivity" android:exported="false" />
+        <activity android:name=".RelatoriosActivity" android:exported="false" />
+        <activity android:name=".SucessoMensagemAdminActivity" />
+        <activity android:name=".ChamadosActivity" android:exported="false" />
+        <activity android:name=".ChamadosDetalhadosActivity" android:exported="false" />
+        <activity android:name=".ResponderChamadoActivity" android:exported="false" />
+        <activity android:name=".CriarRotaActivity" android:exported="false" />
+        <activity android:name=".ExcluirRotaPapicuActivity" android:exported="false" />
+        <activity android:name=".ExcluirRotaParangabaActivity" android:exported="false" />
+        <activity android:name=".SucessoExclusaoPapicuActivity" android:exported="false" />
+        <activity android:name=".SucessoExclusaoParangabaActivity" android:exported="false" />
+        <activity android:name=".GerenciarRotasSoPapicuActivity" android:exported="false" />
+        <activity android:name=".GerenciarRotasSoParangabaActivity" android:exported="false" />
+        <activity android:name=".EstatisticasDiaActivity" android:exported="false" />
+        <activity android:name=".RelatoriosPicosActivity" android:exported="false" />
+        <activity android:name=".RelatoriosSolicitacaoActivity" android:exported="false" />
+        <activity android:name=".ChamadoEspecificadoActivity" android:exported="false" />
+        <activity android:name=".UsuarioPesquisadoActivity" android:exported="false" />
+>>>>>>> 24b4973 (Feat: Concluindo todas as novas telas do Unibus)
 
-        <activity
-            android:name=".AlterarSenhaActivity"
-            android:exported="false" />
+        <activity android:name=".AvisosMotoristaActivity" android:exported="false" />
+        <activity android:name=".AddAvisoActivity" android:exported="false" />
+        <activity android:name=".ConfirmacaoAvisoActivity" android:exported="false" />
+        <activity android:name=".SucessoAvisoActivity" android:exported="false" />
+        <activity android:name=".RotaAndamentoActivity" android:exported="false" />
+        <activity android:name=".LotacaoAtingidaActivity" android:exported="false" />
+        <activity android:name=".LotacaoAtingidaAlertaActivity" android:exported="false" />
+        <activity android:name=".LerQrcodeActivity" android:exported="false" />
+        <activity android:name=".EntradaLiberadaActivity" android:exported="false" />
+        <activity android:name=".EntradaRecusadaActivity" android:exported="false" />
 
-        <activity
-            android:name=".ErrorActivity"
-            android:exported="false" />
+        <activity android:name=".RotasActivity" android:exported="false" />
+        <activity android:name=".AcompanhamentoRotaActivity" android:exported="false" />
+        <activity android:name=".MapaMotoristaActivity" android:exported="false" />
+        <activity android:name=".MapaActivity" android:exported="false" />
+        <activity android:name=".DetalhesPontoActivity" android:exported="false" />
+        <activity android:name=".QrcodeActivity" android:exported="false" />
+        <activity android:name=".AvisosActivity" android:exported="false" />
+        <activity android:name=".SuporteActivity" android:exported="false" />
+        <activity android:name=".SucessoSuporteActivity" android:exported="false" />
 
     </application>
 

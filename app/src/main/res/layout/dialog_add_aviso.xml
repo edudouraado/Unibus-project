@@ -15,7 +15,9 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
     <ImageView
         android:id="@+id/btnClosePopup"
@@ -32,12 +34,13 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginTop="20dp"
-        android:background="@drawable/bg_input_bordered"
+        android:background="@drawable/bg_popup_textarea_blue"
         android:gravity="top"
         android:hint="@string/hint_digite_aviso"
         android:padding="16dp"
         android:textColor="@color/unibus_blue"
-        app:layout_constraintTop_toBottomOf="@id/tvTitlePopup" />
+        app:layout_constraintTop_toBottomOf="@id/tvTitlePopup" 
+        android:fontFamily="@font/josefin_sans"/>
 
     <Button
         android:id="@+id/btnEnviarAviso"
@@ -50,6 +53,9 @@
         app:cornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/etAvisoInput" />
+        app:layout_constraintTop_toBottomOf="@id/etAvisoInput" 
+        android:fontFamily="@font/josefin_sans"
+        android:stateListAnimator="@null"
+        android:textAllCaps="false"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

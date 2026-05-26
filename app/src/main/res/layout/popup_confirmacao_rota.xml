@@ -19,7 +19,7 @@
         android:layout_height="48dp"
         android:layout_gravity="end"
         android:src="@drawable/ic_close"
-        app:tint="#1A5F8A"
+        app:tint="@color/unibus_blue"
         android:clickable="true"
         android:focusable="true"
         android:background="?attr/selectableItemBackgroundBorderless"
@@ -31,16 +31,20 @@
         android:layout_marginTop="16dp"
         android:gravity="center"
         android:text="Tem certeza que deseja finalizar a rota:"
-        android:textColor="#1A5F8A"
+        android:textColor="@color/unibus_blue"
         android:textSize="22sp"
-        android:textStyle="bold" />
+        android:textStyle="bold" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:text="Rota : Parangaba > Campus"
+        android:text="Rota : Parangaba &gt; Campus"
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"
         android:textColor="#333333"
         android:textSize="18sp" />
 

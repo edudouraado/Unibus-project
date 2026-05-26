@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F1E7"> <ImageView
+    android:background="@color/background_beige"> <ImageView
     android:id="@+id/btnVoltar"
     android:layout_width="48dp"
     android:layout_height="48dp"
@@ -12,7 +12,7 @@
     android:layout_marginTop="16dp"
     android:padding="12dp"
     android:src="@drawable/ic_arrow_back"
-    app:tint="#1A5F8A"
+    app:tint="@color/unibus_blue"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent" />
 
@@ -71,7 +71,9 @@
                 android:text="Rotas"
                 android:textColor="#FFFFFF"
                 android:textSize="36sp"
-                android:textStyle="bold" />
+                android:textStyle="bold" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
         </LinearLayout>
 
         <TextView
@@ -82,7 +84,9 @@
             android:gravity="center"
             android:text="Selecione a rota desejada"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="18sp" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnRota1"
@@ -92,7 +96,7 @@
             android:elevation="2dp"
             android:text="Parangaba"
             android:textAllCaps="false"
-            android:textColor="#1A5F8A"
+            android:textColor="@color/unibus_blue"
             android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -104,7 +108,7 @@
             android:elevation="2dp"
             android:text="Ant. Bezerra / Papicu"
             android:textAllCaps="false"
-            android:textColor="#1A5F8A"
+            android:textColor="@color/unibus_blue"
             android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -116,7 +120,7 @@
             android:elevation="2dp"
             android:text="Messejana / Eusébio"
             android:textAllCaps="false"
-            android:textColor="#1A5F8A"
+            android:textColor="@color/unibus_blue"
             android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -137,7 +141,7 @@
         android:id="@+id/menuInferior"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#F5F1E7"
+        android:background="@color/background_beige"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:paddingVertical="12dp"
@@ -153,20 +157,22 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_home"
-                app:tint="#1A5F8A" />
+                app:tint="@color/unibus_blue" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Início"
-                android:textColor="#1A5F8A"
+                android:textColor="@color/unibus_blue"
                 android:textSize="12sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
         </LinearLayout>
 
         <View
             android:layout_width="1dp"
             android:layout_height="30dp"
-            android:background="#1A5F8A"
+            android:background="@color/unibus_blue"
             android:alpha="0.3"/>
 
         <LinearLayout
@@ -179,20 +185,22 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_menu"
-                app:tint="#1A5F8A" />
+                app:tint="@color/unibus_blue" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Preferências"
-                android:textColor="#1A5F8A"
+                android:textColor="@color/unibus_blue"
                 android:textSize="12sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
         </LinearLayout>
 
         <View
             android:layout_width="1dp"
             android:layout_height="30dp"
-            android:background="#1A5F8A"
+            android:background="@color/unibus_blue"
             android:alpha="0.3"/>
 
         <LinearLayout
@@ -205,14 +213,16 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_suport"
-                app:tint="#1A5F8A" />
+                app:tint="@color/unibus_blue" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Suporte"
-                android:textColor="#1A5F8A"
+                android:textColor="@color/unibus_blue"
                 android:textSize="12sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
         </LinearLayout>
 
     </LinearLayout>

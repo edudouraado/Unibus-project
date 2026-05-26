@@ -16,18 +16,13 @@
         android:background="#99000000" />
 
     <!-- 3. Popup do Calendário -->
-    <androidx.cardview.widget.CardView
+    <include
+        android:id="@+id/calendarioPopup"
+        layout="@layout/dialog_calendario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="24dp"
-        app:cardBackgroundColor="@color/white"
-        app:cardCornerRadius="24dp"
-        app:cardElevation="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <include layout="@layout/dialog_calendario" />
-
-    </androidx.cardview.widget.CardView>
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

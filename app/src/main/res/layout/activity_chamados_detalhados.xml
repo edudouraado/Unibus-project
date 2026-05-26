@@ -46,8 +46,8 @@
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="16dp"
-        app:cardBackgroundColor="#C4C0B3"
-        app:cardCornerRadius="24dp"
+        app:cardBackgroundColor="@color/card_gray"
+        app:cardCornerRadius="8dp"
         app:cardElevation="6dp"
         app:layout_constraintBottom_toTopOf="@+id/navBar"
         app:layout_constraintTop_toBottomOf="@id/clHeader">
@@ -76,7 +76,9 @@
                 android:textSize="32sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@id/vLineSub"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
             <ScrollView
                 android:layout_width="match_parent"
@@ -106,7 +108,9 @@
                             android:textStyle="bold"
                             app:layout_constraintEnd_toStartOf="@+id/tvDate1"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toTopOf="parent" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
                         <TextView
                             android:id="@+id/tvDate1"
@@ -115,7 +119,9 @@
                             android:text="@string/notice_date"
                             android:textColor="#555555"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toTopOf="parent" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
                         <TextView
                             android:id="@+id/tvBody1"
@@ -128,14 +134,16 @@
                             android:textSize="15sp"
                             app:layout_constraintEnd_toStartOf="@+id/cvArrow1"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@id/tvSubject1" />
+                            app:layout_constraintTop_toBottomOf="@id/tvSubject1" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
                         <androidx.cardview.widget.CardView
                             android:id="@+id/cvArrow1"
                             android:layout_width="48dp"
                             android:layout_height="48dp"
                             app:cardBackgroundColor="@color/white"
-                            app:cardCornerRadius="24dp"
+                            app:cardCornerRadius="8dp"
                             app:cardElevation="4dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -174,7 +182,9 @@
                             android:textStyle="bold"
                             app:layout_constraintEnd_toStartOf="@+id/tvDate2"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toTopOf="parent" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
                         <TextView
                             android:id="@+id/tvDate2"
@@ -183,7 +193,9 @@
                             android:text="@string/notice_date"
                             android:textColor="#555555"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toTopOf="parent" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
                         <TextView
                             android:id="@+id/tvBody2"
@@ -196,14 +208,16 @@
                             android:textSize="15sp"
                             app:layout_constraintEnd_toStartOf="@+id/cvArrow2"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@id/tvSubject2" />
+                            app:layout_constraintTop_toBottomOf="@id/tvSubject2" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
                         <androidx.cardview.widget.CardView
                             android:id="@+id/cvArrow2"
                             android:layout_width="48dp"
                             android:layout_height="48dp"
                             app:cardBackgroundColor="@color/white"
-                            app:cardCornerRadius="24dp"
+                            app:cardCornerRadius="8dp"
                             app:cardElevation="4dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -242,7 +256,13 @@
                             android:textStyle="bold"
                             app:layout_constraintEnd_toStartOf="@+id/tvDate3"
                             app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
                             app:layout_constraintTop_toTopOf="parent" />
+=======
+                            app:layout_constraintTop_toTopOf="parent" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+>>>>>>> 24b4973 (Feat: Concluindo todas as novas telas do Unibus)
 
                         <TextView
                             android:id="@+id/tvDate3"
@@ -251,7 +271,13 @@
                             android:text="@string/notice_date"
                             android:textColor="#555555"
                             app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
                             app:layout_constraintTop_toTopOf="parent" />
+=======
+                            app:layout_constraintTop_toTopOf="parent" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+>>>>>>> 24b4973 (Feat: Concluindo todas as novas telas do Unibus)
 
                         <TextView
                             android:id="@+id/tvBody3"
@@ -264,14 +290,24 @@
                             android:textSize="15sp"
                             app:layout_constraintEnd_toStartOf="@+id/cvArrow3"
                             app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
                             app:layout_constraintTop_toBottomOf="@id/tvSubject3" />
+=======
+                            app:layout_constraintTop_toBottomOf="@id/tvSubject3" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+>>>>>>> 24b4973 (Feat: Concluindo todas as novas telas do Unibus)
 
                         <androidx.cardview.widget.CardView
                             android:id="@+id/cvArrow3"
                             android:layout_width="48dp"
                             android:layout_height="48dp"
                             app:cardBackgroundColor="@color/white"
+<<<<<<< HEAD
                             app:cardCornerRadius="24dp"
+=======
+                            app:cardCornerRadius="8dp"
+>>>>>>> 24b4973 (Feat: Concluindo todas as novas telas do Unibus)
                             app:cardElevation="4dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -310,7 +346,13 @@
                             android:textStyle="bold"
                             app:layout_constraintEnd_toStartOf="@+id/tvDate4"
                             app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
                             app:layout_constraintTop_toTopOf="parent" />
+=======
+                            app:layout_constraintTop_toTopOf="parent" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+>>>>>>> 24b4973 (Feat: Concluindo todas as novas telas do Unibus)
 
                         <TextView
                             android:id="@+id/tvDate4"
@@ -319,7 +361,13 @@
                             android:text="@string/notice_date"
                             android:textColor="#555555"
                             app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
                             app:layout_constraintTop_toTopOf="parent" />
+=======
+                            app:layout_constraintTop_toTopOf="parent" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+>>>>>>> 24b4973 (Feat: Concluindo todas as novas telas do Unibus)
 
                         <TextView
                             android:id="@+id/tvBody4"
@@ -332,14 +380,24 @@
                             android:textSize="15sp"
                             app:layout_constraintEnd_toStartOf="@+id/cvArrow4"
                             app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
                             app:layout_constraintTop_toBottomOf="@id/tvSubject4" />
+=======
+                            app:layout_constraintTop_toBottomOf="@id/tvSubject4" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+>>>>>>> 24b4973 (Feat: Concluindo todas as novas telas do Unibus)
 
                         <androidx.cardview.widget.CardView
                             android:id="@+id/cvArrow4"
                             android:layout_width="48dp"
                             android:layout_height="48dp"
                             app:cardBackgroundColor="@color/white"
+<<<<<<< HEAD
                             app:cardCornerRadius="24dp"
+=======
+                            app:cardCornerRadius="8dp"
+>>>>>>> 24b4973 (Feat: Concluindo todas as novas telas do Unibus)
                             app:cardElevation="4dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -397,7 +455,9 @@
                 android:layout_height="wrap_content"
                 android:text="@string/nav_home"
                 android:textColor="@color/unibus_blue"
-                android:textSize="12sp"/>
+                android:textSize="12sp"
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
         </LinearLayout>
 
         <View
@@ -422,7 +482,9 @@
                 android:layout_height="wrap_content"
                 android:text="@string/nav_preferences"
                 android:textColor="@color/unibus_blue"
-                android:textSize="12sp"/>
+                android:textSize="12sp"
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
         </LinearLayout>
     </LinearLayout>
 

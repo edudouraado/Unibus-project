@@ -17,16 +17,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/unibus_blue" />
 
-    <TextView
+    <ImageView
         android:id="@+id/tvLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/unibus_logo"
-        android:textColor="@color/unibus_blue"
-        android:textSize="24sp"
-        android:textStyle="bold"
+        android:layout_width="82dp"
+        android:layout_height="28dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_unibus_texto"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/unibus_logo" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/supportCard"
@@ -59,7 +59,9 @@
             android:textSize="32sp"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@id/vHeaderLine"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
         <EditText
             android:id="@+id/etName"
@@ -72,7 +74,8 @@
             android:minHeight="48dp"
             android:textColor="@color/white"
             android:textColorHint="#B3FFFFFF"
-            app:layout_constraintTop_toBottomOf="@id/tvSupportTitle" />
+            app:layout_constraintTop_toBottomOf="@id/tvSupportTitle" 
+        android:fontFamily="@font/josefin_sans"/>
 
         <EditText
             android:id="@+id/etId"
@@ -85,7 +88,8 @@
             android:minHeight="48dp"
             android:textColor="@color/white"
             android:textColorHint="#B3FFFFFF"
-            app:layout_constraintTop_toBottomOf="@id/etName" />
+            app:layout_constraintTop_toBottomOf="@id/etName" 
+        android:fontFamily="@font/josefin_sans"/>
 
         <EditText
             android:id="@+id/etEmail"
@@ -98,7 +102,8 @@
             android:minHeight="48dp"
             android:textColor="@color/white"
             android:textColorHint="#B3FFFFFF"
-            app:layout_constraintTop_toBottomOf="@id/etId" />
+            app:layout_constraintTop_toBottomOf="@id/etId" 
+        android:fontFamily="@font/josefin_sans"/>
 
         <EditText
             android:id="@+id/etDescription"
@@ -114,7 +119,8 @@
             android:textColor="@color/white"
             android:textColorHint="#B3FFFFFF"
             app:layout_constraintBottom_toTopOf="@+id/btnSend"
-            app:layout_constraintTop_toBottomOf="@id/etEmail" />
+            app:layout_constraintTop_toBottomOf="@id/etEmail" 
+        android:fontFamily="@font/josefin_sans"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnSend"

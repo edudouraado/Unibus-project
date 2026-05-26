@@ -6,21 +6,19 @@
     android:layout_height="match_parent"
     android:background="@color/background_beige">
 
-    <!-- Header: Ícone de Voltar e Logo -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/clHeader"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingHorizontal="20dp"
-        android:paddingVertical="16dp"
+        android:layout_height="56dp"
+        android:paddingHorizontal="14dp"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/btnBack"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
-            android:src="@drawable/ic_arrow_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:contentDescription="@string/back_button_desc"
+            android:src="@drawable/ic_arrow_back"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -28,41 +26,36 @@
 
         <ImageView
             android:id="@+id/ivLogo"
-            android:layout_width="90dp"
+            android:layout_width="82dp"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
+            android:contentDescription="@string/unibus_logo"
             android:src="@drawable/logo_unibus_texto"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:contentDescription="@string/unibus_logo" />
+            app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <!-- Card de Título (Estatísticas) -->
     <androidx.cardview.widget.CardView
         android:id="@+id/cvTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginHorizontal="10dp"
         app:cardBackgroundColor="@color/unibus_blue"
-        app:cardCornerRadius="16dp"
-        app:cardElevation="8dp">
+        app:cardCornerRadius="7dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/clHeader">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="24dp">
-
-            <View
-                android:id="@+id/vLine"
-                android:layout_width="2dp"
-                android:layout_height="0dp"
-                android:background="@color/white"
-                app:layout_constraintBottom_toBottomOf="@+id/tvTitle"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/tvTitle" />
-
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="34dp"
+            android:paddingEnd="18dp">
+            <View android:layout_width="2dp" android:layout_height="54dp" android:background="#D9EAF2" />
             <TextView
                 android:id="@+id/tvTitle"
                 android:layout_width="wrap_content"
@@ -70,193 +63,194 @@
                 android:layout_marginStart="16dp"
                 android:text="@string/title_statistics"
                 android:textColor="@color/white"
-                android:textSize="38sp"
+                android:textSize="31sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@id/vLine"
-                app:layout_constraintTop_toTopOf="parent" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
-
-    <!-- Barra de Período (Cinza) -->
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cvPeriod"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="12dp"
-        app:cardBackgroundColor="#C4C0B3"
-        app:cardCornerRadius="16dp"
-        app:cardElevation="2dp"
-        app:layout_constraintTop_toBottomOf="@id/cvTitle">
-
-        <LinearLayout
-            android:id="@+id/btnOpenCalendar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:paddingHorizontal="16dp"
-            android:paddingVertical="10dp"
-            android:clickable="true"
-            android:focusable="true">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/label_period"
-                android:textColor="@color/white"
-                android:textSize="16sp"
-                android:textStyle="bold" />
-
-            <View
-                android:layout_width="0dp"
-                android:layout_height="1dp"
-                android:layout_weight="1" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/bg_white_qr"
-                android:backgroundTint="@color/white"
-                android:paddingHorizontal="8dp"
-                android:paddingVertical="4dp"
-                android:gravity="center_vertical">
-                <ImageView android:layout_width="14dp" android:layout_height="14dp" android:src="@android:drawable/ic_menu_my_calendar" app:tint="#B3B3B3" />
-                <TextView android:id="@+id/tvStartDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp" android:text="01/04/2025" android:textColor="#B3B3B3" android:textSize="11sp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:background="@drawable/bg_white_qr"
-                android:backgroundTint="@color/white"
-                android:paddingHorizontal="8dp"
-                android:paddingVertical="4dp"
-                android:gravity="center_vertical">
-                <ImageView android:layout_width="14dp" android:layout_height="14dp" android:src="@android:drawable/ic_menu_my_calendar" app:tint="#B3B3B3" />
-                <TextView android:id="@+id/tvEndDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp" android:text="30/04/2025" android:textColor="#B3B3B3" android:textSize="11sp" />
-            </LinearLayout>
+                android:fontFamily="@font/josefin_sans"
+                android:includeFontPadding="false" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-    <!-- Card de Top Rotas (Branco) -->
+    <LinearLayout
+        android:id="@+id/btnOpenCalendar"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_stats_period"
+        android:clickable="true"
+        android:elevation="2dp"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cvTitle">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_period"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/josefin_sans" />
+        <ImageView android:layout_width="15dp" android:layout_height="15dp" android:layout_marginStart="14dp" android:src="@android:drawable/ic_menu_my_calendar" app:tint="#EDEDED" />
+        <TextView android:id="@+id/tvStartDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp" android:text="01/04/2025" android:textColor="#F6F6F6" android:textSize="12sp" android:fontFamily="@font/josefin_sans" />
+        <ImageView android:layout_width="15dp" android:layout_height="15dp" android:layout_marginStart="18dp" android:src="@android:drawable/ic_menu_my_calendar" app:tint="#EDEDED" />
+        <TextView android:id="@+id/tvEndDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp" android:text="30/04/2025" android:textColor="#F6F6F6" android:textSize="12sp" android:fontFamily="@font/josefin_sans" />
+    </LinearLayout>
+
     <androidx.cardview.widget.CardView
         android:id="@+id/cvTopRoutes"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="0dp"
+        android:layout_height="94dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="12dp"
         app:cardBackgroundColor="@color/white"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="6dp"
-        app:layout_constraintTop_toBottomOf="@id/cvPeriod">
+        app:cardCornerRadius="7dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnOpenCalendar">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
-            android:padding="20dp">
-
+            android:paddingHorizontal="18dp"
+            android:paddingVertical="12dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Top rotas:"
-                android:textColor="#4D4D4D"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <LinearLayout
+                android:textColor="@color/text_gray"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/josefin_sans" />
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
                 android:gravity="end"
-                android:orientation="horizontal">
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Parangaba" android:textColor="#A6A295" android:textSize="18sp" />
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" - 420 usos" android:textColor="@color/unibus_blue" android:textSize="18sp" android:textStyle="bold" />
-            </LinearLayout>
-
-            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:text="Parangaba - 420 usos"
+                android:textColor="@color/unibus_blue"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/josefin_sans" />
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
                 android:gravity="end"
-                android:orientation="horizontal">
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ant. Bezerra / Papicu" android:textColor="#A6A295" android:textSize="18sp" />
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" - 300 usos" android:textColor="@color/unibus_blue" android:textSize="18sp" android:textStyle="bold" />
-            </LinearLayout>
+                android:text="Ant. Bezerra / Papicu - 300 usos"
+                android:textColor="@color/unibus_blue"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/josefin_sans" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-    <!-- Gráfico de Uso por Horário -->
     <TextView
         android:id="@+id/tvGraphLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="12dp"
         android:text="Uso por horário:"
         android:textColor="@color/unibus_blue"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:textStyle="bold"
+        android:fontFamily="@font/josefin_sans"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cvTopRoutes" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/clGraph"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginHorizontal="24dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginBottom="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/navBar"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@id/navBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvGraphLabel">
 
-        <View android:id="@+id/axisY" android:layout_width="1.5dp" android:layout_height="match_parent" android:background="#A6A295" android:layout_marginStart="45dp" app:layout_constraintStart_toStartOf="parent" />
-        <View android:id="@+id/axisX" android:layout_width="0dp" android:layout_height="1.5dp" android:background="#A6A295" android:layout_marginBottom="40dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="@id/axisY" app:layout_constraintEnd_toEndOf="parent" />
+        <View
+            android:id="@+id/graphArea"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="32dp"
+            android:background="#10A6A295"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View android:id="@+id/axisY" android:layout_width="1.5dp" android:layout_height="0dp" android:background="#A6A295" app:layout_constraintBottom_toBottomOf="@id/graphArea" app:layout_constraintStart_toStartOf="@id/graphArea" app:layout_constraintTop_toTopOf="@id/graphArea" />
+        <View android:id="@+id/axisX" android:layout_width="0dp" android:layout_height="1.5dp" android:background="#A6A295" app:layout_constraintBottom_toBottomOf="@id/graphArea" app:layout_constraintEnd_toEndOf="@id/graphArea" app:layout_constraintStart_toStartOf="@id/graphArea" />
+
+        <View android:layout_width="0dp" android:layout_height="1dp" android:background="#28A6A295" app:layout_constraintStart_toStartOf="@id/graphArea" app:layout_constraintEnd_toEndOf="@id/graphArea" app:layout_constraintTop_toTopOf="@id/graphArea" />
+        <View android:layout_width="0dp" android:layout_height="1dp" android:background="#28A6A295" app:layout_constraintStart_toStartOf="@id/graphArea" app:layout_constraintEnd_toEndOf="@id/graphArea" app:layout_constraintTop_toTopOf="@id/graphArea" app:layout_constraintBottom_toBottomOf="@id/graphArea" app:layout_constraintVertical_bias="0.25" />
+        <View android:layout_width="0dp" android:layout_height="1dp" android:background="#28A6A295" app:layout_constraintStart_toStartOf="@id/graphArea" app:layout_constraintEnd_toEndOf="@id/graphArea" app:layout_constraintTop_toTopOf="@id/graphArea" app:layout_constraintBottom_toBottomOf="@id/graphArea" app:layout_constraintVertical_bias="0.50" />
+        <View android:layout_width="0dp" android:layout_height="1dp" android:background="#28A6A295" app:layout_constraintStart_toStartOf="@id/graphArea" app:layout_constraintEnd_toEndOf="@id/graphArea" app:layout_constraintTop_toTopOf="@id/graphArea" app:layout_constraintBottom_toBottomOf="@id/graphArea" app:layout_constraintVertical_bias="0.75" />
 
         <ImageView
             android:id="@+id/ivUsageGraph"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:src="@drawable/ic_usage_graph"
+            android:alpha="0.92"
             android:scaleType="fitXY"
-            android:alpha="0.8"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@id/axisX"
-            app:layout_constraintStart_toStartOf="@id/axisY"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/ic_usage_graph"
+            app:layout_constraintBottom_toBottomOf="@id/graphArea"
+            app:layout_constraintEnd_toEndOf="@id/graphArea"
+            app:layout_constraintStart_toStartOf="@id/graphArea"
+            app:layout_constraintTop_toTopOf="@id/graphArea"
             tools:ignore="ContentDescription" />
 
-        <!-- Legendas Y -->
-        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="160\nalunos" android:textSize="10sp" android:textColor="#A6A295" android:gravity="end" app:layout_constraintEnd_toStartOf="@id/axisY" app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="6dp" />
-        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="80\nalunos" android:textSize="10sp" android:textColor="#A6A295" android:gravity="end" app:layout_constraintEnd_toStartOf="@id/axisY" android:layout_marginTop="45dp" app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="6dp" />
-        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="40\nalunos" android:textSize="10sp" android:textColor="#A6A295" android:gravity="end" app:layout_constraintEnd_toStartOf="@id/axisY" android:layout_marginTop="90dp" app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="6dp" />
-        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textSize="10sp" android:textColor="#A6A295" app:layout_constraintEnd_toStartOf="@id/axisY" app:layout_constraintBottom_toBottomOf="@id/axisX" android:layout_marginEnd="6dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="160
+alunos" android:textColor="#4E4B46" android:textSize="8sp" android:gravity="end" android:fontFamily="@font/josefin_sans" app:layout_constraintEnd_toStartOf="@id/axisY" app:layout_constraintTop_toTopOf="@id/graphArea" android:layout_marginEnd="5dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="80
+alunos" android:textColor="#4E4B46" android:textSize="8sp" android:gravity="end" android:fontFamily="@font/josefin_sans" app:layout_constraintEnd_toStartOf="@id/axisY" app:layout_constraintTop_toTopOf="@id/graphArea" app:layout_constraintBottom_toBottomOf="@id/graphArea" app:layout_constraintVertical_bias="0.25" android:layout_marginEnd="5dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="40
+alunos" android:textColor="#4E4B46" android:textSize="8sp" android:gravity="end" android:fontFamily="@font/josefin_sans" app:layout_constraintEnd_toStartOf="@id/axisY" app:layout_constraintTop_toTopOf="@id/graphArea" app:layout_constraintBottom_toBottomOf="@id/graphArea" app:layout_constraintVertical_bias="0.50" android:layout_marginEnd="5dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="20
+alunos" android:textColor="#4E4B46" android:textSize="8sp" android:gravity="end" android:fontFamily="@font/josefin_sans" app:layout_constraintEnd_toStartOf="@id/axisY" app:layout_constraintTop_toTopOf="@id/graphArea" app:layout_constraintBottom_toBottomOf="@id/graphArea" app:layout_constraintVertical_bias="0.72" android:layout_marginEnd="5dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10
+alunos" android:textColor="#4E4B46" android:textSize="8sp" android:gravity="end" android:fontFamily="@font/josefin_sans" app:layout_constraintEnd_toStartOf="@id/axisY" app:layout_constraintTop_toTopOf="@id/graphArea" app:layout_constraintBottom_toBottomOf="@id/graphArea" app:layout_constraintVertical_bias="0.86" android:layout_marginEnd="5dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textColor="#4E4B46" android:textSize="8sp" android:fontFamily="@font/josefin_sans" app:layout_constraintEnd_toStartOf="@id/axisY" app:layout_constraintBottom_toBottomOf="@id/axisX" android:layout_marginEnd="5dp" />
 
-        <!-- Legendas X -->
-        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1º de\nabril" android:textSize="10sp" android:textColor="#A6A295" android:gravity="center" app:layout_constraintTop_toBottomOf="@id/axisX" app:layout_constraintStart_toStartOf="@id/axisY" android:layout_marginTop="6dp" />
-        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="12 de\nabril" android:textSize="10sp" android:textColor="#A6A295" android:gravity="center" app:layout_constraintTop_toBottomOf="@id/axisX" app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="6dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1º de
+abril" android:textColor="#4E4B46" android:textSize="8sp" android:gravity="center" android:fontFamily="@font/josefin_sans" app:layout_constraintStart_toStartOf="@id/axisX" app:layout_constraintTop_toBottomOf="@id/axisX" android:layout_marginTop="4dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5 de
+abril" android:textColor="#4E4B46" android:textSize="8sp" android:gravity="center" android:fontFamily="@font/josefin_sans" app:layout_constraintStart_toStartOf="@id/axisX" app:layout_constraintEnd_toEndOf="@id/axisX" app:layout_constraintHorizontal_bias="0.33" app:layout_constraintTop_toBottomOf="@id/axisX" android:layout_marginTop="4dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10 de
+abril" android:textColor="#4E4B46" android:textSize="8sp" android:gravity="center" android:fontFamily="@font/josefin_sans" app:layout_constraintStart_toStartOf="@id/axisX" app:layout_constraintEnd_toEndOf="@id/axisX" app:layout_constraintHorizontal_bias="0.66" app:layout_constraintTop_toBottomOf="@id/axisX" android:layout_marginTop="4dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="12 de
+abril" android:textColor="#4E4B46" android:textSize="8sp" android:gravity="center" android:fontFamily="@font/josefin_sans" app:layout_constraintEnd_toEndOf="@id/axisX" app:layout_constraintTop_toBottomOf="@id/axisX" android:layout_marginTop="4dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <!-- Nav Bar -->
     <LinearLayout
         android:id="@+id/navBar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="58dp"
         android:background="@color/white"
-        android:paddingVertical="12dp"
         android:elevation="8dp"
+        android:orientation="horizontal"
+        android:paddingVertical="8dp"
         app:layout_constraintBottom_toBottomOf="parent">
-        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
-            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_home" app:tint="@color/unibus_blue" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nav_home" android:textColor="@color/unibus_blue" android:textSize="12sp"/>
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:orientation="horizontal">
+            <ImageView android:layout_width="22dp" android:layout_height="22dp" android:src="@drawable/ic_home" app:tint="@color/unibus_blue" android:contentDescription="@null" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp" android:text="@string/nav_home" android:textColor="@color/unibus_blue" android:textSize="11sp" android:fontFamily="@font/josefin_sans" />
         </LinearLayout>
-        <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#DDD"/>
-        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
-            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_menu" app:tint="@color/unibus_blue" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nav_preferences" android:textColor="@color/unibus_blue" android:textSize="12sp"/>
+        <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#B9D0DD" />
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:orientation="horizontal">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_menu" app:tint="@color/unibus_blue" android:contentDescription="@null" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp" android:text="@string/nav_preferences" android:textColor="@color/unibus_blue" android:textSize="11sp" android:fontFamily="@font/josefin_sans" />
         </LinearLayout>
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

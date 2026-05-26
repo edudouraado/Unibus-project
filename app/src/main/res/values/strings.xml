@@ -1,4 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Unibus</string>
     <string name="unibus_logo">UniBus</string>
     <string name="back_button_desc">Voltar</string>
@@ -92,6 +94,7 @@
 
     <!-- Tela Ler QR Code -->
     <string name="scan_qr_instruction">Aponte a câmara para o código QR</string>
+    <string name="qr_instruction">Aponte a câmera para o QR Code</string>
 
     <!-- Tela Rota em Andamento / Capacidade -->
     <string name="title_route_started">Rota Iniciada</string>
@@ -101,7 +104,7 @@
     <string name="btn_scan_qr_code">LER QR CODE</string>
     <string name="btn_map">MAPA</string>
 
-    <!-- Status de Entrada (Feedback) -->
+    <!-- Status de Entrada -->
     <string name="entry_allowed">Entrada liberada!</string>
     <string name="entry_denied">Entrada recusada</string>
     <string name="full_capacity_title">Lotação atingida</string>
@@ -121,15 +124,40 @@
     <string name="support_success_title">Solicitação enviada com sucesso!</string>
     <string name="support_success_description">Obrigado por nos contatar, em até 24 horas nossa equipe lhe retornará por email</string>
     <string name="btn_back_to_start">Retornar ao início</string>
+
+    <!-- Avisos -->
     <string name="btn_add_message">ADICIONAR MENSAGEM</string>
     <string name="title_add_aviso">Avisos</string>
+    <string name="title_avisos">Avisos</string>
     <string name="hint_digite_aviso">Digite o aviso</string>
     <string name="btn_enviar">ENVIAR</string>
     <string name="msg_enviada_sucesso">Mensagem enviada com sucesso!</string>
     <string name="btn_retornar_inicio">Retornar ao início</string>
+
+    <!-- Confirmações -->
     <string name="sim">SIM</string>
+<<<<<<< HEAD
     <string name="msg_confirm_delete_route">Tem certeza que deseja excluir a rota:</string>
     <string name="route_papicu_campus_full">Rota : Papicu > Campus</string>
     <string name="route_parangaba_campus_full">Rota : Parangaba > Campus</string>
     <string name="nao">NÃO</string>
 </resources>
+=======
+    <string name="nao">NÃO</string>
+    <string name="msg_confirm_delete_route">Tem certeza que deseja excluir a rota:</string>
+    <string name="route_papicu_campus_full">Rota : Papicu > Campus</string>
+    <string name="route_parangaba_campus_full">Rota : Parangaba > Campus</string>
+
+    <!-- Strings adicionadas para corrigir resource linking -->
+    <string name="warning_title">Unibus - Rota Indisponível</string>
+    <string name="warning_date">24/01/2025</string>
+    <string name="warning_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet metus nec lacus dictum ultrices.</string>
+    <string name="menu_home">Início</string>
+    <string name="menu_prefs">Preferências</string>
+    <string name="menu_support">Suporte</string>
+    <string name="greeting_user">Olá, Usuário!</string>
+    <string name="user_id">2121054</string>
+    <string name="loading_subtitle">Carregando...</string>
+
+</resources>
+>>>>>>> 24b4973 (Feat: Concluindo todas as novas telas do Unibus)
