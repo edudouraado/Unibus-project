@@ -16,16 +16,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/unibus_blue" />
 
-    <TextView
+    <ImageView
         android:id="@+id/tvLogoConfirm"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/unibus_logo"
-        android:textColor="@color/unibus_blue"
-        android:textSize="24sp"
-        android:textStyle="bold"
+        android:layout_width="82dp"
+        android:layout_height="28dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_unibus_texto"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:contentDescription="@string/unibus_logo" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -33,7 +33,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginBottom="24dp"
         android:background="@drawable/bg_qr_card"
-        android:padding="24dp"
+        android:padding="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvLogoConfirm">
 
@@ -59,12 +59,14 @@
             android:paddingEnd="40dp"
             android:text="@string/msg_enviada_sucesso"
             android:textColor="@color/white"
-            android:textSize="28sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/btnBackToHome"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/ivEmaSuccess" />
+            app:layout_constraintTop_toBottomOf="@id/ivEmaSuccess" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
         <Button
             android:id="@+id/btnBackToHome"
@@ -80,7 +82,9 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvSuccessMsg" />
+            app:layout_constraintTop_toBottomOf="@id/tvSuccessMsg" 
+        android:fontFamily="@font/josefin_sans"
+        android:stateListAnimator="@null"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

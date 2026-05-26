@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="#F5F1E7">
 
     <ImageView
@@ -17,6 +18,19 @@
         app:tint="#1A5F8A"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+=======
+    android:background="@color/background_beige"> <ImageView
+    android:id="@+id/btnVoltar"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:padding="12dp"
+    android:src="@drawable/ic_arrow_back"
+    app:tint="@color/unibus_blue"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+>>>>>>> 24b4973 (Feat: Concluindo todas as novas telas do Unibus)
 
     <ImageView
         android:id="@+id/imgLogo"
@@ -32,7 +46,7 @@
         android:id="@+id/bottomBar"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:background="#F5F1E7"
+        android:background="@color/background_beige"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent">
@@ -51,22 +65,24 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_location_pin"
-                app:tint="#1A5F8A" />
+                app:tint="@color/unibus_blue" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="Posição na rota"
-                android:textColor="#1A5F8A"
+                android:textColor="@color/unibus_blue"
                 android:textSize="14sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
         </LinearLayout>
 
         <View
             android:layout_width="1dp"
             android:layout_height="40dp"
-            android:background="#1A5F8A"
+            android:background="@color/unibus_blue"
             android:alpha="0.3" />
 
         <LinearLayout
@@ -83,16 +99,18 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_qr_code"
-                app:tint="#1A5F8A" />
+                app:tint="@color/unibus_blue" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="QR code"
-                android:textColor="#1A5F8A"
+                android:textColor="@color/unibus_blue"
                 android:textSize="14sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -115,10 +133,94 @@
             android:layout_height="match_parent">
 
             <ImageView
+                android:id="@+id/imgMapaAluno"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:scaleType="centerCrop"
-                android:src="@drawable/img_mapa_exemplo" />
+                android:scaleType="fitXY"
+                android:src="@drawable/mapa_rota_aluno"
+                app:srcCompat="@drawable/mapa_rota_aluno" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/camadaPontosMapa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/pontoMapa1"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:background="@android:color/transparent"
+                    android:clickable="true"
+                    android:contentDescription="Detalhes do ponto superior"
+                    android:focusable="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.988"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.156" />
+
+                <View
+                    android:id="@+id/pontoMapa2"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:background="@android:color/transparent"
+                    android:clickable="true"
+                    android:contentDescription="Detalhes do ponto do parque"
+                    android:focusable="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.362"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.17" />
+
+                <View
+                    android:id="@+id/pontoMapa3"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:background="@android:color/transparent"
+                    android:clickable="true"
+                    android:contentDescription="Detalhes do ponto lateral"
+                    android:focusable="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.913"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.548" />
+
+                <View
+                    android:id="@+id/pontoMapa4"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:background="@android:color/transparent"
+                    android:clickable="true"
+                    android:contentDescription="Detalhes do ponto central"
+                    android:focusable="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.341"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.451" />
+
+                <View
+                    android:id="@+id/pontoMapa5"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:background="@android:color/transparent"
+                    android:clickable="true"
+                    android:contentDescription="Detalhes do ponto inferior"
+                    android:focusable="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.587"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.848" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -138,15 +240,16 @@
                     android:background="@null"
                     android:hint="Pesquise pontos"
                     android:inputType="text"
-                    android:textColor="#1A5F8A"
+                    android:textColor="@color/unibus_blue"
                     android:textColorHint="#801A5F8A"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+        android:fontFamily="@font/josefin_sans"/>
 
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:src="@drawable/ic_search"
-                    app:tint="#1A5F8A" />
+                    app:tint="@color/unibus_blue" />
             </LinearLayout>
 
         </FrameLayout>

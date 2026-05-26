@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F1E6">
+    android:background="@color/background_beige">
 
     <LinearLayout
         android:id="@+id/header"
@@ -19,20 +19,22 @@
             android:id="@+id/imgMascote"
             android:layout_width="160dp"
             android:layout_height="160dp"
-            app:srcCompat="@drawable/chatgpt_image_11_de_mai__de_2025__15_39_41_removebg_preview_1" /> <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="UniBus"
-        android:textColor="#1D668F"
-        android:textSize="44sp"
-        android:textStyle="bold" />
+            app:srcCompat="@drawable/chatgpt_image_11_de_mai__de_2025__15_39_41_removebg_preview_1" />
+
+        <ImageView
+            android:id="@+id/imgMascote2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/logo_unibus_texto" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="sua rota para o campus"
-            android:textColor="#1D668F"
-            android:textSize="18sp" />
+            android:textColor="@color/unibus_blue"
+            android:textSize="18sp" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
     </LinearLayout>
 
     <FrameLayout
@@ -58,7 +60,8 @@
                 android:textColor="@android:color/white"
                 android:textColorHint="#B3FFFFFF"
                 android:backgroundTint="@android:color/white"
-                android:inputType="text" />
+                android:inputType="text" 
+        android:fontFamily="@font/josefin_sans"/>
 
             <EditText
                 android:id="@+id/etSenha"
@@ -69,7 +72,8 @@
                 android:textColor="@android:color/white"
                 android:textColorHint="#B3FFFFFF"
                 android:backgroundTint="@android:color/white"
-                android:inputType="textPassword" />
+                android:inputType="textPassword" 
+        android:fontFamily="@font/josefin_sans"/>
 
             <CheckBox
                 android:id="@+id/cbLembrar"
@@ -78,7 +82,8 @@
                 android:layout_marginTop="16dp"
                 android:text="Lembrar dados de login"
                 android:textColor="@android:color/white"
-                android:buttonTint="@android:color/white" />
+                android:buttonTint="@android:color/white" 
+        android:fontFamily="@font/josefin_sans"/>
 
             <Button
                 android:id="@+id/btnEntrar"
@@ -86,10 +91,13 @@
                 android:layout_height="56dp"
                 android:layout_marginTop="40dp"
                 android:text="ENTRAR"
-                android:textColor="#1D668F"
+                android:textColor="@color/unibus_blue"
                 android:textStyle="bold"
                 android:backgroundTint="@android:color/white"
-                app:cornerRadius="28dp" />
+                app:cornerRadius="28dp" 
+        android:fontFamily="@font/josefin_sans"
+        android:stateListAnimator="@null"
+        android:textAllCaps="false"/>
 
             <TextView
                 android:id="@+id/tvEsqueciSenha"
@@ -100,7 +108,9 @@
                 android:text="ESQUECI A SENHA"
                 android:textColor="@android:color/white"
                 android:textStyle="bold"
-                android:textSize="12sp" />
+                android:textSize="12sp" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
         </LinearLayout>
     </FrameLayout>

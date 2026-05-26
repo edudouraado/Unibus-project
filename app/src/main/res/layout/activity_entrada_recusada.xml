@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_beige"
-    android:padding="24dp">
+    android:padding="8dp">
 
     <!-- Header -->
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -42,8 +42,8 @@
         android:layout_height="0dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
-        app:cardBackgroundColor="#F25C5C"
-        app:cardCornerRadius="24dp"
+        app:cardBackgroundColor="@color/error_red"
+        app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/clHeader">
@@ -72,12 +72,14 @@
                 android:layout_marginBottom="48dp"
                 android:text="@string/entry_denied"
                 android:textColor="@color/white"
-                android:textSize="28sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:gravity="center"
                 app:layout_constraintBottom_toTopOf="@+id/btnOk"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnOk"
@@ -96,9 +98,11 @@
                     android:gravity="center"
                     android:padding="16dp"
                     android:text="@string/btn_ok"
-                    android:textColor="#F25C5C"
+                    android:textColor="@color/error_red"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
             </androidx.cardview.widget.CardView>
 
         </androidx.constraintlayout.widget.ConstraintLayout>

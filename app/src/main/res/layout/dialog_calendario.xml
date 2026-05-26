@@ -25,7 +25,9 @@
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
         <ImageView
             android:id="@+id/btnClose"
@@ -62,7 +64,9 @@
                 android:text="Abril de 2025"
                 android:textColor="@color/unibus_blue"
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
             <ImageView
                 android:layout_width="20dp"
@@ -79,13 +83,27 @@
             android:layout_marginTop="16dp"
             android:orientation="horizontal"
             app:layout_constraintTop_toBottomOf="@id/llMonthHeader">
-            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="SUN" android:textColor="#B3B3B3" android:textSize="10sp" />
-            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="MON" android:textColor="#B3B3B3" android:textSize="10sp" />
-            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="TUE" android:textColor="#B3B3B3" android:textSize="10sp" />
-            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="WED" android:textColor="#B3B3B3" android:textSize="10sp" />
-            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="THU" android:textColor="#B3B3B3" android:textSize="10sp" />
-            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="FRI" android:textColor="#B3B3B3" android:textSize="10sp" />
-            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="SAT" android:textColor="#B3B3B3" android:textSize="10sp" />
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="SUN" android:textColor="#B3B3B3" android:textSize="10sp" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="MON" android:textColor="#B3B3B3" android:textSize="10sp" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="TUE" android:textColor="#B3B3B3" android:textSize="10sp" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="WED" android:textColor="#B3B3B3" android:textSize="10sp" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="THU" android:textColor="#B3B3B3" android:textSize="10sp" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="FRI" android:textColor="#B3B3B3" android:textSize="10sp" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="SAT" android:textColor="#B3B3B3" android:textSize="10sp" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
         </LinearLayout>
 
         <!-- Grid de Dias (Simulado) -->
@@ -96,43 +114,105 @@
             android:columnCount="7"
             app:layout_constraintTop_toBottomOf="@id/llDaysHeader">
 
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="1" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="2" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="3" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="4" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="5" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="6" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="7" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="8" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="9" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="10" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="11" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="12" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="13" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="14" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="15" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="16" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="17" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="18" android:textColor="@color/text_gray" />
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="1" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="2" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="3" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="4" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="5" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="6" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="7" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="8" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="9" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="10" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="11" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="12" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="13" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="14" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="15" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="16" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="17" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="18" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
             <!-- Dia Selecionado (19) -->
-            <FrameLayout android:layout_columnWeight="1" android:layout_gravity="center">
+            <FrameLayout android:id="@+id/btnDia19" android:layout_columnWeight="1" android:layout_gravity="center" android:clickable="true" android:focusable="true">
                 <View android:layout_width="32dp" android:layout_height="32dp" android:layout_gravity="center" android:background="@drawable/bg_white_qr" android:backgroundTint="@color/unibus_blue" android:alpha="0.2" />
-                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:padding="10dp" android:text="19" android:textColor="@color/unibus_blue" android:textStyle="bold" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:padding="10dp" android:text="19" android:textColor="@color/unibus_blue" android:textStyle="bold" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
             </FrameLayout>
 
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="20" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="21" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="22" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="23" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="24" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="25" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="26" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="27" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="28" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="29" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="30" android:textColor="@color/text_gray" />
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="31" android:textColor="@color/text_gray" />
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="20" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="21" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="22" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="23" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="24" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="25" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="26" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="27" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="28" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="29" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="30" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="31" android:textColor="@color/text_gray" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
         </GridLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

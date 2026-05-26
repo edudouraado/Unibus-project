@@ -27,14 +27,15 @@
                 android:layout_weight="1"
                 android:background="@null"
                 android:text="Av. Leandro"
-                android:textColor="#1A5F8A"
-                android:textSize="18sp" />
+                android:textColor="@color/unibus_blue"
+                android:textSize="18sp" 
+        android:fontFamily="@font/josefin_sans"/>
 
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_search"
-                app:tint="#1A5F8A" />
+                app:tint="@color/unibus_blue" />
         </LinearLayout>
 
         <View

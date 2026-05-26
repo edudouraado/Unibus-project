@@ -7,11 +7,18 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="background_beige">#F8F4E1</color>
-    <color name="error_red">#F25C5C</color>
-    <color name="unibus_blue">#134B70</color>
-    <color name="unibus_blue_dark">#0E3B5A</color>
-    <color name="card_gray">#C1BEB2</color>
-    <color name="text_gray">#4A4A4A</color>
-    <color name="divider_gray">#8E8E8E</color>
+
+    <!-- Paleta visual do protótipo Unibus -->
+    <color name="background_beige">#F7F1E4</color>
+    <color name="unibus_blue">#176A92</color>
+    <color name="unibus_blue_dark">#0F5174</color>
+    <color name="unibus_blue_soft">#237CA5</color>
+    <color name="card_gray">#C8C3B8</color>
+    <color name="card_gray_dark">#BDB8AD</color>
+    <color name="text_gray">#4A4844</color>
+    <color name="text_gray_soft">#6C6962</color>
+    <color name="divider_gray">#8E8A82</color>
+    <color name="field_gray">#E7E4DC</color>
+    <color name="success_green">#45C66B</color>
+    <color name="error_red">#F55357</color>
 </resources>

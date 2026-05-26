@@ -74,7 +74,9 @@
                 android:textSize="36sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@id/vLine"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
@@ -85,7 +87,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="12dp"
-        app:cardBackgroundColor="#C4C0B3"
+        app:cardBackgroundColor="@color/card_gray"
         app:cardCornerRadius="16dp"
         app:cardElevation="2dp"
         app:layout_constraintTop_toBottomOf="@id/cvTitle">
@@ -105,7 +107,9 @@
                 android:text="@string/hint_search_user"
                 android:textColor="@color/white"
                 android:textSize="14sp"
-                android:textStyle="bold" />
+                android:textStyle="bold" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
@@ -126,7 +130,8 @@
                         android:enabled="false"
                         android:minHeight="32dp"
                         android:textSize="14sp"
-                        tools:ignore="SpeakableTextPresentCheck" />
+                        tools:ignore="SpeakableTextPresentCheck" 
+        android:fontFamily="@font/josefin_sans"/>
                     <ImageView
                         android:layout_width="20dp"
                         android:layout_height="20dp"
@@ -147,7 +152,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="12dp"
-        app:cardBackgroundColor="#C4C0B3"
+        app:cardBackgroundColor="@color/card_gray"
         app:cardCornerRadius="20dp"
         app:cardElevation="4dp"
         app:layout_constraintTop_toBottomOf="@id/cvSearch">
@@ -163,11 +168,13 @@
                 android:layout_height="100dp"
                 android:background="@color/white"
                 android:padding="3dp"
-                android:src="@drawable/chatgpt_image_11_de_mai__de_2025__15_39_41_removebg_preview_1"
+                android:src="@drawable/avatar_ema_circle"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full" />
+                app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+                app:srcCompat="@drawable/avatar_ema_circle"
+                tools:srcCompat="@drawable/avatar_ema_circle" />
 
             <TextView
                 android:id="@+id/tvUserName"
@@ -180,7 +187,9 @@
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/ivUserAvatar"
-                app:layout_constraintTop_toTopOf="@id/ivUserAvatar" />
+                app:layout_constraintTop_toTopOf="@id/ivUserAvatar" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
             <TextView
                 android:id="@+id/tvUserRA"
@@ -191,7 +200,9 @@
                 android:textSize="22sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@id/tvUserName"
-                app:layout_constraintTop_toBottomOf="@id/tvUserName" />
+                app:layout_constraintTop_toBottomOf="@id/tvUserName" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
             <TextView
                 android:id="@+id/tvUserQR"
@@ -202,7 +213,9 @@
                 android:textSize="22sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@id/tvUserName"
-                app:layout_constraintTop_toBottomOf="@id/tvUserRA" />
+                app:layout_constraintTop_toBottomOf="@id/tvUserRA" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
@@ -248,7 +261,9 @@
                 android:layout_marginStart="16dp"
                 android:text="@string/label_liberado"
                 android:textColor="#A6A295"
-                android:textSize="26sp" />
+                android:textSize="26sp" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -292,7 +307,9 @@
                 android:layout_marginStart="16dp"
                 android:text="@string/label_qr_code_status"
                 android:textColor="#A6A295"
-                android:textSize="26sp" />
+                android:textSize="26sp" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -323,7 +340,9 @@
                 android:layout_height="wrap_content"
                 android:text="@string/nav_home"
                 android:textColor="@color/unibus_blue"
-                android:textSize="12sp" />
+                android:textSize="12sp" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
         </LinearLayout>
 
         <View
@@ -348,7 +367,9 @@
                 android:layout_height="wrap_content"
                 android:text="@string/nav_preferences"
                 android:textColor="@color/unibus_blue"
-                android:textSize="12sp" />
+                android:textSize="12sp" 
+        android:fontFamily="@font/josefin_sans"
+        android:includeFontPadding="true"/>
         </LinearLayout>
     </LinearLayout>
 
