@@ -2,12 +2,10 @@
     <style name="Theme.Unibus" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
-        <item name="android:fontFamily">@font/josefin_sans</item>
-        <item name="fontFamily">@font/josefin_sans</item>
+        <!-- Fontes removidas pois o arquivo fisico nao existe no projeto -->
         <item name="android:colorAccent">@color/unibus_blue</item>
         <item name="colorPrimary">@color/unibus_blue</item>
         <item name="colorPrimaryDark">@color/unibus_blue_dark</item>
-        <item name="colorSecondary">@color/unibus_blue_soft</item>
         <item name="android:navigationBarColor">@color/black</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:statusBarColor">@color/background_beige</item>

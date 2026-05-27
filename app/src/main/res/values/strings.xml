@@ -136,13 +136,6 @@
 
     <!-- Confirmações -->
     <string name="sim">SIM</string>
-<<<<<<< HEAD
-    <string name="msg_confirm_delete_route">Tem certeza que deseja excluir a rota:</string>
-    <string name="route_papicu_campus_full">Rota : Papicu > Campus</string>
-    <string name="route_parangaba_campus_full">Rota : Parangaba > Campus</string>
-    <string name="nao">NÃO</string>
-</resources>
-=======
     <string name="nao">NÃO</string>
     <string name="msg_confirm_delete_route">Tem certeza que deseja excluir a rota:</string>
     <string name="route_papicu_campus_full">Rota : Papicu > Campus</string>
@@ -158,6 +151,6 @@
     <string name="greeting_user">Olá, Usuário!</string>
     <string name="user_id">2121054</string>
     <string name="loading_subtitle">Carregando...</string>
+    <string name="reenviar_codigo">Reenviar código</string>
 
 </resources>
->>>>>>> 24b4973 (Feat: Concluindo todas as novas telas do Unibus)

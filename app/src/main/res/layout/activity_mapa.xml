@@ -4,8 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-    android:background="#F5F1E7">
+    android:background="@color/background_beige">
 
     <ImageView
         android:id="@+id/btnVoltar"
@@ -15,22 +14,9 @@
         android:layout_marginTop="16dp"
         android:padding="12dp"
         android:src="@drawable/ic_arrow_back"
-        app:tint="#1A5F8A"
+        app:tint="@color/unibus_blue"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-=======
-    android:background="@color/background_beige"> <ImageView
-    android:id="@+id/btnVoltar"
-    android:layout_width="48dp"
-    android:layout_height="48dp"
-    android:layout_marginStart="16dp"
-    android:layout_marginTop="16dp"
-    android:padding="12dp"
-    android:src="@drawable/ic_arrow_back"
-    app:tint="@color/unibus_blue"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent" />
->>>>>>> 24b4973 (Feat: Concluindo todas as novas telas do Unibus)
 
     <ImageView
         android:id="@+id/imgLogo"
@@ -75,8 +61,8 @@
                 android:textColor="@color/unibus_blue"
                 android:textSize="14sp"
                 android:textStyle="bold"
-        android:fontFamily="@font/josefin_sans"
-        android:includeFontPadding="true"/>
+                android:fontFamily="@font/josefin_sans"
+                android:includeFontPadding="true"/>
         </LinearLayout>
 
         <View
@@ -109,8 +95,8 @@
                 android:textColor="@color/unibus_blue"
                 android:textSize="14sp"
                 android:textStyle="bold"
-        android:fontFamily="@font/josefin_sans"
-        android:includeFontPadding="true"/>
+                android:fontFamily="@font/josefin_sans"
+                android:includeFontPadding="true"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -243,7 +229,7 @@
                     android:textColor="@color/unibus_blue"
                     android:textColorHint="#801A5F8A"
                     android:textSize="16sp"
-        android:fontFamily="@font/josefin_sans"/>
+                    android:fontFamily="@font/josefin_sans"/>
 
                 <ImageView
                     android:layout_width="24dp"

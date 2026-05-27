@@ -51,8 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="fitXY"
-                android:src="@drawable/mapa_rota_motorista"
-                app:srcCompat="@drawable/tela_mapa_motorista" />
+                android:src="@drawable/img_mapa_exemplo" />
 
             <LinearLayout
                 android:id="@+id/barraPesquisaMapaAluno"
@@ -77,8 +76,7 @@
                     android:inputType="text"
                     android:textColor="@color/unibus_blue"
                     android:textColorHint="#801A5F8A"
-                    android:textSize="13sp" 
-        android:fontFamily="@font/josefin_sans"/>
+                    android:textSize="13sp" />
 
                 <ImageView
                     android:id="@+id/btnPesquisarPontosAluno"
@@ -181,7 +179,6 @@
                 android:textColor="@color/unibus_blue"
                 android:textSize="12sp"
                 android:textStyle="bold" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
         </LinearLayout>
 
@@ -215,7 +212,6 @@
                 android:textColor="@color/unibus_blue"
                 android:textSize="12sp"
                 android:textStyle="bold" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
         </LinearLayout>
     </LinearLayout>
@@ -241,7 +237,6 @@
             android:orientation="vertical">
             <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_home" app:tint="@color/unibus_blue" />
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Início" android:textColor="@color/unibus_blue" android:textSize="12sp" android:textStyle="bold"
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
         </LinearLayout>
 
@@ -258,7 +253,6 @@
             android:orientation="vertical">
             <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_menu" app:tint="@color/unibus_blue" />
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Preferências" android:textColor="@color/unibus_blue" android:textSize="12sp" android:textStyle="bold"
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
         </LinearLayout>
 
@@ -275,7 +269,6 @@
             android:orientation="vertical">
             <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_suport" app:tint="@color/unibus_blue" />
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Suporte" android:textColor="@color/unibus_blue" android:textSize="12sp" android:textStyle="bold"
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
         </LinearLayout>
     </LinearLayout>
