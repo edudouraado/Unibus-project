@@ -10,17 +10,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ponto Leandro 1"
-        android:textColor="#1A5F8A"
+        android:textColor="@color/unibus_blue"
         android:textSize="16sp"
-        android:textStyle="bold" />
+        android:textStyle="bold" 
+        android:includeFontPadding="true"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:text="100m"
-        android:textColor="#1A5F8A"
-        android:textSize="14sp" />
+        android:textColor="@color/unibus_blue"
+        android:textSize="14sp" 
+        android:includeFontPadding="true"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -28,9 +30,10 @@
         android:layout_below="@id/tvNomePonto"
         android:layout_marginTop="4dp"
         android:text="Av. Leandro, nº 123 - Leandrópolis/LE"
-        android:textColor="#1A5F8A"
+        android:textColor="@color/unibus_blue"
         android:alpha="0.7"
-        android:textSize="13sp" />
+        android:textSize="13sp" 
+        android:includeFontPadding="true"/>
 
     <View
         android:layout_width="match_parent"

@@ -16,16 +16,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/unibus_blue" />
 
-    <TextView
+    <ImageView
         android:id="@+id/tvLogoAvisos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/unibus_logo"
-        android:textColor="@color/unibus_blue"
-        android:textSize="24sp"
-        android:textStyle="bold"
+        android:layout_width="82dp"
+        android:layout_height="28dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_unibus_texto"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:contentDescription="@string/unibus_logo" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -55,7 +55,8 @@
             android:textSize="48sp"
             app:layout_constraintBottom_toBottomOf="@id/vLineHeader"
             app:layout_constraintStart_toEndOf="@id/vLineHeader"
-            app:layout_constraintTop_toTopOf="@id/vLineHeader" />
+            app:layout_constraintTop_toTopOf="@id/vLineHeader"
+        android:includeFontPadding="true"/>
 
         <ScrollView
             android:layout_width="match_parent"
@@ -83,20 +84,23 @@
                             android:layout_height="wrap_content"
                             android:text="@string/warning_title"
                             android:textStyle="bold"
-                            android:textColor="@color/text_gray"/>
+                            android:textColor="@color/text_gray"
+        android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
                             android:text="@string/warning_date"
-                            android:textColor="@color/text_gray"/>
+                            android:textColor="@color/text_gray"
+        android:includeFontPadding="true"/>
                     </RelativeLayout>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:text="@string/warning_text"
-                        android:textColor="@color/text_gray"/>
+                        android:textColor="@color/text_gray"
+        android:includeFontPadding="true"/>
                     <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider_gray" android:layout_marginTop="16dp"/>
                 </LinearLayout>
 
@@ -115,20 +119,23 @@
                             android:layout_height="wrap_content"
                             android:text="@string/warning_title"
                             android:textStyle="bold"
-                            android:textColor="@color/text_gray"/>
+                            android:textColor="@color/text_gray"
+        android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
                             android:text="@string/warning_date"
-                            android:textColor="@color/text_gray"/>
+                            android:textColor="@color/text_gray"
+        android:includeFontPadding="true"/>
                     </RelativeLayout>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:text="@string/warning_text"
-                        android:textColor="@color/text_gray"/>
+                        android:textColor="@color/text_gray"
+        android:includeFontPadding="true"/>
                     <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider_gray" android:layout_marginTop="16dp"/>
                 </LinearLayout>
 
@@ -147,20 +154,23 @@
                             android:layout_height="wrap_content"
                             android:text="@string/warning_title"
                             android:textStyle="bold"
-                            android:textColor="@color/text_gray"/>
+                            android:textColor="@color/text_gray"
+        android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
                             android:text="@string/warning_date"
-                            android:textColor="@color/text_gray"/>
+                            android:textColor="@color/text_gray"
+        android:includeFontPadding="true"/>
                     </RelativeLayout>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:text="@string/warning_text"
-                        android:textColor="@color/text_gray"/>
+                        android:textColor="@color/text_gray"
+        android:includeFontPadding="true"/>
                     <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider_gray" android:layout_marginTop="16dp"/>
                 </LinearLayout>
 
@@ -179,20 +189,23 @@
                             android:layout_height="wrap_content"
                             android:text="@string/warning_title"
                             android:textStyle="bold"
-                            android:textColor="@color/text_gray"/>
+                            android:textColor="@color/text_gray"
+        android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
                             android:text="@string/warning_date"
-                            android:textColor="@color/text_gray"/>
+                            android:textColor="@color/text_gray"
+        android:includeFontPadding="true"/>
                     </RelativeLayout>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:text="@string/warning_text"
-                        android:textColor="@color/text_gray"/>
+                        android:textColor="@color/text_gray"
+        android:includeFontPadding="true"/>
                     <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider_gray" android:layout_marginTop="16dp"/>
                 </LinearLayout>
 
@@ -227,7 +240,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/menu_home"
-                android:textColor="@color/unibus_blue" />
+                android:textColor="@color/unibus_blue" 
+        android:includeFontPadding="true"/>
         </LinearLayout>
 
         <View android:layout_width="1dp" android:layout_height="match_parent" android:background="@color/unibus_blue" android:layout_marginTop="8dp" android:layout_marginBottom="8dp"/>
@@ -247,7 +261,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/menu_prefs"
-                android:textColor="@color/unibus_blue" />
+                android:textColor="@color/unibus_blue"
+        android:includeFontPadding="true"/>
         </LinearLayout>
 
         <View android:layout_width="1dp" android:layout_height="match_parent" android:background="@color/unibus_blue" android:layout_marginTop="8dp" android:layout_marginBottom="8dp"/>
@@ -267,7 +282,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/menu_support"
-                android:textColor="@color/unibus_blue" />
+                android:textColor="@color/unibus_blue"
+        android:includeFontPadding="true"/>
         </LinearLayout>
     </LinearLayout>
 

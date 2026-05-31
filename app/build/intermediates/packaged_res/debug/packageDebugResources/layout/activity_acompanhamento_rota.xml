@@ -4,17 +4,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F1E7"> <ImageView
-    android:id="@+id/btnVoltar"
-    android:layout_width="48dp"
-    android:layout_height="48dp"
-    android:layout_marginStart="16dp"
-    android:layout_marginTop="16dp"
-    android:padding="12dp"
-    android:src="@drawable/ic_arrow_back"
-    app:tint="#1A5F8A"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent" />
+    android:background="@color/background_beige">
+
+    <ImageView
+        android:id="@+id/btnVoltar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:src="@drawable/ic_arrow_back"
+        app:tint="@color/unibus_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imgLogo"
@@ -30,11 +32,12 @@
         android:id="@+id/cardMapaContainer"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="12dp"
-        app:cardCornerRadius="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/layoutAcoes"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="0dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/barraMapaAluno"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnVoltar">
@@ -44,111 +47,229 @@
             android:layout_height="match_parent">
 
             <ImageView
+                android:id="@+id/imgMapaAluno"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:scaleType="centerCrop"
+                android:scaleType="fitXY"
                 android:src="@drawable/img_mapa_exemplo" />
 
-            <TextView
-                android:id="@+id/btnFinalizarRota"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="top|center_horizontal"
-                android:layout_marginTop="16dp"
-                android:background="@drawable/bg_finalizar_rota"
-                android:elevation="4dp"
-                android:paddingHorizontal="24dp"
-                android:paddingVertical="12dp"
-                android:text="Finalizar Rota"
-                android:textColor="#1A5F8A"
-                android:textSize="16sp"
-                android:textStyle="bold" />
-
             <LinearLayout
+                android:id="@+id/barraPesquisaMapaAluno"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:background="#CCFFFFFF"
-                android:padding="10dp"
-                android:gravity="center">
+                android:layout_height="42dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/bg_search_bar"
+                android:elevation="6dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="12dp">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Previsão de chegada: 19:00"
-                    android:textColor="#1A5F8A"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/etPesquisaPontosAluno"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="Pesquise pontos"
+                    android:inputType="text"
+                    android:textColor="@color/unibus_blue"
+                    android:textColorHint="#801A5F8A"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:id="@+id/btnPesquisarPontosAluno"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:src="@drawable/ic_search"
+                    app:tint="@color/unibus_blue" />
             </LinearLayout>
+
+
+            <View
+                android:id="@+id/pontoMapa1"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="78dp"
+                android:layout_marginTop="62dp"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <View
+                android:id="@+id/pontoMapa2"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="162dp"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <View
+                android:id="@+id/pontoMapa3"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="175dp"
+                android:layout_marginEnd="4dp"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <View
+                android:id="@+id/pontoMapa4"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="202dp"
+                android:layout_marginTop="364dp"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <View
+                android:id="@+id/pontoMapa5"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:focusable="true" />
         </FrameLayout>
     </androidx.cardview.widget.CardView>
 
     <LinearLayout
-        android:id="@+id/layoutAcoes"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginBottom="16dp"
+        android:id="@+id/barraMapaAluno"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginHorizontal="8dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/menuInferior">
+        app:layout_constraintBottom_toTopOf="@+id/menuInferior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
-        <androidx.appcompat.widget.AppCompatButton
+        <LinearLayout
+            android:id="@+id/btnPosicaoNaRotaAluno"
             android:layout_width="0dp"
-            android:layout_height="60dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:layout_marginEnd="8dp"
-            android:background="@drawable/bg_botao_azul_cinza"
-            android:text="Quantidade de vagas"
-            android:textAllCaps="false"
-            android:textColor="#FFFFFF"
-            android:textSize="14sp"
-            android:textStyle="bold" />
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="horizontal">
 
-        <androidx.appcompat.widget.AppCompatButton
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_location_pin"
+                app:tint="@color/unibus_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Posição na rota"
+                android:textColor="@color/unibus_blue"
+                android:textSize="12sp"
+                android:textStyle="bold" 
+        android:includeFontPadding="true"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="34dp"
+            android:alpha="0.35"
+            android:background="@color/unibus_blue" />
+
+        <LinearLayout
+            android:id="@+id/btnQrCodeAluno"
             android:layout_width="0dp"
-            android:layout_height="60dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:layout_marginStart="8dp"
-            android:background="@drawable/bg_botao_azul_cinza"
-            android:text="QR Code"
-            android:textAllCaps="false"
-            android:textColor="#FFFFFF"
-            android:textSize="14sp"
-            android:textStyle="bold" />
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_qr_code"
+                app:tint="@color/unibus_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="QR code"
+                android:textColor="@color/unibus_blue"
+                android:textSize="12sp"
+                android:textStyle="bold" 
+        android:includeFontPadding="true"/>
+        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/menuInferior"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#F5F1E7"
+        android:background="@color/background_beige"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:paddingVertical="12dp"
         app:layout_constraintBottom_toBottomOf="parent">
 
         <LinearLayout
+            android:id="@+id/navInicioMapaAluno"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
             android:gravity="center"
             android:orientation="vertical">
-            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_home" app:tint="#1A5F8A" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Início" android:textColor="#1A5F8A" android:textSize="12sp" android:textStyle="bold"/>
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_home" app:tint="@color/unibus_blue" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Início" android:textColor="@color/unibus_blue" android:textSize="12sp" android:textStyle="bold"
+        android:includeFontPadding="true"/>
         </LinearLayout>
 
-        <View android:layout_width="1dp" android:layout_height="30dp" android:background="#1A5F8A" android:alpha="0.3"/>
+        <View android:layout_width="1dp" android:layout_height="30dp" android:background="@color/unibus_blue" android:alpha="0.3"/>
 
-        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
-            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_menu" app:tint="#1A5F8A" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Preferências" android:textColor="#1A5F8A" android:textSize="12sp" android:textStyle="bold"/>
+        <LinearLayout
+            android:id="@+id/navPreferenciasMapaAluno"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_menu" app:tint="@color/unibus_blue" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Preferências" android:textColor="@color/unibus_blue" android:textSize="12sp" android:textStyle="bold"
+        android:includeFontPadding="true"/>
         </LinearLayout>
 
-        <View android:layout_width="1dp" android:layout_height="30dp" android:background="#1A5F8A" android:alpha="0.3"/>
+        <View android:layout_width="1dp" android:layout_height="30dp" android:background="@color/unibus_blue" android:alpha="0.3"/>
 
-        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
-            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_suport" app:tint="#1A5F8A" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Suporte" android:textColor="#1A5F8A" android:textSize="12sp" android:textStyle="bold"/>
+        <LinearLayout
+            android:id="@+id/navSuporteMapaAluno"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_suport" app:tint="@color/unibus_blue" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Suporte" android:textColor="@color/unibus_blue" android:textSize="12sp" android:textStyle="bold"
+        android:includeFontPadding="true"/>
         </LinearLayout>
     </LinearLayout>
 

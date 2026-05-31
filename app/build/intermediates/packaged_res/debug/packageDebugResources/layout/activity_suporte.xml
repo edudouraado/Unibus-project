@@ -17,16 +17,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/unibus_blue" />
 
-    <TextView
+    <ImageView
         android:id="@+id/tvLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/unibus_logo"
-        android:textColor="@color/unibus_blue"
-        android:textSize="24sp"
-        android:textStyle="bold"
+        android:layout_width="82dp"
+        android:layout_height="28dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_unibus_texto"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/unibus_logo" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/supportCard"
@@ -59,7 +59,8 @@
             android:textSize="32sp"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@id/vHeaderLine"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent" 
+        android:includeFontPadding="true"/>
 
         <EditText
             android:id="@+id/etName"

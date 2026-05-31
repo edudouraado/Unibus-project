@@ -22,7 +22,7 @@
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:src="@drawable/ic_location_pin"
-            app:tint="#1A5F8A" />
+            app:tint="@color/unibus_blue" />
 
         <TextView
             android:id="@+id/tvTituloPonto"
@@ -32,9 +32,10 @@
             android:layout_marginStart="10dp"
             android:layout_centerVertical="true"
             android:text="Ponto - Av. Leandro"
-            android:textColor="#1A5F8A"
+            android:textColor="@color/unibus_blue"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold" 
+        android:includeFontPadding="true"/>
 
         <ImageView
             android:id="@+id/btnFecharPopup"
@@ -43,7 +44,7 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:src="@drawable/ic_close"
-            app:tint="#1A5F8A"
+            app:tint="@color/unibus_blue"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:clickable="true"
             android:focusable="true"/>
@@ -56,8 +57,9 @@
         android:layout_marginTop="12dp"
         android:gravity="center"
         android:text="Previsão de chegada - 4 min"
-        android:textColor="#1A5F8A"
-        android:textSize="16sp" />
+        android:textColor="@color/unibus_blue"
+        android:textSize="16sp" 
+        android:includeFontPadding="true"/>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -83,7 +85,7 @@
         android:background="@drawable/bg_botao_branco"
         android:text="QR code"
         android:textAllCaps="false"
-        android:textColor="#1A5F8A"
+        android:textColor="@color/unibus_blue"
         android:textSize="16sp"
         android:textStyle="bold"
         android:elevation="4dp"/>

@@ -60,7 +60,6 @@
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@id/vHeaderLine"
             app:layout_constraintTop_toTopOf="parent" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
 
         <EditText
@@ -74,8 +73,7 @@
             android:minHeight="48dp"
             android:textColor="@color/white"
             android:textColorHint="#B3FFFFFF"
-            app:layout_constraintTop_toBottomOf="@id/tvSupportTitle" 
-        android:fontFamily="@font/josefin_sans"/>
+            app:layout_constraintTop_toBottomOf="@id/tvSupportTitle" />
 
         <EditText
             android:id="@+id/etId"
@@ -88,8 +86,7 @@
             android:minHeight="48dp"
             android:textColor="@color/white"
             android:textColorHint="#B3FFFFFF"
-            app:layout_constraintTop_toBottomOf="@id/etName" 
-        android:fontFamily="@font/josefin_sans"/>
+            app:layout_constraintTop_toBottomOf="@id/etName" />
 
         <EditText
             android:id="@+id/etEmail"
@@ -102,8 +99,7 @@
             android:minHeight="48dp"
             android:textColor="@color/white"
             android:textColorHint="#B3FFFFFF"
-            app:layout_constraintTop_toBottomOf="@id/etId" 
-        android:fontFamily="@font/josefin_sans"/>
+            app:layout_constraintTop_toBottomOf="@id/etId" />
 
         <EditText
             android:id="@+id/etDescription"
@@ -119,8 +115,7 @@
             android:textColor="@color/white"
             android:textColorHint="#B3FFFFFF"
             app:layout_constraintBottom_toTopOf="@+id/btnSend"
-            app:layout_constraintTop_toBottomOf="@id/etEmail" 
-        android:fontFamily="@font/josefin_sans"/>
+            app:layout_constraintTop_toBottomOf="@id/etEmail" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnSend"

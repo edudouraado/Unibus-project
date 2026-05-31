@@ -23,7 +23,8 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent" 
+        android:includeFontPadding="true"/>
 
         <ImageView
             android:id="@+id/btnCloseDialog"
@@ -45,7 +46,8 @@
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvDialogTitle" />
+            app:layout_constraintTop_toBottomOf="@id/tvDialogTitle" 
+        android:includeFontPadding="true"/>
 
         <!-- Rota Parangaba -->
         <androidx.cardview.widget.CardView
@@ -66,7 +68,8 @@
                 android:text="@string/route_parangaba"
                 android:textColor="@color/unibus_blue"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold" 
+        android:includeFontPadding="true"/>
         </androidx.cardview.widget.CardView>
 
         <!-- Rota Ant. Bezerra / Papicu -->
@@ -88,7 +91,8 @@
                 android:text="@string/route_ant_bezerra"
                 android:textColor="@color/unibus_blue"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold" 
+        android:includeFontPadding="true"/>
         </androidx.cardview.widget.CardView>
 
         <!-- Rota Messejana / Eusébio -->
@@ -112,7 +116,8 @@
                 android:text="@string/route_messejana"
                 android:textColor="@color/unibus_blue"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold" 
+        android:includeFontPadding="true"/>
         </androidx.cardview.widget.CardView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

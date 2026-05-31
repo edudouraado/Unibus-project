@@ -12,106 +12,52 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Unibus">
 
-<<<<<<< HEAD
-        <activity
-            android:name=".LoginActivity"
-            android:exported="true">
-=======
+        <!-- Tela Inicial -->
         <activity android:name=".LoadingActivity" android:exported="true">
->>>>>>> 24b4973 (Feat: Concluindo todas as novas telas do Unibus)
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-<<<<<<< HEAD
-        <activity android:name=".MapaActivity" />
-        <activity android:name=".RotasActivity" />
-        <activity android:name=".QrCodeActivity" />
-        <activity android:name=".AvisosActivity" />
-        <activity android:name=".SuporteActivity" />
-        <activity android:name=".InicialMotoristaActivity" />
-        <activity android:name=".InicialAdminActivity" />
-        <activity android:name=".ChamadosActivity" />
-        <activity android:name=".ChamadosDetalhadosActivity" />
-        <activity android:name=".ChamadoEspecificadoActivity" />
-        <activity android:name=".ResponderChamadoActivity" />
-        <activity android:name=".Estatisticas2Activity" />
-        <activity android:name=".CriarRotaActivity" />
-        <activity android:name=".EditarRotaActivity" />
-        <activity android:name=".GerenciarRotasActivity" />
-        <activity android:name=".GerenciarRotas1Activity" />
-        <activity android:name=".GerenciarRotas2Activity" />
-        <activity android:name=".ExcluirRotaActivity" />
-        <activity android:name=".ExcluirRota2Activity" />
-        <activity android:name=".SucessoExclusaoParangabaActivity" />
-        <activity android:name=".SucessoExclusaoPapicuActivity" />
-
-        <activity
-            android:name=".RecuperarSenhaActivity"
-            android:exported="false" />
-
-        <activity
-            android:name=".ConfirmarCodigoActivity"
-            android:exported="false" />
-=======
+        <!-- Telas de Autenticação -->
         <activity android:name=".LoginActivity" android:exported="false" />
         <activity android:name=".RecuperarSenhaActivity" android:exported="false" />
         <activity android:name=".ConfirmarCodigoActivity" android:exported="false" />
         <activity android:name=".AlterarSenhaActivity" android:exported="false" />
-        <activity android:name=".ErrorActivity" android:exported="false" />
-        <activity android:name=".HomeAlunoActivity" android:exported="false" />
-        <activity android:name=".InicialAdminActivity" android:exported="false" />
-        <activity android:name=".InicialMotoristaActivity" android:exported="false" />
-        <activity android:name=".IniciarRotaMotoristaActivity" android:exported="false" />
-        <activity android:name=".SelecionarOrigemMotoristaActivity" android:exported="false" />
-        <activity android:name=".EstatisticasActivity" android:exported="false" />
-        <activity android:name=".EstatisticasCalendarActivity" android:exported="false" />
-        <activity android:name=".GerenciarRotasActivity" android:exported="false" />
-        <activity android:name=".EditarRotaActivity" android:exported="false" />
-        <activity android:name=".GerenciarUsuariosActivity" android:exported="false" />
-        <activity android:name=".GerenciarUsuariosPesquisaActivity" android:exported="false" />
-        <activity android:name=".EditarUsuarioActivity" android:exported="false" />
-        <activity android:name=".RelatoriosActivity" android:exported="false" />
-        <activity android:name=".SucessoMensagemAdminActivity" />
-        <activity android:name=".ChamadosActivity" android:exported="false" />
-        <activity android:name=".ChamadosDetalhadosActivity" android:exported="false" />
-        <activity android:name=".ResponderChamadoActivity" android:exported="false" />
-        <activity android:name=".CriarRotaActivity" android:exported="false" />
-        <activity android:name=".ExcluirRotaPapicuActivity" android:exported="false" />
-        <activity android:name=".ExcluirRotaParangabaActivity" android:exported="false" />
-        <activity android:name=".SucessoExclusaoPapicuActivity" android:exported="false" />
-        <activity android:name=".SucessoExclusaoParangabaActivity" android:exported="false" />
-        <activity android:name=".GerenciarRotasSoPapicuActivity" android:exported="false" />
-        <activity android:name=".GerenciarRotasSoParangabaActivity" android:exported="false" />
-        <activity android:name=".EstatisticasDiaActivity" android:exported="false" />
-        <activity android:name=".RelatoriosPicosActivity" android:exported="false" />
-        <activity android:name=".RelatoriosSolicitacaoActivity" android:exported="false" />
-        <activity android:name=".ChamadoEspecificadoActivity" android:exported="false" />
-        <activity android:name=".UsuarioPesquisadoActivity" android:exported="false" />
->>>>>>> 24b4973 (Feat: Concluindo todas as novas telas do Unibus)
 
-        <activity android:name=".AvisosMotoristaActivity" android:exported="false" />
-        <activity android:name=".AddAvisoActivity" android:exported="false" />
-        <activity android:name=".ConfirmacaoAvisoActivity" android:exported="false" />
-        <activity android:name=".SucessoAvisoActivity" android:exported="false" />
-        <activity android:name=".RotaAndamentoActivity" android:exported="false" />
-        <activity android:name=".LotacaoAtingidaActivity" android:exported="false" />
-        <activity android:name=".LotacaoAtingidaAlertaActivity" android:exported="false" />
-        <activity android:name=".LerQrcodeActivity" android:exported="false" />
-        <activity android:name=".EntradaLiberadaActivity" android:exported="false" />
-        <activity android:name=".EntradaRecusadaActivity" android:exported="false" />
-
-        <activity android:name=".RotasActivity" android:exported="false" />
-        <activity android:name=".AcompanhamentoRotaActivity" android:exported="false" />
-        <activity android:name=".MapaMotoristaActivity" android:exported="false" />
+        <!-- Telas do Aluno -->
         <activity android:name=".MapaActivity" android:exported="false" />
-        <activity android:name=".DetalhesPontoActivity" android:exported="false" />
-        <activity android:name=".QrcodeActivity" android:exported="false" />
+        <activity android:name=".RotasActivity" android:exported="false" />
+        <activity android:name=".QrCodeActivity" android:exported="false" />
         <activity android:name=".AvisosActivity" android:exported="false" />
         <activity android:name=".SuporteActivity" android:exported="false" />
-        <activity android:name=".SucessoSuporteActivity" android:exported="false" />
+
+        <!-- Telas do Motorista -->
+        <activity android:name=".InicialMotoristaActivity" android:exported="false" />
+
+        <!-- Telas do Admin -->
+        <activity android:name=".InicialAdminActivity" android:exported="false" />
+        <activity android:name=".GerenciarRotasActivity" android:exported="false" />
+        <activity android:name=".GerenciarRotas1Activity" android:exported="false" />
+        <activity android:name=".GerenciarRotas2Activity" android:exported="false" />
+        <activity android:name=".CriarRotaActivity" android:exported="false" />
+        <activity android:name=".EditarRotaActivity" android:exported="false" />
+        <activity android:name=".ExcluirRotaActivity" android:exported="false" />
+        <activity android:name=".ExcluirRota2Activity" android:exported="false" />
+        <activity android:name=".SucessoExclusaoActivity" android:exported="false" />
+        <activity android:name=".SucessoExclusaoPapicuActivity" android:exported="false" />
+        <activity android:name=".SucessoExclusaoParangabaActivity" android:exported="false" />
+        <activity android:name=".Estatisticas2Activity" android:exported="false" />
+
+        <!-- Telas de Chamados -->
+        <activity android:name=".ChamadosActivity" android:exported="false" />
+        <activity android:name=".ChamadosDetalhadosActivity" android:exported="false" />
+        <activity android:name=".ChamadoEspecificadoActivity" android:exported="false" />
+        <activity android:name=".ResponderChamadoActivity" android:exported="false" />
+
+        <!-- Outras -->
+        <activity android:name=".ErrorActivity" android:exported="false" />
 
     </application>
 

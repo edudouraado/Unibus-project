@@ -35,7 +35,6 @@
             <androidx.constraintlayout.widget.ConstraintLayout android:padding="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
                 <View android:layout_width="2dp" android:layout_height="40dp" android:background="@color/white" />
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:text="@string/title_manage_users" android:textColor="@color/white" android:textSize="28sp" android:textStyle="bold" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
@@ -72,12 +71,10 @@
             android:paddingHorizontal="16dp"
             android:paddingVertical="10dp">
             <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.2" android:text="@string/hint_search_user" android:textColor="@color/white" android:textSize="14sp" android:textStyle="bold" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
             <androidx.cardview.widget.CardView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:cardBackgroundColor="@color/white" app:cardCornerRadius="10dp" app:cardElevation="0dp">
                 <RelativeLayout android:paddingHorizontal="8dp" android:paddingVertical="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-                    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@null" android:textSize="14sp" android:text="Leandro" android:textColor="@color/unibus_blue" 
-        android:fontFamily="@font/josefin_sans"/>
+                    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@null" android:textSize="14sp" android:text="Leandro" android:textColor="@color/unibus_blue" />
                     <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_alignParentEnd="true" android:layout_centerVertical="true" android:src="@drawable/ic_search" app:tint="@color/unibus_blue" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -86,9 +83,7 @@
 
     <!-- 4. Dropdown de Resultados -->
     <androidx.cardview.widget.CardView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-6dp"
+        android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="-6dp"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="8dp"
         app:cardElevation="15dp"
@@ -103,22 +98,18 @@
             android:paddingVertical="8dp">
 
             <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="20dp" android:paddingVertical="12dp" android:text="João Silva - 123456" android:textColor="@color/unibus_blue" android:textSize="16sp" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
             <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginHorizontal="20dp" android:background="#E0E0E0" />
 
             <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="20dp" android:paddingVertical="12dp" android:text="Motora Leandro - 123654" android:textColor="@color/unibus_blue" android:textSize="16sp" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
             <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginHorizontal="20dp" android:background="#E0E0E0" />
 
             <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="20dp" android:paddingVertical="12dp" android:text="Leandro Soares - 789456" android:textColor="@color/unibus_blue" android:textSize="16sp" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
             <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginHorizontal="20dp" android:background="#E0E0E0" />
 
             <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="20dp" android:paddingVertical="12dp" android:text="Pedro Pinheiro - 789456" android:textColor="@color/unibus_blue" android:textSize="16sp" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>

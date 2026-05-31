@@ -74,8 +74,7 @@
                 android:textSize="36sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@id/vLine"
-                app:layout_constraintTop_toTopOf="parent" 
-        android:fontFamily="@font/josefin_sans"
+                app:layout_constraintTop_toTopOf="parent"
         android:includeFontPadding="true"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
@@ -108,7 +107,6 @@
                 android:textColor="@color/white"
                 android:textSize="14sp"
                 android:textStyle="bold" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
 
             <androidx.cardview.widget.CardView
@@ -130,8 +128,7 @@
                         android:enabled="false"
                         android:minHeight="32dp"
                         android:textSize="14sp"
-                        tools:ignore="SpeakableTextPresentCheck" 
-        android:fontFamily="@font/josefin_sans"/>
+                        tools:ignore="SpeakableTextPresentCheck" />
                     <ImageView
                         android:layout_width="20dp"
                         android:layout_height="20dp"
@@ -188,7 +185,6 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/ivUserAvatar"
                 app:layout_constraintTop_toTopOf="@id/ivUserAvatar" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
 
             <TextView
@@ -201,7 +197,6 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@id/tvUserName"
                 app:layout_constraintTop_toBottomOf="@id/tvUserName" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
 
             <TextView
@@ -214,7 +209,6 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@id/tvUserName"
                 app:layout_constraintTop_toBottomOf="@id/tvUserRA" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -262,7 +256,6 @@
                 android:text="@string/label_liberado"
                 android:textColor="#A6A295"
                 android:textSize="26sp" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -308,7 +301,6 @@
                 android:text="@string/label_qr_code_status"
                 android:textColor="#A6A295"
                 android:textSize="26sp" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -341,7 +333,6 @@
                 android:text="@string/nav_home"
                 android:textColor="@color/unibus_blue"
                 android:textSize="12sp" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
         </LinearLayout>
 
@@ -368,7 +359,6 @@
                 android:text="@string/nav_preferences"
                 android:textColor="@color/unibus_blue"
                 android:textSize="12sp" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
         </LinearLayout>
     </LinearLayout>

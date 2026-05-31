@@ -55,8 +55,7 @@
             android:textSize="48sp"
             app:layout_constraintBottom_toBottomOf="@id/vLineHeader"
             app:layout_constraintStart_toEndOf="@id/vLineHeader"
-            app:layout_constraintTop_toTopOf="@id/vLineHeader" 
-        android:fontFamily="@font/josefin_sans"
+            app:layout_constraintTop_toTopOf="@id/vLineHeader"
         android:includeFontPadding="true"/>
 
         <ScrollView
@@ -86,7 +85,6 @@
                             android:text="@string/warning_title"
                             android:textStyle="bold"
                             android:textColor="@color/text_gray"
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="wrap_content"
@@ -94,7 +92,6 @@
                             android:layout_alignParentEnd="true"
                             android:text="@string/warning_date"
                             android:textColor="@color/text_gray"
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
                     </RelativeLayout>
                     <TextView
@@ -103,7 +100,6 @@
                         android:layout_marginTop="8dp"
                         android:text="@string/warning_text"
                         android:textColor="@color/text_gray"
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
                     <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider_gray" android:layout_marginTop="16dp"/>
                 </LinearLayout>
@@ -124,7 +120,6 @@
                             android:text="@string/warning_title"
                             android:textStyle="bold"
                             android:textColor="@color/text_gray"
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="wrap_content"
@@ -132,7 +127,6 @@
                             android:layout_alignParentEnd="true"
                             android:text="@string/warning_date"
                             android:textColor="@color/text_gray"
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
                     </RelativeLayout>
                     <TextView
@@ -141,7 +135,6 @@
                         android:layout_marginTop="8dp"
                         android:text="@string/warning_text"
                         android:textColor="@color/text_gray"
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
                     <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider_gray" android:layout_marginTop="16dp"/>
                 </LinearLayout>
@@ -162,7 +155,6 @@
                             android:text="@string/warning_title"
                             android:textStyle="bold"
                             android:textColor="@color/text_gray"
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="wrap_content"
@@ -170,7 +162,6 @@
                             android:layout_alignParentEnd="true"
                             android:text="@string/warning_date"
                             android:textColor="@color/text_gray"
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
                     </RelativeLayout>
                     <TextView
@@ -179,7 +170,6 @@
                         android:layout_marginTop="8dp"
                         android:text="@string/warning_text"
                         android:textColor="@color/text_gray"
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
                     <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider_gray" android:layout_marginTop="16dp"/>
                 </LinearLayout>
@@ -200,7 +190,6 @@
                             android:text="@string/warning_title"
                             android:textStyle="bold"
                             android:textColor="@color/text_gray"
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="wrap_content"
@@ -208,7 +197,6 @@
                             android:layout_alignParentEnd="true"
                             android:text="@string/warning_date"
                             android:textColor="@color/text_gray"
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
                     </RelativeLayout>
                     <TextView
@@ -217,7 +205,6 @@
                         android:layout_marginTop="8dp"
                         android:text="@string/warning_text"
                         android:textColor="@color/text_gray"
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
                     <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider_gray" android:layout_marginTop="16dp"/>
                 </LinearLayout>
@@ -254,7 +241,6 @@
                 android:layout_height="wrap_content"
                 android:text="@string/menu_home"
                 android:textColor="@color/unibus_blue" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
         </LinearLayout>
 
@@ -275,8 +261,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/menu_prefs"
-                android:textColor="@color/unibus_blue" 
-        android:fontFamily="@font/josefin_sans"
+                android:textColor="@color/unibus_blue"
         android:includeFontPadding="true"/>
         </LinearLayout>
 
@@ -297,8 +282,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/menu_support"
-                android:textColor="@color/unibus_blue" 
-        android:fontFamily="@font/josefin_sans"
+                android:textColor="@color/unibus_blue"
         android:includeFontPadding="true"/>
         </LinearLayout>
     </LinearLayout>

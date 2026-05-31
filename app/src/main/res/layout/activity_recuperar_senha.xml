@@ -33,15 +33,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:includeFontPadding="true"
         android:text="RECUPERAR SENHA"
         android:textColor="#FFFFFF"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/bgAzul" 
-        android:fontFamily="@font/josefin_sans"
-        android:includeFontPadding="true"/>
+        app:layout_constraintTop_toTopOf="@id/bgAzul" />
 
     <TextView
         android:id="@+id/txtSubtitulo"
@@ -50,14 +49,13 @@
         android:layout_marginHorizontal="40dp"
         android:layout_marginTop="15dp"
         android:gravity="center"
+        android:includeFontPadding="true"
         android:text="Insira o seu e-mail abaixo para receber as instruções de recuperação."
         android:textColor="#E0E0E0"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txtTitulo" 
-        android:fontFamily="@font/josefin_sans"
-        android:includeFontPadding="true"/>
+        app:layout_constraintTop_toBottomOf="@id/txtTitulo" />
 
     <!-- Campo de E-mail -->
     <EditText
@@ -73,8 +71,7 @@
         android:textColor="#333333"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txtSubtitulo" 
-        android:fontFamily="@font/josefin_sans"/>
+        app:layout_constraintTop_toBottomOf="@id/txtSubtitulo" />
 
     <!-- Botão Enviar -->
     <androidx.appcompat.widget.AppCompatButton
@@ -99,8 +96,8 @@
         android:layout_marginTop="25dp"
         android:clickable="true"
         android:focusable="true"
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"
+        android:text="VOLTAR"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"

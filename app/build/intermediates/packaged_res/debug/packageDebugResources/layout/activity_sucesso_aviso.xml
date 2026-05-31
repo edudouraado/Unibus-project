@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_beige"
-    android:padding="24dp">
+    android:padding="8dp">
 
     <!-- Header Navigation -->
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -45,7 +45,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginBottom="16dp"
         app:cardBackgroundColor="@color/unibus_blue"
-        app:cardCornerRadius="24dp"
+        app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/clHeader">
@@ -78,12 +78,13 @@
                 android:gravity="center"
                 android:text="@string/msg_enviada_sucesso"
                 android:textColor="@color/white"
-                android:textSize="28sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/btnReturn"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/ivSuccessImage" />
+                app:layout_constraintTop_toBottomOf="@id/ivSuccessImage"
+        android:includeFontPadding="true"/>
 
             <!-- Return Button -->
             <androidx.cardview.widget.CardView
@@ -108,7 +109,8 @@
                     android:text="@string/btn_retornar_inicio"
                     android:textColor="@color/unibus_blue"
                     android:textSize="18sp"
-                    android:textStyle="normal" />
+                    android:textStyle="normal"
+        android:includeFontPadding="true"/>
             </androidx.cardview.widget.CardView>
 
         </androidx.constraintlayout.widget.ConstraintLayout>

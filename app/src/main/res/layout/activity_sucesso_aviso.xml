@@ -83,8 +83,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/btnReturn"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/ivSuccessImage" 
-        android:fontFamily="@font/josefin_sans"
+                app:layout_constraintTop_toBottomOf="@id/ivSuccessImage"
         android:includeFontPadding="true"/>
 
             <!-- Return Button -->
@@ -110,8 +109,7 @@
                     android:text="@string/btn_retornar_inicio"
                     android:textColor="@color/unibus_blue"
                     android:textSize="18sp"
-                    android:textStyle="normal" 
-        android:fontFamily="@font/josefin_sans"
+                    android:textStyle="normal"
         android:includeFontPadding="true"/>
             </androidx.cardview.widget.CardView>
 

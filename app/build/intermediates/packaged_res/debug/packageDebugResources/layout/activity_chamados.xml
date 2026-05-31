@@ -46,7 +46,7 @@
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="8dp"
         app:cardBackgroundColor="@color/unibus_blue"
-        app:cardCornerRadius="16dp"
+        app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintTop_toBottomOf="@id/clHeader">
 
@@ -71,10 +71,11 @@
                 android:layout_marginStart="16dp"
                 android:text="@string/title_tickets_admin"
                 android:textColor="@color/white"
-                android:textSize="36sp"
+                android:textSize="28sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@id/vLine"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent" 
+        android:includeFontPadding="true"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
@@ -86,8 +87,8 @@
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
-        app:cardBackgroundColor="#C4C0B3"
-        app:cardCornerRadius="24dp"
+        app:cardBackgroundColor="@color/card_gray"
+        app:cardCornerRadius="8dp"
         app:cardElevation="6dp"
         app:layout_constraintBottom_toTopOf="@+id/navBar"
         app:layout_constraintTop_toBottomOf="@id/cvTitle">
@@ -116,7 +117,8 @@
                 android:textSize="26sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@id/vLineSub"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent" 
+        android:includeFontPadding="true"/>
 
             <ScrollView
                 android:layout_width="match_parent"
@@ -142,13 +144,15 @@
                             android:layout_height="wrap_content"
                             android:text="@string/notice_subject"
                             android:textStyle="bold"
-                            android:textColor="#555555" />
+                            android:textColor="#555555" 
+        android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
                             android:text="@string/notice_date"
-                            android:textColor="#555555" />
+                            android:textColor="#555555" 
+        android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -156,7 +160,8 @@
                             android:layout_marginTop="4dp"
                             android:text="@string/lorem_ipsum_short"
                             android:textColor="#777777"
-                            android:textSize="15sp" />
+                            android:textSize="15sp" 
+        android:includeFontPadding="true"/>
                     </RelativeLayout>
 
                     <View
@@ -176,6 +181,117 @@
                             android:layout_height="wrap_content"
                             android:text="@string/notice_subject"
                             android:textStyle="bold"
+                            android:textColor="#555555" 
+        android:includeFontPadding="true"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:text="@string/notice_date"
+                            android:textColor="#555555" 
+        android:includeFontPadding="true"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tvSubject2"
+                            android:layout_marginTop="4dp"
+                            android:text="@string/lorem_ipsum_short"
+                            android:textColor="#777777"
+                            android:textSize="15sp" 
+        android:includeFontPadding="true"/>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="12dp"
+                        android:background="#A6A295" />
+
+                    <!-- Ticket 3 -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingVertical="8dp">
+                        <TextView
+                            android:id="@+id/tvSubject3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/notice_subject"
+                            android:textStyle="bold"
+                            android:textColor="#555555" 
+        android:includeFontPadding="true"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:text="@string/notice_date"
+                            android:textColor="#555555" 
+        android:includeFontPadding="true"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tvSubject3"
+                            android:layout_marginTop="4dp"
+                            android:text="@string/lorem_ipsum_short"
+                            android:textColor="#777777"
+                            android:textSize="15sp" 
+        android:includeFontPadding="true"/>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="12dp"
+                        android:background="#A6A295" />
+
+                    <!-- Ticket 4 -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingVertical="8dp">
+                        <TextView
+                            android:id="@+id/tvSubject4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/notice_subject"
+                            android:textStyle="bold"
+                            android:textColor="#555555" 
+        android:includeFontPadding="true"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:text="@string/notice_date"
+                            android:textColor="#555555" 
+        android:includeFontPadding="true"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tvSubject4"
+                            android:layout_marginTop="4dp"
+                            android:text="@string/lorem_ipsum_short"
+                            android:textColor="#777777"
+                            android:textSize="15sp" 
+        android:includeFontPadding="true"/>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="12dp"
+                        android:background="#A6A295" />
+
+                    <!-- Ticket 3 -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingVertical="8dp">
+                        <TextView
+                            android:id="@+id/tvSubject3_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/notice_subject"
+                            android:textStyle="bold"
                             android:textColor="#555555" />
                         <TextView
                             android:layout_width="wrap_content"
@@ -186,7 +302,41 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_below="@id/tvSubject2"
+                            android:layout_below="@id/tvSubject3_2"
+                            android:layout_marginTop="4dp"
+                            android:text="@string/lorem_ipsum_short"
+                            android:textColor="#777777"
+                            android:textSize="15sp" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="12dp"
+                        android:background="#A6A295" />
+
+                    <!-- Ticket 4 -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingVertical="8dp">
+                        <TextView
+                            android:id="@+id/tvSubject4_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/notice_subject"
+                            android:textStyle="bold"
+                            android:textColor="#555555" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:text="@string/notice_date"
+                            android:textColor="#555555" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tvSubject4_2"
                             android:layout_marginTop="4dp"
                             android:text="@string/lorem_ipsum_short"
                             android:textColor="#777777"
@@ -218,7 +368,8 @@
                     android:text="@string/btn_see_more"
                     android:textColor="@color/unibus_blue"
                     android:textSize="16sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold" 
+        android:includeFontPadding="true"/>
             </androidx.cardview.widget.CardView>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -236,14 +387,16 @@
 
         <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
             <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_home" app:tint="@color/unibus_blue" android:contentDescription="@null" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nav_home" android:textColor="@color/unibus_blue" android:textSize="12sp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nav_home" android:textColor="@color/unibus_blue" android:textSize="12sp"
+        android:includeFontPadding="true"/>
         </LinearLayout>
 
         <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#DDD" />
 
         <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
             <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_menu" app:tint="@color/unibus_blue" android:contentDescription="@null" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nav_preferences" android:textColor="@color/unibus_blue" android:textSize="12sp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nav_preferences" android:textColor="@color/unibus_blue" android:textSize="12sp"
+        android:includeFontPadding="true"/>
         </LinearLayout>
     </LinearLayout>
 

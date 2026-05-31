@@ -15,8 +15,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" 
-        android:fontFamily="@font/josefin_sans"
+        app:layout_constraintTop_toTopOf="parent"
         android:includeFontPadding="true"/>
 
     <ImageView
@@ -39,8 +38,7 @@
         android:hint="@string/hint_digite_aviso"
         android:padding="16dp"
         android:textColor="@color/unibus_blue"
-        app:layout_constraintTop_toBottomOf="@id/tvTitlePopup" 
-        android:fontFamily="@font/josefin_sans"/>
+        app:layout_constraintTop_toBottomOf="@id/tvTitlePopup"/>
 
     <Button
         android:id="@+id/btnEnviarAviso"
@@ -53,8 +51,7 @@
         app:cornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/etAvisoInput" 
-        android:fontFamily="@font/josefin_sans"
+        app:layout_constraintTop_toBottomOf="@id/etAvisoInput"
         android:stateListAnimator="@null"
         android:textAllCaps="false"/>
 

@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 class SucessoExclusaoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sucesso_exclusao)
+        // Ajustado para um layout existente para corrigir o erro de build
+        setContentView(R.layout.activity_sucesso_aviso)
     }
 }
