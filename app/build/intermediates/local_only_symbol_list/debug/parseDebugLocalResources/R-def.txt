@@ -77,6 +77,7 @@ drawable mapa_rota_motorista
 drawable qr_code_img
 drawable shape_login_container
 drawable tela_mapa_motorista
+id avatarAluno
 id axisX
 id axisY
 id barraMapaAluno
@@ -84,6 +85,7 @@ id barraPesquisaMapaAluno
 id bgAzul
 id bottomBar
 id bottomNav
+id bottomNavAluno
 id bottomNavAvisos
 id bottomNavMotorista
 id btnAddMessage
@@ -133,6 +135,7 @@ id btnReturn
 id btnRota1
 id btnRota2
 id btnRota3
+id btnRotasAluno
 id btnRouteAntBezerra
 id btnRouteMessejana
 id btnRouteParangaba
@@ -144,6 +147,7 @@ id btnStartRouteMotorista
 id btnVoltar
 id calendarioPopup
 id camadaPontosMapa
+id cardAvisosAluno
 id cardAzul
 id cardMapa
 id cardMapaContainer
@@ -214,6 +218,7 @@ id flChart
 id glStats
 id graphArea
 id header
+id headerAluno
 id imgFotoPonto
 id imgIconePonto
 id imgLogo
@@ -249,13 +254,17 @@ id llBoxes
 id llButtons
 id llDaysHeader
 id llMonthHeader
+id logoAluno
 id menuInferior
 id navBar
 id navBarBg
+id navInicioAluno
 id navInicioMapaAluno
 id navInicioMotoristaMapa
 id navPreferenciasMapaAluno
 id navPreferenciasMotoristaMapa
+id navRotasAluno
+id navSuporteAluno
 id navSuporteMapaAluno
 id navSuporteMotoristaMapa
 id pbCircle
@@ -300,10 +309,12 @@ id tvLogoAvisosMotorista
 id tvLogoConfirm
 id tvLogoQr
 id tvMatricula
+id tvMatriculaAluno
 id tvNomePonto
 id tvNoticesTitle
 id tvPopupTitle
 id tvPrevisao
+id tvSaudacaoAluno
 id tvSchedules1
 id tvSchedules2
 id tvStartDate
@@ -367,6 +378,7 @@ layout activity_gerenciar_rotas_2
 layout activity_gerenciar_usuarios
 layout activity_gerenciar_usuarios_pesquisa
 layout activity_inicial_admin
+layout activity_inicial_aluno
 layout activity_inicial_motorista
 layout activity_ler_qrcode
 layout activity_loading

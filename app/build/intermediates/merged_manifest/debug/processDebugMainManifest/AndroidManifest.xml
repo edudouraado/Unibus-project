@@ -57,6 +57,9 @@
 
         <!-- Telas do Aluno -->
         <activity
+            android:name="com.example.unibus.HomeAlunoActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.unibus.MapaActivity"
             android:exported="false" />
         <activity

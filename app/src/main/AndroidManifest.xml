@@ -27,6 +27,7 @@
         <activity android:name=".AlterarSenhaActivity" android:exported="false" />
 
         <!-- Telas do Aluno -->
+        <activity android:name=".HomeAlunoActivity" android:exported="false" />
         <activity android:name=".MapaActivity" android:exported="false" />
         <activity android:name=".RotasActivity" android:exported="false" />
         <activity android:name=".QrCodeActivity" android:exported="false" />

@@ -3305,6 +3305,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id avatarAluno
 id axisX
 id axisY
 id barraMapaAluno
@@ -3319,6 +3320,7 @@ id blocking
 id bottom
 id bottomBar
 id bottomNav
+id bottomNavAluno
 id bottomNavAvisos
 id bottomNavMotorista
 id bounce
@@ -3377,6 +3379,7 @@ id btnReturn
 id btnRota1
 id btnRota2
 id btnRota3
+id btnRotasAluno
 id btnRouteAntBezerra
 id btnRouteMessejana
 id btnRouteParangaba
@@ -3392,6 +3395,7 @@ id calendarioPopup
 id callMeasure
 id camadaPontosMapa
 id cancel_button
+id cardAvisosAluno
 id cardAzul
 id cardMapa
 id cardMapaContainer
@@ -3569,6 +3573,7 @@ id group_divider
 id grouping
 id groups
 id header
+id headerAluno
 id header_title
 id hide_ime_id
 id hideable
@@ -3639,6 +3644,7 @@ id llBoxes
 id llButtons
 id llDaysHeader
 id llMonthHeader
+id logoAluno
 id m3_side_sheet
 id marquee
 id masked
@@ -3702,10 +3708,13 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id navBar
 id navBarBg
+id navInicioAluno
 id navInicioMapaAluno
 id navInicioMotoristaMapa
 id navPreferenciasMapaAluno
 id navPreferenciasMotoristaMapa
+id navRotasAluno
+id navSuporteAluno
 id navSuporteMapaAluno
 id navSuporteMotoristaMapa
 id navigation_bar_item_active_indicator_view
@@ -3926,10 +3935,12 @@ id tvLogoAvisosMotorista
 id tvLogoConfirm
 id tvLogoQr
 id tvMatricula
+id tvMatriculaAluno
 id tvNomePonto
 id tvNoticesTitle
 id tvPopupTitle
 id tvPrevisao
+id tvSaudacaoAluno
 id tvSchedules1
 id tvSchedules2
 id tvStartDate
@@ -4132,6 +4143,7 @@ layout activity_gerenciar_rotas_2
 layout activity_gerenciar_usuarios
 layout activity_gerenciar_usuarios_pesquisa
 layout activity_inicial_admin
+layout activity_inicial_aluno
 layout activity_inicial_motorista
 layout activity_ler_qrcode
 layout activity_loading

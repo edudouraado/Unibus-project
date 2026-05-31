@@ -10,7 +10,7 @@
         android:layout_width="160dp"
         android:layout_height="160dp"
         android:layout_marginTop="40dp"
-        android:src="@drawable/ema_senha"
+        android:src="@drawable/chatgpt_image_11_de_mai__de_2025__15_39_41_removebg_preview_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

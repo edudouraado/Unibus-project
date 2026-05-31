@@ -19,29 +19,30 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        // 1. Inicializar o Firebase Auth
         auth = Firebase.auth
 
-        // 2. Referenciar os elementos da UI
         val etMatricula = findViewById<EditText>(R.id.etMatricula)
         val etSenha = findViewById<EditText>(R.id.etSenha)
         val btnEntrar = findViewById<Button>(R.id.btnEntrar)
         val tvEsqueciSenha = findViewById<TextView>(R.id.tvEsqueciSenha)
 
-        // 3. Configurar o clique do botão entrar
         btnEntrar.setOnClickListener {
-            val matricula = etMatricula.text.toString()
-            val senha = etSenha.text.toString()
+            val matricula = etMatricula.text.toString().trim()
+            val senha = etSenha.text.toString().trim()
 
             if (matricula.isNotEmpty() && senha.isNotEmpty()) {
-                val email = if (matricula.contains("@")) matricula else "$matricula@unibus.com"
+                val email = when {
+                    matricula.contains("@") -> matricula
+                    matricula.lowercase() == "adm" -> "adm@unibus.com"
+                    matricula.lowercase() == "motorista" -> "motorista@unibus.com"
+                    else -> "$matricula@unibus.com"
+                }
                 loginNoFirebase(email, senha)
             } else {
                 Toast.makeText(this, "Preencha todos os campos", Toast.LENGTH_SHORT).show()
             }
         }
 
-        // 4. Configurar o clique de "Esqueci a Senha"
         tvEsqueciSenha.setOnClickListener {
             val intent = Intent(this, RecuperarSenhaActivity::class.java)
             startActivity(intent)
@@ -52,12 +53,21 @@ class LoginActivity : AppCompatActivity() {
         auth.signInWithEmailAndPassword(email, senha)
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
+                    val userEmail = auth.currentUser?.email?.lowercase() ?: ""
+                    
+                    // Lógica de Redirecionamento Atualizada
+                    val intent = when (userEmail) {
+                        "adm@unibus.com" -> Intent(this, InicialAdminActivity::class.java)
+                        "motorista@unibus.com" -> Intent(this, InicialMotoristaActivity::class.java)
+                        "eduardodourado.sdo@gmail.com" -> Intent(this, HomeAlunoActivity::class.java)
+                        else -> Intent(this, RotasActivity::class.java)
+                    }
+
                     Toast.makeText(this, "Bem-vindo ao Unibus!", Toast.LENGTH_SHORT).show()
-                    val intent = Intent(this, MapaActivity::class.java)
                     startActivity(intent)
                     finish()
                 } else {
-                    val erro = task.exception?.message ?: "Erro desconhecido"
+                    val erro = task.exception?.message ?: "Usuário ou senha incorretos"
                     Toast.makeText(this, "Falha no login: $erro", Toast.LENGTH_LONG).show()
                 }
             }

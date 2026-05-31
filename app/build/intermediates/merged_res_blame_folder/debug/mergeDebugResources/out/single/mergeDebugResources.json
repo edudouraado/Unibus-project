@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\dialog_add_aviso.xml"
     },
     {
-        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_dialog_iniciar_rota.xml.flat",
-        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\dialog_iniciar_rota.xml"
-    },
-    {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_activity_error.xml.flat",
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\activity_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_dialog_iniciar_rota.xml.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\dialog_iniciar_rota.xml"
     },
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_activity_gerenciar_usuarios_pesquisa.xml.flat",
@@ -30,6 +30,10 @@
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_activity_chamado_especificado.xml.flat",
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\activity_chamado_especificado.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-39:/layout_activity_alterar_senha.xml.flat",
+        "source": "com.example.unibus.app-main-41:/layout/activity_alterar_senha.xml"
     },
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_circular_progress_bar.xml.flat",
@@ -92,12 +96,12 @@
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\ic_home.xml"
     },
     {
-        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_bg_popup_textarea_blue.xml.flat",
-        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\bg_popup_textarea_blue.xml"
-    },
-    {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_activity_criar_rota.xml.flat",
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\activity_criar_rota.xml"
+    },
+    {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_bg_popup_textarea_blue.xml.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\bg_popup_textarea_blue.xml"
     },
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_activity_gerenciar_rotas_1.xml.flat",
@@ -238,6 +242,10 @@
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_activity_add_aviso.xml.flat",
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\activity_add_aviso.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-39:/layout_activity_confirmar_codigo.xml.flat",
+        "source": "com.example.unibus.app-main-41:/layout/activity_confirmar_codigo.xml"
     },
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_activity_estatisticas_calendar.xml.flat",
@@ -446,6 +454,10 @@
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_popup_confirmacao_rota.xml.flat",
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\popup_confirmacao_rota.xml"
+    },
+    {
+        "merged": "com.example.unibus.app-debug-39:/layout_activity_inicial_aluno.xml.flat",
+        "source": "com.example.unibus.app-main-41:/layout/activity_inicial_aluno.xml"
     },
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_bg_notices_card.xml.flat",
