@@ -3640,6 +3640,8 @@ id linear
 id listMode
 id listReports
 id list_item
+id llAvisosLista
+id llAvisosPreview
 id llBottomNav
 id llBoxes
 id llButtons
@@ -3839,10 +3841,6 @@ id square
 id src_atop
 id src_in
 id src_over
-id st1
-id st2
-id st3
-id st4
 id standard
 id start
 id startHorizontal

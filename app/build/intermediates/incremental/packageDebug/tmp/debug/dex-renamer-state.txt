@@ -1,10 +1,10 @@
-#Sun May 31 20:44:34 BRT 2026
-base.0=C\:\\Users\\Eduardo\\Documents\\GitHub\\Unibus-project\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\Eduardo\\Documents\\GitHub\\Unibus-project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\Eduardo\\Documents\\GitHub\\Unibus-project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
-base.3=C\:\\Users\\Eduardo\\Documents\\GitHub\\Unibus-project\\app\\build\\intermediates\\global_synthetics_dex\\debug\\mergeDebugGlobalSynthetics\\classes.dex
-base.4=C\:\\Users\\Eduardo\\Documents\\GitHub\\Unibus-project\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.5=C\:\\Users\\Eduardo\\Documents\\GitHub\\Unibus-project\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+#Mon Jun 01 09:42:52 BRT 2026
+base.0=C\:\\Users\\leand\\StudioProjects\\Unibus-project\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\leand\\StudioProjects\\Unibus-project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\leand\\StudioProjects\\Unibus-project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.3=C\:\\Users\\leand\\StudioProjects\\Unibus-project\\app\\build\\intermediates\\global_synthetics_dex\\debug\\mergeDebugGlobalSynthetics\\classes.dex
+base.4=C\:\\Users\\leand\\StudioProjects\\Unibus-project\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.5=C\:\\Users\\leand\\StudioProjects\\Unibus-project\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=3/classes.dex

@@ -79,6 +79,12 @@
         <activity
             android:name="com.example.unibus.InicialMotoristaActivity"
             android:exported="false" />
+        <activity
+            android:name="com.example.unibus.AvisosMotoristaActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.unibus.ConfirmacaoAvisoActivity"
+            android:exported="false" />
 
         <!-- Telas do Admin -->
         <activity
