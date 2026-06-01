@@ -17,8 +17,8 @@ class LoadingActivity : AppCompatActivity() {
         setContentView(R.layout.activity_loading)
 
         auth = Firebase.auth
-        
-        // Força o logout toda vez que o app é aberto, 
+
+        // Força o logout toda vez que o app é aberto,
         // garantindo que o usuário tenha que logar novamente.
         auth.signOut()
 

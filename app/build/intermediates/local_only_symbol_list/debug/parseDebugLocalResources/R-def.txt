@@ -7,6 +7,7 @@ color card_gray_dark
 color divider_gray
 color error_red
 color field_gray
+color ic_launcher_background
 color purple_200
 color purple_500
 color purple_700
@@ -413,6 +414,7 @@ layout popup_sucesso_rota
 layout rota_indisponivel
 layout usuario_pesquisado
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string admin_greeting
 string app_name

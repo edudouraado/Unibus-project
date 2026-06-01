@@ -1450,6 +1450,7 @@ int color foreground_material_dark 0x7f050071
 int color foreground_material_light 0x7f050072
 int color highlighted_text_material_dark 0x7f050073
 int color highlighted_text_material_light 0x7f050074
+int color ic_launcher_background 0x7f050327
 int color m3_appbar_overlay_color 0x7f050075
 int color m3_assist_chip_icon_tint_color 0x7f050076
 int color m3_assist_chip_stroke_color 0x7f050077
@@ -4258,6 +4259,7 @@ int layout select_dialog_singlechoice_material 0x7f0b00a7
 int layout support_simple_spinner_dropdown_item 0x7f0b00a8
 int layout usuario_pesquisado 0x7f0b00a9
 int mipmap ic_launcher 0x7f0d0000
+int mipmap ic_launcher_foreground 0x7f0d0002
 int mipmap ic_launcher_round 0x7f0d0001
 int plurals mtrl_badge_content_description 0x7f0e0000
 int raw firebase_common_keep 0x7f0f0000

@@ -7,6 +7,7 @@
     <color name="divider_gray">#8E8A82</color>
     <color name="error_red">#F55357</color>
     <color name="field_gray">#E7E4DC</color>
+    <color name="ic_launcher_background">#095271</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
