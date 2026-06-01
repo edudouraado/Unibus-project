@@ -89,6 +89,7 @@
         app:layout_constraintTop_toBottomOf="@id/headerAluno">
 
         <LinearLayout
+            android:id="@+id/llAvisosPreviewAluno"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -103,28 +104,8 @@
                 android:textStyle="bold"
                 android:includeFontPadding="true" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:text="Unibus - Rota Indisponível                         24/01/2025\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet metus nec lacus dictum ultrices."
-                android:textColor="@color/text_gray"
-                android:textSize="13sp"
-                android:includeFontPadding="true" />
+            <!-- Itens serão injetados aqui via código -->
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginVertical="12dp"
-                android:background="@color/divider_gray" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Unibus - Rota Indisponível                         24/01/2025\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet metus nec lacus dictum ultrices."
-                android:textColor="@color/text_gray"
-                android:textSize="13sp"
-                android:includeFontPadding="true" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 

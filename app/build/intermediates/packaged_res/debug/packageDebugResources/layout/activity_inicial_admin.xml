@@ -145,7 +145,6 @@
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Card Chamados -->
         <androidx.cardview.widget.CardView
             android:id="@+id/cvTicketsCount"
             android:layout_width="0dp"
@@ -158,7 +157,7 @@
             <RelativeLayout android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
                 <TextView android:id="@+id/lblTickets" android:text="@string/label_tickets" android:textColor="@color/text_gray" android:textSize="12sp" android:layout_width="wrap_content" android:layout_height="wrap_content"
         android:includeFontPadding="true"/>
-                <TextView android:text="4" android:textColor="@color/text_gray" android:textSize="32sp" android:textStyle="bold" android:layout_alignParentEnd="true" android:layout_below="@id/lblTickets" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                <TextView android:id="@+id/tvTicketsCount" android:text="0" android:textColor="@color/text_gray" android:textSize="32sp" android:textStyle="bold" android:layout_alignParentEnd="true" android:layout_below="@id/lblTickets" android:layout_width="wrap_content" android:layout_height="wrap_content"
         android:includeFontPadding="true"/>
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
