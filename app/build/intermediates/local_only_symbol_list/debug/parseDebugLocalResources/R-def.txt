@@ -162,9 +162,6 @@ id clHeaderBg
 id cvActiveStudents
 id cvAdminHeader
 id cvArrow1
-id cvArrow2
-id cvArrow3
-id cvArrow4
 id cvBtnContainer
 id cvCameraView
 id cvDriversCount
@@ -251,10 +248,13 @@ id lblTickets
 id lblTrips
 id listReports
 id llAvisosLista
+id llAvisosListaAluno
 id llAvisosPreview
+id llAvisosPreviewAluno
 id llBottomNav
 id llBoxes
 id llButtons
+id llChamadosLista
 id llDaysHeader
 id llMonthHeader
 id logoAluno
@@ -283,13 +283,8 @@ id svUserListBg
 id tvAdminId
 id tvBody
 id tvBody1
-id tvBody2
-id tvBody3
-id tvBody4
+id tvDate
 id tvDate1
-id tvDate2
-id tvDate3
-id tvDate4
 id tvDescription
 id tvDialogInstruction
 id tvDialogTitle
@@ -333,6 +328,7 @@ id tvSuccessMsg
 id tvSuccessTitle
 id tvSucessoMsg
 id tvSupportTitle
+id tvTicketsCount
 id tvTitle
 id tvTitleAvisos
 id tvTitleAvisosMotorista
@@ -403,6 +399,7 @@ layout dialog_calendario
 layout dialog_iniciar_rota
 layout dialog_responder_chamado
 layout dialog_selecionar_origem
+layout item_chamado_admin
 layout item_lista_pesquisa
 layout popup_confirmacao_rota
 layout popup_detalhes_ponto

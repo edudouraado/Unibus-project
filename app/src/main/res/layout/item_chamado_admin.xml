@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingVertical="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvSubject1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unibus - Comunicado"
+            android:textColor="#555555"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDate1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="24/01/2025"
+            android:textColor="#555555" />
+
+        <TextView
+            android:id="@+id/tvBody1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSubject1"
+            android:layout_marginTop="4dp"
+            android:layout_toStartOf="@id/cvArrow1"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="Lorem ipsum dolor sit amet..."
+            android:textColor="#777777"
+            android:textSize="15sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvArrow1"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/tvDate1"
+            android:layout_marginTop="4dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_arrow_back"
+                android:rotation="180"
+                app:tint="@color/unibus_blue" />
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="#A6A295" />
+
+</LinearLayout>

@@ -58,6 +58,7 @@
         <activity android:name=".ChamadosDetalhadosActivity" android:exported="false" />
         <activity android:name=".ChamadoEspecificadoActivity" android:exported="false" />
         <activity android:name=".ResponderChamadoActivity" android:exported="false" />
+        <activity android:name=".SucessoAvisoActivity" android:exported="false" />
 
         <!-- Outras -->
         <activity android:name=".ErrorActivity" android:exported="false" />

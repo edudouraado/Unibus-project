@@ -137,6 +137,9 @@
         <activity
             android:name="com.example.unibus.ResponderChamadoActivity"
             android:exported="false" />
+        <activity
+            android:name="com.example.unibus.SucessoAvisoActivity"
+            android:exported="false" />
 
         <!-- Outras -->
         <activity

@@ -70,7 +70,8 @@ class AvisosMotoristaActivity : AppCompatActivity() {
     private fun salvarAvisoNoFirebase(texto: String, dialog: AlertDialog) {
         val aviso = hashMapOf(
             "texto" to texto,
-            "data" to Timestamp.now() // Salva como Timestamp oficial
+            "data" to Timestamp.now(), // Salva como Timestamp oficial
+            "respondido" to false
         )
 
         db.collection("avisos")
