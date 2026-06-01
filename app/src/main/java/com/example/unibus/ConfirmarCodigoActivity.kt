@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
@@ -15,21 +16,27 @@ class ConfirmarCodigoActivity : AppCompatActivity() {
 
         val editCodigo = findViewById<EditText>(R.id.editCodigo)
         val btnConfirmar = findViewById<Button>(R.id.btnConfirmar)
+        val txtSubtitulo = findViewById<TextView>(R.id.txtSubtitulo)
+
+        // Recupera o e-mail vindo da tela de RecuperarSenha para exibir na tela
+        val emailRecebido = intent.getStringExtra("email_digitado")
+        if (emailRecebido != null) {
+            txtSubtitulo.text = "Enviamos um código de recuperação para:\n$emailRecebido"
+        }
 
         btnConfirmar.setOnClickListener {
-            val codigoInserido = editCodigo.text.toString()
+            val codigoDigitado = editCodigo.text.toString().trim()
 
-            // Define o código padrão "123456"
-            val codigoPadrao = "123456"
+            // Lógica de simulação: aceita o código 123456
+            if (codigoDigitado == "123456") {
+                Toast.makeText(this, "Código validado!", Toast.LENGTH_SHORT).show()
 
-            if (codigoInserido == codigoPadrao) {
-                // Se o código for igual ao padrão, vai para Alterar Senha
+                // Vai para a tela de Alterar Senha que você já tem criada
                 val intent = Intent(this, AlterarSenhaActivity::class.java)
                 startActivity(intent)
-                finish()
             } else {
-                // Caso contrário, mostra um erro
-                Toast.makeText(this, "Código inválido. Use 123456 para testes.", Toast.LENGTH_SHORT).show()
+                // Dica amigável para o seu teste
+                Toast.makeText(this, "Código inválido! Use 123456 para testar.", Toast.LENGTH_LONG).show()
             }
         }
     }

@@ -32,8 +32,12 @@
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\activity_chamado_especificado.xml"
     },
     {
-        "merged": "com.example.unibus.app-debug-39:/layout_activity_alterar_senha.xml.flat",
-        "source": "com.example.unibus.app-main-41:/layout/activity_alterar_senha.xml"
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_activity_inicial_aluno.xml.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\activity_inicial_aluno.xml"
     },
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_circular_progress_bar.xml.flat",
@@ -92,6 +96,14 @@
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\btn_amarelo.xml"
     },
     {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_ic_home.xml.flat",
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\ic_home.xml"
     },
@@ -108,12 +120,20 @@
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\activity_gerenciar_rotas_1.xml"
     },
     {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_ic_search.xml.flat",
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\ic_search.xml"
     },
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_img_mapa_exemplo.jpg.flat",
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\img_mapa_exemplo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_ic_qr_code.xml.flat",
@@ -142,6 +162,14 @@
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_activity_responder_chamado.xml.flat",
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\activity_responder_chamado.xml"
+    },
+    {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_ic_location_pin.xml.flat",
@@ -180,6 +208,10 @@
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\ic_close.xml"
     },
     {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_bg_filter_tab_active.xml.flat",
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\bg_filter_tab_active.xml"
     },
@@ -190,6 +222,10 @@
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_bg_qr_card.xml.flat",
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\bg_qr_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_activity_excluir_rota.xml.flat",
@@ -204,12 +240,16 @@
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\activity_entrada_liberada.xml"
     },
     {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_bg_popup.xml.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\bg_popup.xml"
+    },
+    {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_bg_driver_header.xml.flat",
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\bg_driver_header.xml"
     },
     {
-        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_bg_popup.xml.flat",
-        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\bg_popup.xml"
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_dialog_responder_chamado.xml.flat",
@@ -218,6 +258,10 @@
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_item_lista_pesquisa.xml.flat",
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\item_lista_pesquisa.xml"
+    },
+    {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\mipmap-mdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_bg_edit_text_border.xml.flat",
@@ -242,10 +286,6 @@
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_activity_add_aviso.xml.flat",
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\activity_add_aviso.xml"
-    },
-    {
-        "merged": "com.example.unibus.app-debug-39:/layout_activity_confirmar_codigo.xml.flat",
-        "source": "com.example.unibus.app-main-41:/layout/activity_confirmar_codigo.xml"
     },
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_activity_estatisticas_calendar.xml.flat",
@@ -308,6 +348,10 @@
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\bg_stats_period.xml"
     },
     {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_activity_estatisticas_2.xml.flat",
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\activity_estatisticas_2.xml"
     },
@@ -364,6 +408,10 @@
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\bg_search_results.xml"
     },
     {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_mapa_rota_motorista.xml.flat",
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\mapa_rota_motorista.xml"
     },
@@ -392,8 +440,16 @@
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\loading_imagem.png"
     },
     {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_activity_gerenciar_usuarios.xml.flat",
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\activity_gerenciar_usuarios.xml"
+    },
+    {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_ic_graph_line.xml.flat",
@@ -434,6 +490,14 @@
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_bg_white_qr.xml.flat",
         "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\bg_white_qr.xml"
+    },
+    {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\Eduardo\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_activity_editar_usuario.xml.flat",

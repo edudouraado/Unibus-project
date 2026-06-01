@@ -2,17 +2,21 @@ package com.example.unibus
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.cardview.widget.CardView
 
+// Mude o nome aqui para SucessoExclusaoParangabaActivity
 class SucessoExclusaoParangabaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sucesso_exclusao_parangaba)
 
-        findViewById<View>(R.id.btnOk).setOnClickListener {
-            val intent = Intent(this, GerenciarRotas1Activity::class.java)
-            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+        // Verificando o ID correto do seu XML (que é btnOk)
+        val btnOk = findViewById<CardView>(R.id.btnOk)
+
+        btnOk?.setOnClickListener {
+            val intent = Intent(this, GerenciarRotasActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
             finish()
         }
