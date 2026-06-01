@@ -49,7 +49,6 @@
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
 
             <ImageView
@@ -74,8 +73,7 @@
                 android:textColor="@color/unibus_blue"
                 android:textColorHint="@color/unibus_blue_soft"
                 android:textSize="16sp"
-                app:layout_constraintTop_toBottomOf="@id/tvPopupTitle" 
-        android:fontFamily="@font/josefin_sans"/>
+                app:layout_constraintTop_toBottomOf="@id/tvPopupTitle" />
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnEnviarPopup"
@@ -103,7 +101,6 @@
                     android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
             </androidx.cardview.widget.CardView>
 

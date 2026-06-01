@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:alpha="0.4">
 
-        <include layout="@layout/activity_chamados_detalhados" />
+        <include layout="@layout/activity_chamado_especificado" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="24dp"
-        app:cardBackgroundColor="#E0E0E0"
+        app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="24dp"
         app:cardElevation="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -48,7 +48,8 @@
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent" 
+        android:includeFontPadding="true"/>
 
             <ImageView
                 android:id="@+id/btnClosePopup"
@@ -65,13 +66,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/bg_input_bordered"
-                android:backgroundTint="#A6A295"
+                android:background="@drawable/bg_popup_textarea_blue"
                 android:gravity="top"
                 android:hint="Digite a mensagem."
                 android:padding="16dp"
                 android:textColor="@color/unibus_blue"
-                android:textColorHint="#A6A295"
+                android:textColorHint="@color/unibus_blue_soft"
                 android:textSize="16sp"
                 app:layout_constraintTop_toBottomOf="@id/tvPopupTitle" />
 
@@ -100,7 +100,8 @@
                     android:text="ENVIAR"
                     android:textColor="@color/white"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold" 
+        android:includeFontPadding="true"/>
             </androidx.cardview.widget.CardView>
 
         </androidx.constraintlayout.widget.ConstraintLayout>

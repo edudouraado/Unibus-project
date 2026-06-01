@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_beige"
-    android:padding="24dp">
+    android:padding="8dp">
 
     <ImageView
         android:id="@+id/btnBack"
@@ -17,16 +17,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/unibus_blue" />
 
-    <TextView
+    <ImageView
         android:id="@+id/tvLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/unibus_logo"
-        android:textColor="@color/unibus_blue"
-        android:textSize="24sp"
-        android:textStyle="bold"
+        android:layout_width="82dp"
+        android:layout_height="28dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_unibus_texto"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/unibus_logo" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/successCard"
@@ -67,7 +67,8 @@
             app:layout_constraintBottom_toTopOf="@+id/tvSuccessDescription"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/ivSuccessImage" />
+            app:layout_constraintTop_toBottomOf="@id/ivSuccessImage" 
+        android:includeFontPadding="true"/>
 
         <TextView
             android:id="@+id/tvSuccessDescription"
@@ -79,7 +80,8 @@
             android:textColor="@color/white"
             android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@+id/btnBackToStart"
-            app:layout_constraintTop_toBottomOf="@id/tvSuccessTitle" />
+            app:layout_constraintTop_toBottomOf="@id/tvSuccessTitle" 
+        android:includeFontPadding="true"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnBackToStart"

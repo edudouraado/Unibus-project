@@ -41,7 +41,8 @@
                 android:textSize="22sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+        android:includeFontPadding="true"/>
 
             <ImageView
                 android:id="@+id/btnClosePopup"
@@ -58,12 +59,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
                 android:layout_marginTop="24dp"
-                android:background="@drawable/bg_input_bordered"
+                android:background="@drawable/bg_popup_textarea_blue"
                 android:gravity="top"
                 android:hint="Digite o aviso"
                 android:padding="16dp"
                 android:textColor="@color/unibus_blue"
-                app:layout_constraintTop_toBottomOf="@id/tvTitlePopup" />
+                app:layout_constraintTop_toBottomOf="@id/tvTitlePopup"/>
 
             <Button
                 android:id="@+id/btnEnviarAviso"
@@ -77,7 +78,9 @@
                 app:cornerRadius="100dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/etAvisoInput" />
+                app:layout_constraintTop_toBottomOf="@id/etAvisoInput"
+        android:stateListAnimator="@null"
+        android:textAllCaps="false"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>

@@ -10,7 +10,7 @@
         android:layout_width="160dp"
         android:layout_height="160dp"
         android:layout_marginTop="40dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/chatgpt_image_11_de_mai__de_2025__15_39_41_removebg_preview_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -35,7 +35,8 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/bgAzul" />
+        app:layout_constraintTop_toTopOf="@id/bgAzul" 
+        android:includeFontPadding="true"/>
 
     <TextView
         android:id="@+id/txtSubtitulo"
@@ -49,7 +50,8 @@
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txtTitulo" />
+        app:layout_constraintTop_toBottomOf="@id/txtTitulo" 
+        android:includeFontPadding="true"/>
 
     <EditText
         android:id="@+id/editCodigo"
@@ -75,7 +77,7 @@
         android:layout_height="55dp"
         android:layout_marginHorizontal="40dp"
         android:layout_marginTop="30dp"
-        android:background="@drawable/btn_amarelo"
+        android:background="@drawable/bg_button_white"
         android:text="CONFIRMAR"
         android:textColor="#1A618D"
         android:textStyle="bold"
@@ -89,11 +91,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="Não recebeu o código? Reenviar"
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
         android:clickable="true"
         android:focusable="true"
+        android:includeFontPadding="true"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnConfirmar" />

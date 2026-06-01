@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
+        <開ImageView
             android:id="@+id/btnBack"
             android:layout_width="32dp"
             android:layout_height="32dp"
@@ -77,7 +77,6 @@
                 app:layout_constraintBottom_toTopOf="@+id/tvDescription"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
 
             <TextView
@@ -92,7 +91,6 @@
                 app:layout_constraintBottom_toTopOf="@+id/btnOk"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
 
             <androidx.cardview.widget.CardView
@@ -115,7 +113,6 @@
                     android:textColor="@color/unibus_blue"
                     android:textSize="18sp"
                     android:textStyle="bold" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
             </androidx.cardview.widget.CardView>
 

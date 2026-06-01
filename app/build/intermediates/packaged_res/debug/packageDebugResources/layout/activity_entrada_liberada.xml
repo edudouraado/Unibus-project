@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_beige"
-    android:padding="24dp">
+    android:padding="8dp">
 
     <!-- Header -->
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -43,7 +43,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         app:cardBackgroundColor="#52B76E"
-        app:cardCornerRadius="24dp"
+        app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/clHeader">
@@ -72,12 +72,13 @@
                 android:layout_marginBottom="48dp"
                 android:text="@string/entry_allowed"
                 android:textColor="@color/white"
-                android:textSize="28sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:gravity="center"
                 app:layout_constraintBottom_toTopOf="@+id/btnOk"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+        android:includeFontPadding="true"/>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnOk"
@@ -98,7 +99,8 @@
                     android:text="@string/btn_ok"
                     android:textColor="#52B76E"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+        android:includeFontPadding="true"/>
             </androidx.cardview.widget.CardView>
 
         </androidx.constraintlayout.widget.ConstraintLayout>

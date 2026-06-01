@@ -35,7 +35,6 @@
             android:textColor="@color/unibus_blue"
             android:textSize="18sp"
             android:textStyle="bold" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
 
         <ImageView
@@ -60,7 +59,6 @@
         android:text="Previsão de chegada - 4 min"
         android:textColor="@color/unibus_blue"
         android:textSize="16sp" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
 
     <androidx.cardview.widget.CardView

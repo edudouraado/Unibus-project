@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="background_beige">#F8F4E1</color>
+    <color name="background_beige">#F7F1E4</color>
     <color name="black">#FF000000</color>
-    <color name="card_gray">#C1BEB2</color>
-    <color name="divider_gray">#8E8E8E</color>
-    <color name="error_red">#F25C5C</color>
+    <color name="card_gray">#C8C3B8</color>
+    <color name="card_gray_dark">#BDB8AD</color>
+    <color name="divider_gray">#8E8A82</color>
+    <color name="error_red">#F55357</color>
+    <color name="field_gray">#E7E4DC</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
+    <color name="success_green">#45C66B</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="text_gray">#4A4A4A</color>
-    <color name="unibus_blue">#134B70</color>
-    <color name="unibus_blue_dark">#0E3B5A</color>
+    <color name="text_gray">#4A4844</color>
+    <color name="text_gray_soft">#6C6962</color>
+    <color name="unibus_blue">#176A92</color>
+    <color name="unibus_blue_dark">#0F5174</color>
+    <color name="unibus_blue_soft">#237CA5</color>
     <color name="white">#FFFFFFFF</color>
     <string name="admin_greeting">Olá, Admin</string>
     <string name="app_name">Unibus</string>
@@ -49,6 +54,12 @@
     <string name="error_unexpected">Erro inesperado</string>
     <string name="full_capacity_desc">Atenção, a capacidade máxima desse veículo foi atingida!</string>
     <string name="full_capacity_title">Lotação atingida</string>
+    <string name="gcm_defaultSenderId" translatable="false">945165260661</string>
+    <string name="google_api_key" translatable="false">AIzaSyBg_ytuHlkgZJ-MYpAhzMRuahqy18cNp6g</string>
+    <string name="google_app_id" translatable="false">1:945165260661:android:06fbfa7c726c5e1734e53c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBg_ytuHlkgZJ-MYpAhzMRuahqy18cNp6g</string>
+    <string name="google_storage_bucket" translatable="false">unibus-2423c.firebasestorage.app</string>
+    <string name="greeting_user">Olá, Usuário!</string>
     <string name="hint_description">Conte o que aconteceu</string>
     <string name="hint_digite_aviso">Digite o aviso</string>
     <string name="hint_email">Seu email</string>
@@ -69,9 +80,15 @@
     <string name="label_schedules">Horários:</string>
     <string name="label_tickets">Chamados:</string>
     <string name="label_trips">Viagens:</string>
+    <string name="loading_subtitle">Carregando...</string>
     <string name="lorem_ipsum_short">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet metus nec lacus dictum ultrices.</string>
+    <string name="menu_home">Início</string>
+    <string name="menu_prefs">Preferências</string>
+    <string name="menu_support">Suporte</string>
     <string name="month_year_sample">Abril de 2025</string>
+    <string name="msg_confirm_delete_route">Tem certeza que deseja excluir a rota:</string>
     <string name="msg_enviada_sucesso">Mensagem enviada com sucesso!</string>
+    <string name="nao">NÃO</string>
     <string name="nav_home">Início</string>
     <string name="nav_preferences">Preferências</string>
     <string name="nav_support">Suporte</string>
@@ -84,11 +101,16 @@
     <string name="popup_select_origin_title">Selecionar origem</string>
     <string name="popup_start_route_instruction">Selecione a rota que deseja iniciar</string>
     <string name="popup_start_route_title">Iniciar rota</string>
+    <string name="project_id" translatable="false">unibus-2423c</string>
+    <string name="qr_instruction">Aponte a câmera para o QR Code</string>
+    <string name="reenviar_codigo">Reenviar código</string>
     <string name="report_qr_invalid">QR inválido - %1$s</string>
     <string name="route_ant_bezerra">Ant. Bezerra / Papicu</string>
     <string name="route_messejana">Messejana / Eusébio</string>
+    <string name="route_papicu_campus_full">Rota : Papicu > Campus</string>
     <string name="route_papicu_stat">Ant. Bezerra / Papicu - 300 usos</string>
     <string name="route_parangaba">Parangaba</string>
+    <string name="route_parangaba_campus_full">Rota : Parangaba > Campus</string>
     <string name="route_parangaba_stat">Parangaba - 420 usos</string>
     <string name="route_unavailable_description">Não conseguimos acessar essa parte do app no momento. A rota solicitada está temporariamente indisponível. Por favor, tente novamente mais tarde.</string>
     <string name="route_unavailable_title">Rota indisponível</string>
@@ -101,6 +123,7 @@
     <string name="tab_invalid_attempts">Tentativas\nInválidas</string>
     <string name="tab_usage_peaks">Picos de Uso</string>
     <string name="title_add_aviso">Avisos</string>
+    <string name="title_avisos">Avisos</string>
     <string name="title_latest_tickets">Últimos chamados</string>
     <string name="title_manage_routes">Gerenciar Rotas</string>
     <string name="title_manage_users">Gerenciar Usuários</string>
@@ -111,7 +134,19 @@
     <string name="title_top_routes">Top rotas:</string>
     <string name="title_usage_by_time">Uso por horário:</string>
     <string name="unibus_logo">UniBus</string>
+    <string name="user_id">2121054</string>
+    <string name="warning_date">24/01/2025</string>
+    <string name="warning_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet metus nec lacus dictum ultrices.</string>
+    <string name="warning_title">Unibus - Rota Indisponível</string>
     <style name="Theme.Unibus" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/purple_500</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        
+        <item name="android:colorAccent">@color/unibus_blue</item>
+        <item name="colorPrimary">@color/unibus_blue</item>
+        <item name="colorPrimaryDark">@color/unibus_blue_dark</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/background_beige</item>
     </style>
 </resources>

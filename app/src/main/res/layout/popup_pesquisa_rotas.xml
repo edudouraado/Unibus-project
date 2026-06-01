@@ -28,8 +28,7 @@
                 android:background="@null"
                 android:text="Av. Leandro"
                 android:textColor="@color/unibus_blue"
-                android:textSize="18sp" 
-        android:fontFamily="@font/josefin_sans"/>
+                android:textSize="18sp"/>
 
             <ImageView
                 android:layout_width="24dp"

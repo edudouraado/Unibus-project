@@ -63,8 +63,7 @@
                 android:textSize="28sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" 
-        android:fontFamily="@font/josefin_sans"
+                app:layout_constraintTop_toTopOf="parent"
         android:includeFontPadding="true"/>
 
             <TextView
@@ -75,8 +74,7 @@
                 android:textColor="@color/unibus_blue"
                 android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tvTitle" 
-        android:fontFamily="@font/josefin_sans"
+                app:layout_constraintTop_toBottomOf="@id/tvTitle"
         android:includeFontPadding="true"/>
 
             <!-- Gráfico Circular -->
@@ -106,8 +104,7 @@
                     android:text="20%"
                     android:textColor="@color/unibus_blue"
                     android:textSize="26sp"
-                    android:textStyle="bold" 
-        android:fontFamily="@font/josefin_sans"
+                    android:textStyle="bold"
         android:includeFontPadding="true"/>
             </FrameLayout>
 
@@ -139,8 +136,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/label_occupied_seats"
                             android:textColor="@color/unibus_blue"
-                            android:textSize="14sp" 
-        android:fontFamily="@font/josefin_sans"
+                            android:textSize="14sp"
         android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="wrap_content"
@@ -149,8 +145,7 @@
                             android:text="20"
                             android:textColor="@color/unibus_blue"
                             android:textSize="36sp"
-                            android:textStyle="bold" 
-        android:fontFamily="@font/josefin_sans"
+                            android:textStyle="bold"
         android:includeFontPadding="true"/>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -175,8 +170,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/label_free_seats"
                             android:textColor="@color/white"
-                            android:textSize="14sp" 
-        android:fontFamily="@font/josefin_sans"
+                            android:textSize="14sp"
         android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="wrap_content"
@@ -185,8 +179,7 @@
                             android:text="80"
                             android:textColor="@color/white"
                             android:textSize="36sp"
-                            android:textStyle="bold" 
-        android:fontFamily="@font/josefin_sans"
+                            android:textStyle="bold"
         android:includeFontPadding="true"/>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -216,8 +209,7 @@
             android:text="@string/btn_scan_qr_code"
             android:textColor="@color/white"
             android:textSize="18sp"
-            android:textStyle="bold" 
-        android:fontFamily="@font/josefin_sans"
+            android:textStyle="bold"
         android:includeFontPadding="true"/>
     </androidx.cardview.widget.CardView>
 

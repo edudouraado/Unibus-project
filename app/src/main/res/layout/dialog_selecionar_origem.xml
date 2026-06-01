@@ -24,7 +24,6 @@
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
 
         <ImageView
@@ -48,7 +47,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvDialogTitle" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
 
         <!-- Opção Terminal -->
@@ -71,7 +69,6 @@
                 android:textColor="@color/unibus_blue"
                 android:textSize="18sp"
                 android:textStyle="bold" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
         </androidx.cardview.widget.CardView>
 
@@ -97,7 +94,6 @@
                 android:textColor="@color/unibus_blue"
                 android:textSize="18sp"
                 android:textStyle="bold" 
-        android:fontFamily="@font/josefin_sans"
         android:includeFontPadding="true"/>
         </androidx.cardview.widget.CardView>
 
