@@ -250,6 +250,8 @@ id lblStudents
 id lblTickets
 id lblTrips
 id listReports
+id llAvisosLista
+id llAvisosPreview
 id llBottomNav
 id llBoxes
 id llButtons
@@ -274,10 +276,6 @@ id pontoMapa2
 id pontoMapa3
 id pontoMapa4
 id pontoMapa5
-id st1
-id st2
-id st3
-id st4
 id successCard
 id supportCard
 id svUserList

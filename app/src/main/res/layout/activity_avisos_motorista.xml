@@ -7,9 +7,20 @@
     android:padding="16dp">
 
     <ImageView
+        android:id="@+id/btnBackAvisos"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@android:drawable/ic_menu_revert"
+        android:contentDescription="Voltar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/unibus_blue" />
+
+    <ImageView
         android:id="@+id/ivAvatarMotorista"
         android:layout_width="60dp"
         android:layout_height="60dp"
+        android:layout_marginTop="40dp"
         android:src="@drawable/avatar_ema_circle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -66,81 +77,12 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvTitleAvisosMotorista">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <!-- Exemplo de Aviso -->
+                <!-- Lista de Avisos (Será populada dinamicamente) -->
                 <LinearLayout
+                    android:id="@+id/llAvisosLista"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:paddingBottom="12dp">
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/notice_subject"
-                            android:textStyle="bold"
-                            android:textColor="@color/text_gray"
-        android:includeFontPadding="true"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentEnd="true"
-                            android:text="@string/notice_date"
-                            android:textColor="@color/text_gray"
-        android:includeFontPadding="true"/>
-                    </RelativeLayout>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
-                        android:text="@string/lorem_ipsum_short"
-                        android:textColor="@color/text_gray"
-        android:includeFontPadding="true"/>
-                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider_gray" android:layout_marginTop="12dp"/>
-                </LinearLayout>
-
-                <!-- Outro Aviso -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:paddingBottom="12dp"
-                    android:layout_marginTop="12dp">
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/notice_subject"
-                            android:textStyle="bold"
-                            android:textColor="@color/text_gray"
-        android:includeFontPadding="true"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentEnd="true"
-                            android:text="@string/notice_date"
-                            android:textColor="@color/text_gray"
-        android:includeFontPadding="true"/>
-                    </RelativeLayout>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
-                        android:text="@string/lorem_ipsum_short"
-                        android:textColor="@color/text_gray"
-        android:includeFontPadding="true"/>
-                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider_gray" android:layout_marginTop="12dp"/>
-                </LinearLayout>
-
-            </LinearLayout>
+                    android:orientation="vertical" />
         </ScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 

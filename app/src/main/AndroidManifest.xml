@@ -36,6 +36,8 @@
 
         <!-- Telas do Motorista -->
         <activity android:name=".InicialMotoristaActivity" android:exported="false" />
+        <activity android:name=".AvisosMotoristaActivity" android:exported="false" />
+        <activity android:name=".ConfirmacaoAvisoActivity" android:exported="false" />
 
         <!-- Telas do Admin -->
         <activity android:name=".InicialAdminActivity" android:exported="false" />
