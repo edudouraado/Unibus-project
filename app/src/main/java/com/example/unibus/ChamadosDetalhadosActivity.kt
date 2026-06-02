@@ -38,6 +38,7 @@ class ChamadosDetalhadosActivity : AppCompatActivity() {
 
     private fun carregarChamadosDoFirebase() {
         db.collection("avisos")
+            .whereEqualTo("respondido", false)
             .orderBy("data", Query.Direction.DESCENDING)
             .addSnapshotListener { snapshots, e ->
                 if (e != null || snapshots == null) return@addSnapshotListener
