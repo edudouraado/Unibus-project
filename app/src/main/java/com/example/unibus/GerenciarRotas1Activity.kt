@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import android.widget.ImageView
 
-class GerenciarRotasActivity : AppCompatActivity() {
+class GerenciarRotas1Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

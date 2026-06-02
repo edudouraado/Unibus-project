@@ -88,6 +88,12 @@
 
         <!-- Telas do Admin -->
         <activity
+            android:name="com.example.unibus.SucessoAtivacaoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.unibus.SucessoInativacaoActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.unibus.InicialAdminActivity"
             android:exported="false" />
         <activity

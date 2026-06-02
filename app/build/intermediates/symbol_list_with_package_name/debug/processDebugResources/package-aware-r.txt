@@ -3334,6 +3334,8 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnAddMessage
+id btnAtivar1
+id btnAtivar2
 id btnBack
 id btnBackAvisos
 id btnBackBg
@@ -3359,6 +3361,8 @@ id btnFecharConfirmacao
 id btnFecharPopup
 id btnFecharSucesso
 id btnGeneralStats
+id btnInativar1
+id btnInativar2
 id btnManageRoutes
 id btnManageUsers
 id btnNao
@@ -3366,6 +3370,7 @@ id btnNewRoute
 id btnNovaRota
 id btnNovaRotaBg
 id btnOk
+id btnOkAtivar
 id btnOpenCalendar
 id btnOriginCampus
 id btnOriginTerminal
@@ -3914,6 +3919,7 @@ id tvDate1
 id tvDescription
 id tvDialogInstruction
 id tvDialogTitle
+id tvDriversCountValue
 id tvEndDate
 id tvErrorDescription
 id tvErrorTitle
@@ -3960,6 +3966,7 @@ id tvTitleAvisos
 id tvTitleAvisosMotorista
 id tvTitlePopup
 id tvTituloPonto
+id tvTripsCountValue
 id tvUser
 id tvUserName
 id tvUserQR
@@ -4154,9 +4161,9 @@ layout activity_relatorios_solicitacao
 layout activity_responder_chamado
 layout activity_rota_andamento
 layout activity_rotas
+layout activity_sucesso_ativacao
 layout activity_sucesso_aviso
-layout activity_sucesso_exclusao_papicu
-layout activity_sucesso_exclusao_parangaba
+layout activity_sucesso_inativacao
 layout activity_sucesso_suporte
 layout activity_suporte
 layout browser_actions_context_menu_page

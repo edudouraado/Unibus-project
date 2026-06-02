@@ -9,38 +9,33 @@ import com.google.firebase.firestore.FirebaseFirestore
 
 class InicialAdminActivity : AppCompatActivity() {
 
-    private lateinit var db: FirebaseFirestore
+    private val db = FirebaseFirestore.getInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_inicial_admin)
 
-        db = FirebaseFirestore.getInstance()
-
+        // Mapeando os campos do XML
+        val tvTripsCountValue = findViewById<TextView>(R.id.tvTripsCountValue)
+        val tvDriversCountValue = findViewById<TextView>(R.id.tvDriversCountValue)
         val btnManageRoutes = findViewById<CardView>(R.id.btnManageRoutes)
-        val cvTicketsCount = findViewById<CardView>(R.id.cvTicketsCount)
-        val tvTicketsCount = findViewById<TextView>(R.id.tvTicketsCount)
 
-        btnManageRoutes.setOnClickListener {
-            val intent = Intent(this, GerenciarRotasActivity::class.java)
-            startActivity(intent)
+        btnManageRoutes?.setOnClickListener {
+            startActivity(Intent(this, GerenciarRotasActivity::class.java))
         }
 
-        cvTicketsCount.setOnClickListener {
-            val intent = Intent(this, ChamadosDetalhadosActivity::class.java)
-            startActivity(intent)
-        }
-
-        atualizarContadorDeAvisos(tvTicketsCount)
+        // Ligar os contadores em tempo real
+        ouvirContagemFirebase("rotas", "ativa", true, tvTripsCountValue)
+        ouvirContagemFirebase("usuarios", "perfil", "motorista", tvDriversCountValue)
     }
 
-    private fun atualizarContadorDeAvisos(tvCount: TextView) {
-        db.collection("avisos")
-            .whereEqualTo("respondido", false)
-            .addSnapshotListener { snapshots, e ->
-                if (e != null) return@addSnapshotListener
-                val count = snapshots?.size() ?: 0
-                tvCount.text = count.toString()
+    private fun ouvirContagemFirebase(colecao: String, campo: String, valor: Any, textView: TextView?) {
+        db.collection(colecao)
+            .whereEqualTo(campo, valor)
+            .addSnapshotListener { snapshots, error ->
+                if (error == null && snapshots != null) {
+                    textView?.text = snapshots.size().toString()
+                }
             }
     }
 }

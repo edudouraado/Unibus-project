@@ -9,7 +9,7 @@ import androidx.cardview.widget.CardView
 class SucessoExclusaoParangabaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sucesso_exclusao_parangaba)
+        setContentView(R.layout.activity_sucesso_ativacao)
 
         // Verificando o ID correto do seu XML (que é btnOk)
         val btnOk = findViewById<CardView>(R.id.btnOk)

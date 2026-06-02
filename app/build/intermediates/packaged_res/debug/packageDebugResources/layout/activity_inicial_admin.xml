@@ -36,7 +36,6 @@
             android:layout_height="wrap_content"
             android:padding="20dp">
 
-            <!-- Avatar Circular -->
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/ivAvatar"
                 android:layout_width="85dp"
@@ -63,7 +62,7 @@
                 app:layout_constraintStart_toEndOf="@id/ivAvatar"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_chainStyle="packed"
-        android:includeFontPadding="true"/>
+                android:includeFontPadding="true"/>
 
             <TextView
                 android:id="@+id/tvAdminId"
@@ -75,12 +74,11 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="@id/tvGreeting"
                 app:layout_constraintTop_toBottomOf="@id/tvGreeting"
-        android:includeFontPadding="true"/>
-
+                android:includeFontPadding="true"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
-    <!-- Grid de Estatísticas (Cards Cinzas) -->
+    <!-- Grid de Estatísticas -->
     <GridLayout
         android:id="@+id/glStats"
         android:layout_width="match_parent"
@@ -102,10 +100,8 @@
             app:cardCornerRadius="12dp"
             app:cardElevation="2dp">
             <RelativeLayout android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-                <TextView android:id="@+id/lblStudents" android:text="@string/label_active_students" android:textColor="@color/text_gray" android:textSize="12sp" android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:includeFontPadding="true"/>
-                <TextView android:text="40" android:textColor="@color/text_gray" android:textSize="32sp" android:textStyle="bold" android:layout_alignParentEnd="true" android:layout_below="@id/lblStudents" android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:includeFontPadding="true"/>
+                <TextView android:id="@+id/lblStudents" android:text="@string/label_active_students" android:textColor="@color/text_gray" android:textSize="12sp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:text="40" android:textColor="@color/text_gray" android:textSize="32sp" android:textStyle="bold" android:layout_alignParentEnd="true" android:layout_below="@id/lblStudents" android:layout_width="wrap_content" android:layout_height="wrap_content" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
@@ -120,10 +116,19 @@
             app:cardCornerRadius="12dp"
             app:cardElevation="2dp">
             <RelativeLayout android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-                <TextView android:id="@+id/lblDrivers" android:text="@string/label_drivers" android:textColor="@color/text_gray" android:textSize="12sp" android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:includeFontPadding="true"/>
-                <TextView android:text="0" android:textColor="@color/text_gray" android:textSize="32sp" android:textStyle="bold" android:layout_alignParentEnd="true" android:layout_below="@id/lblDrivers" android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:includeFontPadding="true"/>
+                <TextView android:id="@+id/lblDrivers" android:text="@string/label_drivers" android:textColor="@color/text_gray" android:textSize="12sp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+                <!-- ID tvDriversCountValue ADICIONADO AQUI -->
+                <TextView
+                    android:id="@+id/tvDriversCountValue"
+                    android:text="0"
+                    android:textColor="@color/text_gray"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/lblDrivers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
@@ -138,13 +143,23 @@
             app:cardCornerRadius="12dp"
             app:cardElevation="2dp">
             <RelativeLayout android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-                <TextView android:id="@+id/lblTrips" android:text="@string/label_trips" android:textColor="@color/text_gray" android:textSize="12sp" android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:includeFontPadding="true"/>
-                <TextView android:text="3" android:textColor="@color/text_gray" android:textSize="32sp" android:textStyle="bold" android:layout_alignParentEnd="true" android:layout_below="@id/lblTrips" android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:includeFontPadding="true"/>
+                <TextView android:id="@+id/lblTrips" android:text="@string/label_trips" android:textColor="@color/text_gray" android:textSize="12sp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+                <!-- ID tvTripsCountValue MANTIDO AQUI -->
+                <TextView
+                    android:id="@+id/tvTripsCountValue"
+                    android:text="0"
+                    android:textColor="@color/text_gray"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/lblTrips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
+        <!-- Card Chamados -->
         <androidx.cardview.widget.CardView
             android:id="@+id/cvTicketsCount"
             android:layout_width="0dp"
@@ -155,10 +170,8 @@
             app:cardCornerRadius="12dp"
             app:cardElevation="2dp">
             <RelativeLayout android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-                <TextView android:id="@+id/lblTickets" android:text="@string/label_tickets" android:textColor="@color/text_gray" android:textSize="12sp" android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:includeFontPadding="true"/>
-                <TextView android:id="@+id/tvTicketsCount" android:text="0" android:textColor="@color/text_gray" android:textSize="32sp" android:textStyle="bold" android:layout_alignParentEnd="true" android:layout_below="@id/lblTickets" android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:includeFontPadding="true"/>
+                <TextView android:id="@+id/lblTickets" android:text="@string/label_tickets" android:textColor="@color/text_gray" android:textSize="12sp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:id="@+id/tvTicketsCount" android:text="0" android:textColor="@color/text_gray" android:textSize="32sp" android:textStyle="bold" android:layout_alignParentEnd="true" android:layout_below="@id/lblTickets" android:layout_width="wrap_content" android:layout_height="wrap_content" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
     </GridLayout>
@@ -184,8 +197,7 @@
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="12dp"
             app:cardElevation="4dp">
-            <TextView android:padding="14dp" android:gravity="center" android:text="@string/btn_general_stats" android:textColor="@color/unibus_blue" android:textSize="18sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:includeFontPadding="true"/>
+            <TextView android:padding="14dp" android:gravity="center" android:text="@string/btn_general_stats" android:textColor="@color/unibus_blue" android:textSize="18sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -199,8 +211,7 @@
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="12dp"
             app:cardElevation="4dp">
-            <TextView android:padding="14dp" android:gravity="center" android:text="@string/btn_manage_routes" android:textColor="@color/unibus_blue" android:textSize="18sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:includeFontPadding="true"/>
+            <TextView android:padding="14dp" android:gravity="center" android:text="@string/btn_manage_routes" android:textColor="@color/unibus_blue" android:textSize="18sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -214,8 +225,7 @@
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="12dp"
             app:cardElevation="4dp">
-            <TextView android:padding="14dp" android:gravity="center" android:text="@string/btn_manage_users" android:textColor="@color/unibus_blue" android:textSize="18sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:includeFontPadding="true"/>
+            <TextView android:padding="14dp" android:gravity="center" android:text="@string/btn_manage_users" android:textColor="@color/unibus_blue" android:textSize="18sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -229,8 +239,7 @@
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="12dp"
             app:cardElevation="4dp">
-            <TextView android:padding="14dp" android:gravity="center" android:text="@string/btn_reports" android:textColor="@color/unibus_blue" android:textSize="18sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:includeFontPadding="true"/>
+            <TextView android:padding="14dp" android:gravity="center" android:text="@string/btn_reports" android:textColor="@color/unibus_blue" android:textSize="18sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" />
         </androidx.cardview.widget.CardView>
     </LinearLayout>
 
@@ -244,17 +253,15 @@
         app:layout_constraintBottom_toBottomOf="parent">
 
         <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
-            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_home" app:tint="@color/unibus_blue" android:contentDescription="@null" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nav_home" android:textColor="@color/unibus_blue" android:textSize="12sp"
-        android:includeFontPadding="true"/>
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_home" app:tint="@color/unibus_blue" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nav_home" android:textColor="@color/unibus_blue" android:textSize="12sp" />
         </LinearLayout>
 
         <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#DDD"/>
 
         <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
-            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_menu" app:tint="@color/unibus_blue" android:contentDescription="@null" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nav_preferences" android:textColor="@color/unibus_blue" android:textSize="12sp"
-        android:includeFontPadding="true"/>
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_menu" app:tint="@color/unibus_blue" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nav_preferences" android:textColor="@color/unibus_blue" android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>
 
