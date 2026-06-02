@@ -40,6 +40,7 @@
         <activity android:name=".ConfirmacaoAvisoActivity" android:exported="false" />
 
         <!-- Telas do Admin -->
+        <activity android:name=".GerenciarUsuariosActivity" android:exported="false" />
         <activity android:name=".SucessoAtivacaoActivity" android:exported="false" />
         <activity android:name=".SucessoInativacaoActivity" android:exported="false" />
         <activity android:name=".InicialAdminActivity" android:exported="false" />

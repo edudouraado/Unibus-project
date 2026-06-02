@@ -15,6 +15,13 @@ class InicialAdminActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_inicial_admin)
 
+        // Dentro do método onCreate, após o setContentView
+        val btnManageUsers = findViewById<androidx.cardview.widget.CardView>(R.id.btnManageUsers)
+
+        btnManageUsers?.setOnClickListener {
+            val intent = Intent(this, GerenciarUsuariosActivity::class.java)
+            startActivity(intent)
+        }
         // Mapeando os campos do XML
         // Dentro do onCreate
         val tvActiveStudentsValue = findViewById<TextView>(R.id.tvActiveStudentsValue)

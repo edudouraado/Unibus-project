@@ -212,11 +212,6 @@ id etPesquisa
 id etPesquisaPontosAluno
 id etRouteName
 id etSchedules
-id etSearch
-id etSearch2
-id etSearch3
-id etSearch5
-id etSearch6
 id etSenha
 id flChart
 id glStats
@@ -242,7 +237,6 @@ id ivLogoUnibusImage
 id ivMascote
 id ivQrCode
 id ivQrFrame
-id ivSearchIcon
 id ivSuccessImage
 id ivUsageGraph
 id ivUserAvatar
@@ -262,6 +256,7 @@ id llButtons
 id llChamadosLista
 id llDaysHeader
 id llMonthHeader
+id llUserListContainer
 id logoAluno
 id menuInferior
 id navBar
@@ -283,7 +278,6 @@ id pontoMapa4
 id pontoMapa5
 id successCard
 id supportCard
-id svUserList
 id svUserListBg
 id tabAccessibility
 id tabInvalid
