@@ -60,7 +60,7 @@ class HomeAlunoActivity : AppCompatActivity() {
     private fun carregarAvisosPreview() {
         db.collection("avisos")
             .orderBy("data", Query.Direction.DESCENDING)
-            .limit(2)
+            .limit(5)
             .addSnapshotListener { snapshots, e ->
                 if (e != null || snapshots == null) return@addSnapshotListener
 
