@@ -25,6 +25,7 @@ class InicialAdminActivity : AppCompatActivity() {
         val tvDriversCountValue = findViewById<TextView>(R.id.tvDriversCountValue)
         val btnManageRoutes = findViewById<CardView>(R.id.btnManageRoutes)
         val btnGeneralStats = findViewById<CardView>(R.id.btnGeneralStats)
+        val btnReports = findViewById<CardView>(R.id.btnReports)
 
         btnManageRoutes?.setOnClickListener {
             startActivity(Intent(this, GerenciarRotasActivity::class.java))
@@ -32,6 +33,10 @@ class InicialAdminActivity : AppCompatActivity() {
 
         btnGeneralStats?.setOnClickListener {
             startActivity(Intent(this, EstatisticasActivity::class.java))
+        }
+
+        btnReports?.setOnClickListener {
+            startActivity(Intent(this, RelatoriosActivity::class.java))
         }
 
         // Ligar os contadores em tempo real

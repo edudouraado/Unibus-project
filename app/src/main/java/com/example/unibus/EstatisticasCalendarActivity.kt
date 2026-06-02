@@ -14,6 +14,7 @@ class EstatisticasCalendarActivity : AppCompatActivity() {
 
         val btnBack = findViewById<ImageView>(R.id.btnBack)
         val btnDia19 = findViewById<android.view.View>(R.id.btnDia19)
+        val btnDia30 = findViewById<android.view.View>(R.id.btnDia30)
         val btnClose = findViewById<ImageView>(R.id.btnClose)
 
         btnBack.setOnClickListener {
@@ -26,6 +27,12 @@ class EstatisticasCalendarActivity : AppCompatActivity() {
 
         btnDia19.setOnClickListener {
             val intent = Intent(this, Estatisticas2Activity::class.java)
+            startActivity(intent)
+        }
+
+        btnDia30.setOnClickListener {
+            val intent = Intent(this, EstatisticasActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
             startActivity(intent)
         }
     }

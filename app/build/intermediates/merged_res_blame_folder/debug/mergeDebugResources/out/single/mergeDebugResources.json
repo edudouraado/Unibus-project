@@ -32,10 +32,6 @@
         "source": "C:\\Users\\leand\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\activity_entrada_recusada.xml"
     },
     {
-        "merged": "com.example.unibus.app-debug-39:/layout_activity_estatisticas_2.xml.flat",
-        "source": "com.example.unibus.app-main-41:/layout/activity_estatisticas_2.xml"
-    },
-    {
         "merged": "C:\\Users\\leand\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_activity_acompanhamento_rota.xml.flat",
         "source": "C:\\Users\\leand\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\activity_acompanhamento_rota.xml"
     },
@@ -72,12 +68,12 @@
         "source": "C:\\Users\\leand\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\chatgpt_image_11_de_mai__de_2025__15_39_41_removebg_preview_1.png"
     },
     {
-        "merged": "C:\\Users\\leand\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\leand\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\ic_launcher_background.xml"
-    },
-    {
         "merged": "C:\\Users\\leand\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_activity_chamado_especificado.xml.flat",
         "source": "C:\\Users\\leand\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\activity_chamado_especificado.xml"
+    },
+    {
+        "merged": "C:\\Users\\leand\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\leand\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\leand\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_dialog_responder_chamado.xml.flat",
@@ -388,6 +384,10 @@
         "source": "C:\\Users\\leand\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\layout\\activity_editar_usuario.xml"
     },
     {
+        "merged": "com.example.unibus.app-debug-39:/layout_dialog_calendario.xml.flat",
+        "source": "com.example.unibus.app-main-41:/layout/dialog_calendario.xml"
+    },
+    {
         "merged": "C:\\Users\\leand\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\drawable_tela_mapa_motorista.xml.flat",
         "source": "C:\\Users\\leand\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\drawable\\tela_mapa_motorista.xml"
     },
@@ -438,10 +438,6 @@
     {
         "merged": "C:\\Users\\leand\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
         "source": "C:\\Users\\leand\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-main-41:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.example.unibus.app-debug-39:/layout_activity_estatisticas.xml.flat",
-        "source": "com.example.unibus.app-main-41:/layout/activity_estatisticas.xml"
     },
     {
         "merged": "C:\\Users\\leand\\.gradle\\daemon\\9.2.1\\com.example.unibus.app-debug-39:\\layout_activity_sucesso_inativacao.xml.flat",

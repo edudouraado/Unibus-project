@@ -113,6 +113,7 @@
 
                 <!-- Tab 1: Inativo -->
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/tabInvalid"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -132,6 +133,7 @@
 
                 <!-- Tab 2: Inativo -->
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/tabPeaks"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -151,6 +153,7 @@
 
                 <!-- Tab 3: ATIVO (Solicitação de Acessibilidade) -->
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/tabAccessibility"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"

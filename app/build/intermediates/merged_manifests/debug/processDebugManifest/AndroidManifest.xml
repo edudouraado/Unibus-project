@@ -153,6 +153,17 @@
             android:name="com.example.unibus.SucessoAvisoActivity"
             android:exported="false" />
 
+        <!-- Telas de Relatórios -->
+        <activity
+            android:name="com.example.unibus.RelatoriosActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.unibus.RelatoriosPicosActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.unibus.RelatoriosSolicitacaoActivity"
+            android:exported="false" />
+
         <!-- Outras -->
         <activity
             android:name="com.example.unibus.ErrorActivity"

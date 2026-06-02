@@ -169,9 +169,17 @@
         android:includeFontPadding="true"/>
             <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="29" android:textColor="@color/text_gray" 
         android:includeFontPadding="true"/>
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="30" android:textColor="@color/text_gray" 
-        android:includeFontPadding="true"/>
-            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="31" android:textColor="@color/text_gray" 
+            <TextView
+                android:id="@+id/btnDia30"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="30"
+                android:textColor="@color/text_gray"
+                android:includeFontPadding="true"
+                android:clickable="true"
+                android:focusable="true" />
+            <TextView android:layout_columnWeight="1" android:gravity="center" android:padding="10dp" android:text="31" android:textColor="@color/text_gray"
         android:includeFontPadding="true"/>
         </GridLayout>
 
