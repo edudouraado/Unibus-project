@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 class SucessoExclusaoPapicuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sucesso_exclusao_papicu)
+        setContentView(R.layout.activity_sucesso_inativacao)
 
         findViewById<View>(R.id.btnOk).setOnClickListener {
             val intent = Intent(this, GerenciarRotas2Activity::class.java)
