@@ -39,10 +39,10 @@ class InicialMotoristaActivity : AppCompatActivity() {
     }
 
     private fun carregarAvisosPreview() {
-        // Busca os últimos 3 avisos para mostrar na home
+        // Busca os últimos 5 avisos para mostrar na home
         db.collection("avisos")
             .orderBy("data", Query.Direction.DESCENDING)
-            .limit(3)
+            .limit(5)
             .addSnapshotListener { snapshots, e ->
                 if (e != null || snapshots == null) return@addSnapshotListener
 

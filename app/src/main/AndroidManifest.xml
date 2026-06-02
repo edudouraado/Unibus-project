@@ -54,6 +54,8 @@
         <activity android:name=".SucessoExclusaoPapicuActivity" android:exported="false" />
         <activity android:name=".SucessoExclusaoParangabaActivity" android:exported="false" />
         <activity android:name=".Estatisticas2Activity" android:exported="false" />
+        <activity android:name=".EstatisticasActivity" android:exported="false" />
+        <activity android:name=".EstatisticasCalendarActivity" android:exported="false" />
 
         <!-- Telas de Chamados -->
         <activity android:name=".ChamadosActivity" android:exported="false" />
