@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?><androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -101,7 +100,18 @@
             app:cardElevation="2dp">
             <RelativeLayout android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
                 <TextView android:id="@+id/lblStudents" android:text="@string/label_active_students" android:textColor="@color/text_gray" android:textSize="12sp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-                <TextView android:text="40" android:textColor="@color/text_gray" android:textSize="32sp" android:textStyle="bold" android:layout_alignParentEnd="true" android:layout_below="@id/lblStudents" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+                <!-- ID tvActiveStudentsValue ADICIONADO AQUI -->
+                <TextView
+                    android:id="@+id/tvActiveStudentsValue"
+                    android:text="0"
+                    android:textColor="@color/text_gray"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/lblStudents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
@@ -117,8 +127,6 @@
             app:cardElevation="2dp">
             <RelativeLayout android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
                 <TextView android:id="@+id/lblDrivers" android:text="@string/label_drivers" android:textColor="@color/text_gray" android:textSize="12sp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-
-                <!-- ID tvDriversCountValue ADICIONADO AQUI -->
                 <TextView
                     android:id="@+id/tvDriversCountValue"
                     android:text="0"
@@ -144,8 +152,6 @@
             app:cardElevation="2dp">
             <RelativeLayout android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
                 <TextView android:id="@+id/lblTrips" android:text="@string/label_trips" android:textColor="@color/text_gray" android:textSize="12sp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-
-                <!-- ID tvTripsCountValue MANTIDO AQUI -->
                 <TextView
                     android:id="@+id/tvTripsCountValue"
                     android:text="0"
@@ -243,26 +249,10 @@
         </androidx.cardview.widget.CardView>
     </LinearLayout>
 
-    <!-- Bottom Nav -->
-    <LinearLayout
-        android:id="@+id/navBar"
+    <!-- Bottom Nav Placeholder -->
+    <View
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-        android:paddingVertical="12dp"
-        app:layout_constraintBottom_toBottomOf="parent">
-
-        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
-            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_home" app:tint="@color/unibus_blue" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nav_home" android:textColor="@color/unibus_blue" android:textSize="12sp" />
-        </LinearLayout>
-
-        <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#DDD"/>
-
-        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
-            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_menu" app:tint="@color/unibus_blue" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nav_preferences" android:textColor="@color/unibus_blue" android:textSize="12sp" />
-        </LinearLayout>
-    </LinearLayout>
+        android:layout_height="72dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

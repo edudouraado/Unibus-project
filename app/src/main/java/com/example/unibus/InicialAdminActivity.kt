@@ -16,6 +16,11 @@ class InicialAdminActivity : AppCompatActivity() {
         setContentView(R.layout.activity_inicial_admin)
 
         // Mapeando os campos do XML
+        // Dentro do onCreate
+        val tvActiveStudentsValue = findViewById<TextView>(R.id.tvActiveStudentsValue)
+
+        // Chama a função genérica que criamos para contar os alunos
+        ouvirContagemFirebase("usuarios", "perfil", "aluno", tvActiveStudentsValue)
         val tvTripsCountValue = findViewById<TextView>(R.id.tvTripsCountValue)
         val tvDriversCountValue = findViewById<TextView>(R.id.tvDriversCountValue)
         val btnManageRoutes = findViewById<CardView>(R.id.btnManageRoutes)
