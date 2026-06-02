@@ -18,14 +18,18 @@ class InicialAdminActivity : AppCompatActivity() {
         // Mapeando os campos do XML
         // Dentro do onCreate
         val tvActiveStudentsValue = findViewById<TextView>(R.id.tvActiveStudentsValue)
-
-        // Chama a função genérica que criamos para contar os alunos
-        ouvirContagemFirebase("usuarios", "perfil", "aluno", tvActiveStudentsValue)
         val tvTripsCountValue = findViewById<TextView>(R.id.tvTripsCountValue)
         val tvDriversCountValue = findViewById<TextView>(R.id.tvDriversCountValue)
+        val tvTicketsCount = findViewById<TextView>(R.id.tvTicketsCount)
+
+        val cvTicketsCount = findViewById<CardView>(R.id.cvTicketsCount)
         val btnManageRoutes = findViewById<CardView>(R.id.btnManageRoutes)
         val btnGeneralStats = findViewById<CardView>(R.id.btnGeneralStats)
         val btnReports = findViewById<CardView>(R.id.btnReports)
+
+        cvTicketsCount?.setOnClickListener {
+            startActivity(Intent(this, ChamadosDetalhadosActivity::class.java))
+        }
 
         btnManageRoutes?.setOnClickListener {
             startActivity(Intent(this, GerenciarRotasActivity::class.java))
@@ -40,8 +44,10 @@ class InicialAdminActivity : AppCompatActivity() {
         }
 
         // Ligar os contadores em tempo real
+        ouvirContagemFirebase("usuarios", "perfil", "aluno", tvActiveStudentsValue)
         ouvirContagemFirebase("rotas", "ativa", true, tvTripsCountValue)
         ouvirContagemFirebase("usuarios", "perfil", "motorista", tvDriversCountValue)
+        ouvirContagemFirebase("avisos", "respondido", false, tvTicketsCount)
     }
 
     private fun ouvirContagemFirebase(colecao: String, campo: String, valor: Any, textView: TextView?) {
