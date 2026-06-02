@@ -64,6 +64,11 @@
         <activity android:name=".ResponderChamadoActivity" android:exported="false" />
         <activity android:name=".SucessoAvisoActivity" android:exported="false" />
 
+        <!-- Telas de Relatórios -->
+        <activity android:name=".RelatoriosActivity" android:exported="false" />
+        <activity android:name=".RelatoriosPicosActivity" android:exported="false" />
+        <activity android:name=".RelatoriosSolicitacaoActivity" android:exported="false" />
+
         <!-- Outras -->
         <activity android:name=".ErrorActivity" android:exported="false" />
 

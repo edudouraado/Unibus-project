@@ -107,6 +107,7 @@ id btnConfirmar
 id btnDelete1
 id btnDelete2
 id btnDia19
+id btnDia30
 id btnEdit1
 id btnEdit2
 id btnEntrar
@@ -251,7 +252,6 @@ id lblRoute2
 id lblStudents
 id lblTickets
 id lblTrips
-id listReports
 id llAvisosLista
 id llAvisosListaAluno
 id llAvisosPreview
@@ -285,6 +285,9 @@ id successCard
 id supportCard
 id svUserList
 id svUserListBg
+id tabAccessibility
+id tabInvalid
+id tabPeaks
 id tvActiveStudentsValue
 id tvAdminId
 id tvBody

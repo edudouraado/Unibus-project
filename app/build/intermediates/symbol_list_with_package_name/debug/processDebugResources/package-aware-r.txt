@@ -3351,6 +3351,7 @@ id btnConfirmar
 id btnDelete1
 id btnDelete2
 id btnDia19
+id btnDia30
 id btnEdit1
 id btnEdit2
 id btnEntrar
@@ -3640,7 +3641,6 @@ id line1
 id line3
 id linear
 id listMode
-id listReports
 id list_item
 id llAvisosLista
 id llAvisosListaAluno
@@ -3862,7 +3862,10 @@ id supportCard
 id supportScrollUp
 id svUserList
 id svUserListBg
+id tabAccessibility
+id tabInvalid
 id tabMode
+id tabPeaks
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
