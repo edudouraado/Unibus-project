@@ -51,35 +51,38 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-    private fun loginNoFirebase(email: String, senha: String) {
-        auth.signInWithEmailAndPassword(email, senha).addOnCompleteListener(this) { task ->
-            if (task.isSuccessful) {
-                val db = FirebaseFirestore.getInstance()
+    private fun loginNoFirebase(email: String, senha: String) {auth.signInWithEmailAndPassword(email, senha).addOnCompleteListener(this) { task ->
+        if (task.isSuccessful) {
+            val db = FirebaseFirestore.getInstance()
+            db.collection("usuarios").whereEqualTo("email", email.lowercase()).get()
+                .addOnSuccessListener { docs ->
+                    // Dentro do addOnSuccessListener do login (onde o acesso é liberado)
+                    val logAcesso = hashMapOf(
+                        "data" to com.google.firebase.Timestamp.now(),
+                        "tipo" to "login"
+                    )
+                    db.collection("acessos").add(logAcesso)
+                    val userDoc = docs.documents.firstOrNull()
+                    val isAtivo = userDoc?.getBoolean("acessoAtivo") ?: true
 
-                // VERIFICAÇÃO DE ACESSO ATIVO (Trava de Segurança)
-                db.collection("usuarios").whereEqualTo("email", email.lowercase()).get()
-                    .addOnSuccessListener { docs ->
-                        val userDoc = docs.documents.firstOrNull()
-                        // Se não encontrar o campo 'acessoAtivo', considera true por padrão
-                        val isAtivo = userDoc?.getBoolean("acessoAtivo") ?: true
-
-                        if (isAtivo) {
-                            Toast.makeText(this, "Bem-vindo!", Toast.LENGTH_SHORT).show()
-                            redirecionarUsuario(email.lowercase())
-                        } else {
-                            auth.signOut()
-                            Toast.makeText(this, "Sua conta está inativa. Procure o Admin.", Toast.LENGTH_LONG).show()
-                        }
-                    }
-                    .addOnFailureListener {
-                        // Se falhar a conexão com o banco, permite o login por segurança
+                    if (isAtivo) {
                         redirecionarUsuario(email.lowercase())
+                    } else {
+                        // LOG: Tentativa com conta inativa
+                        registrarFalhaLogin(email, "Tentativa de acesso com conta INATIVA")
+
+                        auth.signOut()
+                        Toast.makeText(this, "Sua conta está inativa.", Toast.LENGTH_LONG).show()
                     }
-            } else {
-                val erro = task.exception?.message ?: "Usuário ou senha incorretos"
-                Toast.makeText(this, "Falha no login: $erro", Toast.LENGTH_SHORT).show()
-            }
+                }
+        } else {
+            // LOG: Erro de autenticação (senha errada ou usuário não existe)
+            val erroMsg = task.exception?.message ?: "Senha incorreta ou usuário inexistente"
+            registrarFalhaLogin(email, erroMsg)
+
+            Toast.makeText(this, "Falha no login: Usuário ou senha inválidos", Toast.LENGTH_SHORT).show()
         }
+    }
     }
 
     // FUNÇÃO QUE ESTAVA FALTANDO (MANTÉM TODO O FLUXO DE TELAS)
@@ -93,4 +96,20 @@ class LoginActivity : AppCompatActivity() {
         startActivity(intent)
         finish()
     }
+
+    private fun registrarFalhaLogin(email: String, motivo: String) {
+        val db = FirebaseFirestore.getInstance()
+        val logErro = hashMapOf(
+            "email" to email,
+            "motivo" to motivo,
+            "data" to com.google.firebase.Timestamp.now()
+        )
+
+        db.collection("tentativas_invalidas")
+            .add(logErro)
+            .addOnFailureListener {
+                // Silencioso: se não conseguir gravar o log, o usuário não precisa saber
+            }
+    }
+
 }

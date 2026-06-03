@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.unibus.app-mergeDebugResources-38:/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "com.example.unibus.app-mergeDebugResources-39:/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Eduardo\\.gradle\\caches\\9.2.1\\transforms\\8551c2627da95ef30935eaa75088ff6f\\workspace\\transformed\\core-1.13.1\\res\\values-en-rGB\\values-en-rGB.xml",
