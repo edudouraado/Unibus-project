@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.unibus.app-mergeDebugResources-38:/values-th/values-th.xml",
+            "outputFile": "com.example.unibus.app-mergeDebugResources-39:/values-th/values-th.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Eduardo\\.gradle\\caches\\9.2.1\\transforms\\c142dd2589734779950b976c156e43e3\\workspace\\transformed\\appcompat-1.7.0\\res\\values-th\\values-th.xml",
@@ -88,6 +88,23 @@
                         "startOffsets": "6720,7051,7150,7261",
                         "endColumns": "102,98,110,97",
                         "endOffsets": "6818,7145,7256,7354"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Eduardo\\.gradle\\caches\\9.2.1\\transforms\\0d4ff219417740713cfe004c878e04a7\\workspace\\transformed\\zxing-android-embedded-4.3.0\\res\\values-th\\values-th.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,163,281",
+                        "endColumns": "58,48,117,107",
+                        "endOffsets": "109,158,276,384"
+                    },
+                    "to": {
+                        "startLines": "141,142,143,144",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "12506,12565,12614,12732",
+                        "endColumns": "58,48,117,107",
+                        "endOffsets": "12560,12609,12727,12835"
                     }
                 },
                 {

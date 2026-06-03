@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.unibus.app-mergeDebugResources-38:/values-sk/values-sk.xml",
+            "outputFile": "com.example.unibus.app-mergeDebugResources-39:/values-sk/values-sk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Eduardo\\.gradle\\caches\\9.2.1\\transforms\\d54bf410d94495d15f274bbcdd499276\\workspace\\transformed\\play-services-base-18.0.1\\res\\values-sk\\values.xml",
@@ -103,6 +103,23 @@
                         "startOffsets": "3774,3870,3972,4073,4171,4281,4389,12880",
                         "endColumns": "95,101,100,97,109,107,121,100",
                         "endOffsets": "3865,3967,4068,4166,4276,4384,4506,12976"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Eduardo\\.gradle\\caches\\9.2.1\\transforms\\0d4ff219417740713cfe004c878e04a7\\workspace\\transformed\\zxing-android-embedded-4.3.0\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,315",
+                        "endColumns": "58,46,153,120",
+                        "endOffsets": "109,156,310,431"
+                    },
+                    "to": {
+                        "startLines": "143,144,145,146",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "12981,13040,13087,13241",
+                        "endColumns": "58,46,153,120",
+                        "endOffsets": "13035,13082,13236,13357"
                     }
                 },
                 {

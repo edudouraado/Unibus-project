@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.unibus.app-mergeDebugResources-38:/values-gl/values-gl.xml",
+            "outputFile": "com.example.unibus.app-mergeDebugResources-39:/values-gl/values-gl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Eduardo\\.gradle\\caches\\9.2.1\\transforms\\b716820ab17a77b9c65d17d1b602ad62\\workspace\\transformed\\play-services-basement-18.3.0\\res\\values-gl\\values.xml",

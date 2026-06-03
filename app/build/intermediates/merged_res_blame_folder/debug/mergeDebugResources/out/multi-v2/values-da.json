@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.unibus.app-mergeDebugResources-38:/values-da/values-da.xml",
+            "outputFile": "com.example.unibus.app-mergeDebugResources-39:/values-da/values-da.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Eduardo\\.gradle\\caches\\9.2.1\\transforms\\8551c2627da95ef30935eaa75088ff6f\\workspace\\transformed\\core-1.13.1\\res\\values-da\\values-da.xml",
@@ -52,6 +52,23 @@
                         "startOffsets": "5666",
                         "endColumns": "126",
                         "endOffsets": "5788"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Eduardo\\.gradle\\caches\\9.2.1\\transforms\\0d4ff219417740713cfe004c878e04a7\\workspace\\transformed\\zxing-android-embedded-4.3.0\\res\\values-da\\values-da.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,307",
+                        "endColumns": "58,46,145,109",
+                        "endOffsets": "109,156,302,412"
+                    },
+                    "to": {
+                        "startLines": "141,142,143,144",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "12653,12712,12759,12905",
+                        "endColumns": "58,46,145,109",
+                        "endOffsets": "12707,12754,12900,13010"
                     }
                 },
                 {

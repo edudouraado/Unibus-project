@@ -1331,6 +1331,16 @@ attr windowNoTitle
 attr yearSelectedStyle
 attr yearStyle
 attr yearTodayStyle
+attr zxing_framing_rect_height
+attr zxing_framing_rect_width
+attr zxing_possible_result_points
+attr zxing_preview_scaling_strategy
+attr zxing_result_view
+attr zxing_scanner_layout
+attr zxing_use_texture_view
+attr zxing_viewfinder_laser
+attr zxing_viewfinder_laser_visibility
+attr zxing_viewfinder_mask
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
 bool mtrl_btn_textappearance_all_caps
@@ -2142,6 +2152,16 @@ color unibus_blue
 color unibus_blue_dark
 color unibus_blue_soft
 color white
+color zxing_custom_possible_result_points
+color zxing_custom_result_view
+color zxing_custom_viewfinder_laser
+color zxing_custom_viewfinder_mask
+color zxing_possible_result_points
+color zxing_result_view
+color zxing_status_text
+color zxing_transparent
+color zxing_viewfinder_laser
+color zxing_viewfinder_mask
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -3344,7 +3364,6 @@ id bestChoice
 id bgAzul
 id blocking
 id bottom
-id bottomNav
 id bottomNavAluno
 id bottomNavAvisos
 id bottomNavMapa
@@ -3382,6 +3401,7 @@ id btnEntrar
 id btnEnviar
 id btnEnviarAviso
 id btnEnviarPopup
+id btnEnviarSuporte
 id btnFecharConfirmacao
 id btnFecharPopup
 id btnFecharSucesso
@@ -3463,6 +3483,7 @@ id compress
 id confirm_button
 id constraint
 id container
+id containerLogs
 id content
 id contentPanel
 id contiguous
@@ -3483,6 +3504,7 @@ id cvCameraView
 id cvDriversCount
 id cvFilters
 id cvHeader
+id cvInput
 id cvMainInfo
 id cvNotices
 id cvPeriod
@@ -3554,19 +3576,16 @@ id enterAlwaysCollapsed
 id errorCard
 id escape
 id etAvisoInput
-id etDescription
 id etDirection
-id etEmail
-id etId
 id etMatricula
 id etMessage
 id etMessagePopup
-id etName
 id etPesquisaPontosAluno
 id etRouteName
 id etSchedules
 id etSearchPonto
 id etSenha
+id etSuporteMensagem
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3601,6 +3620,7 @@ id groups
 id header
 id headerAluno
 id headerMapa
+id headerSuporte
 id header_title
 id hide_ime_id
 id hideable
@@ -3884,7 +3904,6 @@ id stretch
 id submenuarrow
 id submit_area
 id successCard
-id supportCard
 id supportScrollUp
 id svUserListBg
 id tabAccessibility
@@ -3943,8 +3962,10 @@ id tvActiveStudentsValue
 id tvAdminId
 id tvBody
 id tvBody1
+id tvDataFalha
 id tvDate
 id tvDate1
+id tvDescricaoFalha
 id tvDescription
 id tvDialogInstruction
 id tvDialogTitle
@@ -3962,8 +3983,6 @@ id tvLogo
 id tvLogoAvisos
 id tvLogoAvisosMotorista
 id tvLogoConfirm
-id tvLogoQr
-id tvMatricula
 id tvMatriculaAluno
 id tvNomePonto
 id tvNoticesTitle
@@ -3988,12 +4007,15 @@ id tvSuccessMessage
 id tvSuccessMsg
 id tvSuccessTitle
 id tvSucessoMsg
-id tvSupportTitle
+id tvTabAccessibility
+id tvTabInvalid
+id tvTabPeaks
 id tvTicketsCount
 id tvTitle
 id tvTitleAvisos
 id tvTitleAvisosMotorista
 id tvTitlePopup
+id tvTitulo
 id tvTituloMapa
 id tvTituloPonto
 id tvTripsCountValue
@@ -4008,7 +4030,6 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id vHeaderLine
 id vLine
 id vLineBg
 id vLineHeader
@@ -4033,6 +4054,19 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
+id zxing_back_button
+id zxing_barcode_scanner
+id zxing_barcode_surface
+id zxing_camera_closed
+id zxing_camera_error
+id zxing_decode
+id zxing_decode_failed
+id zxing_decode_succeeded
+id zxing_possible_result_points
+id zxing_preview_failed
+id zxing_prewiew_size_ready
+id zxing_status_view
+id zxing_viewfinder_view
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -4224,6 +4258,7 @@ layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_chamado_admin
 layout item_lista_pesquisa
+layout item_relatorio_falha
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -4292,11 +4327,14 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout usuario_pesquisado
+layout zxing_barcode_scanner
+layout zxing_capture
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw firebase_common_keep
+raw zxing_beep
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -4331,6 +4369,7 @@ string android_credentials_TYPE_PASSWORD_CREDENTIAL
 string androidx_credentials_TYPE_PUBLIC_KEY_CREDENTIAL
 string androidx_startup
 string app_name
+string app_version
 string appbar_scrolling_view_behavior
 string back_button_desc
 string base
@@ -4408,6 +4447,7 @@ string current_route_detail
 string cyclemap
 string date_end_default
 string date_start_default
+string define_zxingandroidembedded
 string driver_greeting
 string driver_id
 string entry_allowed
@@ -4467,6 +4507,15 @@ string label_route_name
 string label_schedules
 string label_tickets
 string label_trips
+string library_zxingandroidembedded_author
+string library_zxingandroidembedded_authorWebsite
+string library_zxingandroidembedded_isOpenSource
+string library_zxingandroidembedded_libraryDescription
+string library_zxingandroidembedded_libraryName
+string library_zxingandroidembedded_libraryVersion
+string library_zxingandroidembedded_libraryWebsite
+string library_zxingandroidembedded_licenseId
+string library_zxingandroidembedded_repositoryLink
 string loading_subtitle
 string lorem_ipsum_short
 string m3_exceed_max_badge_text_suffix
@@ -4655,6 +4704,10 @@ string user_id
 string warning_date
 string warning_text
 string warning_title
+string zxing_app_name
+string zxing_button_ok
+string zxing_msg_camera_framework_bug
+string zxing_msg_default_status
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -5783,6 +5836,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style zxing_CaptureTheme
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -5938,4 +5992,7 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
+styleable zxing_camera_preview zxing_framing_rect_height zxing_framing_rect_width zxing_preview_scaling_strategy zxing_use_texture_view
+styleable zxing_finder zxing_possible_result_points zxing_result_view zxing_viewfinder_laser zxing_viewfinder_laser_visibility zxing_viewfinder_mask
+styleable zxing_view zxing_scanner_layout
 xml image_share_filepaths

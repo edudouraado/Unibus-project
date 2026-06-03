@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.unibus.app-mergeDebugResources-38:/values-ko/values-ko.xml",
+            "outputFile": "com.example.unibus.app-mergeDebugResources-39:/values-ko/values-ko.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Eduardo\\.gradle\\caches\\9.2.1\\transforms\\d54bf410d94495d15f274bbcdd499276\\workspace\\transformed\\play-services-base-18.0.1\\res\\values-ko\\values.xml",
@@ -69,6 +69,23 @@
                         "startOffsets": "3448,3540,3640,3734,3831,3927,4025,11516",
                         "endColumns": "91,99,93,96,95,97,99,100",
                         "endOffsets": "3535,3635,3729,3826,3922,4020,4120,11612"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Eduardo\\.gradle\\caches\\9.2.1\\transforms\\0d4ff219417740713cfe004c878e04a7\\workspace\\transformed\\zxing-android-embedded-4.3.0\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,106,153,260",
+                        "endColumns": "50,46,106,71",
+                        "endOffsets": "101,148,255,327"
+                    },
+                    "to": {
+                        "startLines": "141,142,143,144",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "11617,11668,11715,11822",
+                        "endColumns": "50,46,106,71",
+                        "endOffsets": "11663,11710,11817,11889"
                     }
                 },
                 {
