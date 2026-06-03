@@ -6,12 +6,13 @@
     android:background="@color/background_beige"
     android:padding="16dp">
 
+    <!-- Exemplo de cabeçalho com botão voltar para o activity_qrcode.xml -->
     <ImageView
-        android:id="@+id/btnBackQr"
+        android:id="@+id/btnBack"
         android:layout_width="32dp"
         android:layout_height="32dp"
-        android:src="@android:drawable/ic_menu_revert"
-        android:contentDescription="@string/back_button_desc"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_arrow_back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/unibus_blue" />

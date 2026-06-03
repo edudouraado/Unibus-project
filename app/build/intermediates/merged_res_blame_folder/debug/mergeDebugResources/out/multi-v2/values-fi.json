@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.unibus.app-mergeDebugResources-37:/values-fi/values-fi.xml",
+            "outputFile": "com.example.unibus.app-mergeDebugResources-38:/values-fi/values-fi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Eduardo\\.gradle\\caches\\9.2.1\\transforms\\ab3153e3d405b1694a282ad4c6f92c0f\\workspace\\transformed\\material-1.12.0\\res\\values-fi\\values-fi.xml",
