@@ -55,7 +55,7 @@
                 android:id="@+id/etMatricula"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Sua matrícula"
+                android:hint="Seu E-mail"
                 android:textColor="@android:color/white"
                 android:textColorHint="#B3FFFFFF"
                 android:backgroundTint="@android:color/white"
