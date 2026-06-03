@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.unibus.app-mergeDebugResources-37:/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "com.example.unibus.app-mergeDebugResources-38:/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Eduardo\\.gradle\\caches\\9.2.1\\transforms\\6b9b762aeeb364f627f8ac7419ca92ea\\workspace\\transformed\\browser-1.4.0\\res\\values-zh-rTW\\values-zh-rTW.xml",

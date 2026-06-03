@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.unibus.app-mergeDebugResources-37:/values-in/values-in.xml",
+            "outputFile": "com.example.unibus.app-mergeDebugResources-38:/values-in/values-in.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Eduardo\\.gradle\\caches\\9.2.1\\transforms\\d54bf410d94495d15f274bbcdd499276\\workspace\\transformed\\play-services-base-18.0.1\\res\\values-in\\values.xml",

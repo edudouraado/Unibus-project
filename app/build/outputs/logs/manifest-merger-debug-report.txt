@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:2:1-73:12
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:1:39-74:12
+INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:1:39-74:12
+INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:1:39-74:12
+INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:1:39-74:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\ab3153e3d405b1694a282ad4c6f92c0f\workspace\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\489524b18608b60a2a7902ac17c3eb23\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\f8f04c6e8fa1bb5e64a8d605fae926d3\workspace\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -68,6 +68,7 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\4c100fee9e99c53f6a0bcbd08b7a38b6\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\5a25766c24c166b8d034bb5e99db464a\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\4d6b905d491a1f1da26f5ba5388f9de1\workspace\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:2:1-27:12
 MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\505bd695fddbe4af62c69dd9c53e3e1f\workspace\transformed\grpc-android-1.57.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\c95913004ec34cab57ac16dfd3241c07\workspace\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 	package
@@ -77,9 +78,9 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Edu
 	android:versionCode
 		INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:1:49-107
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:3:5-67
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\449a82dd05c1cda88133335de498efee\workspace\transformed\firebase-auth-23.0.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\449a82dd05c1cda88133335de498efee\workspace\transformed\firebase-auth-23.0.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\2d0e74f5fd4269c925d926c40c098032\workspace\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:11:5-67
@@ -87,22 +88,30 @@ MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Eduardo\.gr
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\16b47b0175f86191115dfdd6ac49a67d\workspace\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\16b47b0175f86191115dfdd6ac49a67d\workspace\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:3:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:4:5-79
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\449a82dd05c1cda88133335de498efee\workspace\transformed\firebase-auth-23.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\449a82dd05c1cda88133335de498efee\workspace\transformed\firebase-auth-23.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\2d0e74f5fd4269c925d926c40c098032\workspace\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\2d0e74f5fd4269c925d926c40c098032\workspace\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\16b47b0175f86191115dfdd6ac49a67d\workspace\transformed\recaptcha-18.4.0\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\16b47b0175f86191115dfdd6ac49a67d\workspace\transformed\recaptcha-18.4.0\AndroidManifest.xml:8:5-79
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\505bd695fddbe4af62c69dd9c53e3e1f\workspace\transformed\grpc-android-1.57.2\AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\505bd695fddbe4af62c69dd9c53e3e1f\workspace\transformed\grpc-android-1.57.2\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:4:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:5:5-79
-MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\449a82dd05c1cda88133335de498efee\workspace\transformed\firebase-auth-23.0.0\AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\449a82dd05c1cda88133335de498efee\workspace\transformed\firebase-auth-23.0.0\AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\2d0e74f5fd4269c925d926c40c098032\workspace\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:10:5-79
-MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\2d0e74f5fd4269c925d926c40c098032\workspace\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:10:5-79
-MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\16b47b0175f86191115dfdd6ac49a67d\workspace\transformed\recaptcha-18.4.0\AndroidManifest.xml:8:5-79
-MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\16b47b0175f86191115dfdd6ac49a67d\workspace\transformed\recaptcha-18.4.0\AndroidManifest.xml:8:5-79
-MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\505bd695fddbe4af62c69dd9c53e3e1f\workspace\transformed\grpc-android-1.57.2\AndroidManifest.xml:7:5-79
-MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\505bd695fddbe4af62c69dd9c53e3e1f\workspace\transformed\grpc-android-1.57.2\AndroidManifest.xml:7:5-79
 	android:name
 		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:6:22-78
 application
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:7:5-71:19
-INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:7:5-71:19
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:8:5-72:19
+INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:8:5-72:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\ab3153e3d405b1694a282ad4c6f92c0f\workspace\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\ab3153e3d405b1694a282ad4c6f92c0f\workspace\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\489524b18608b60a2a7902ac17c3eb23\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -154,237 +163,237 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Eduardo\.gradle\ca
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\8551c2627da95ef30935eaa75088ff6f\workspace\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:10:9-31
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:11:9-31
 	android:roundIcon
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:13:9-44
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:14:9-44
 activity#com.example.unibus.LoadingActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:16:9-21:20
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:17:9-22:20
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:16:51-74
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:17:51-74
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:16:19-50
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:17:19-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:17:13-20:29
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:18:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:20:27-74
 activity#com.example.unibus.LoginActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:24:9-76
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:25:9-76
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:24:49-73
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:25:49-73
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:24:19-48
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:25:19-48
 activity#com.example.unibus.RecuperarSenhaActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:25:9-85
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:26:9-85
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:25:58-82
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:26:58-82
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:25:19-57
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:26:19-57
 activity#com.example.unibus.ConfirmarCodigoActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:26:9-86
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:27:9-86
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:26:59-83
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:27:59-83
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:26:19-58
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:27:19-58
 activity#com.example.unibus.AlterarSenhaActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:27:9-83
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:28:9-83
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:27:56-80
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:28:56-80
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:27:19-55
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:28:19-55
 activity#com.example.unibus.HomeAlunoActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:30:9-80
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:31:9-80
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:30:53-77
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:31:53-77
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:30:19-52
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:31:19-52
 activity#com.example.unibus.MapaActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:31:9-75
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:32:9-75
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:31:48-72
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:32:48-72
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:31:19-47
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:32:19-47
 activity#com.example.unibus.RotasActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:32:9-76
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:33:9-76
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:32:49-73
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:33:49-73
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:32:19-48
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:33:19-48
 activity#com.example.unibus.QrCodeActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:33:9-77
-	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:33:50-74
-	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:33:19-49
-activity#com.example.unibus.AvisosActivity
 ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:34:9-77
 	android:exported
 		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:34:50-74
 	android:name
 		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:34:19-49
+activity#com.example.unibus.AvisosActivity
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:35:9-77
+	android:exported
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:35:50-74
+	android:name
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:35:19-49
 activity#com.example.unibus.SuporteActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:35:9-78
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:36:9-78
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:35:51-75
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:36:51-75
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:35:19-50
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:36:19-50
 activity#com.example.unibus.InicialMotoristaActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:38:9-87
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:39:9-87
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:38:60-84
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:39:60-84
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:38:19-59
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:39:19-59
 activity#com.example.unibus.AvisosMotoristaActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:39:9-86
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:40:9-86
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:39:59-83
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:40:59-83
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:39:19-58
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:40:19-58
 activity#com.example.unibus.ConfirmacaoAvisoActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:40:9-87
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:41:9-87
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:40:60-84
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:41:60-84
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:40:19-59
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:41:19-59
 activity#com.example.unibus.GerenciarUsuariosActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:43:9-88
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:44:9-88
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:43:61-85
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:44:61-85
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:43:19-60
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:44:19-60
 activity#com.example.unibus.SucessoAtivacaoActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:44:9-86
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:45:9-86
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:44:59-83
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:45:59-83
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:44:19-58
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:45:19-58
 activity#com.example.unibus.SucessoInativacaoActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:45:9-88
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:46:9-88
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:45:61-85
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:46:61-85
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:45:19-60
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:46:19-60
 activity#com.example.unibus.InicialAdminActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:46:9-83
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:47:9-83
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:46:56-80
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:47:56-80
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:46:19-55
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:47:19-55
 activity#com.example.unibus.GerenciarRotasActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:47:9-85
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:48:9-85
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:47:58-82
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:48:58-82
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:47:19-57
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:48:19-57
 activity#com.example.unibus.CriarRotaActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:48:9-80
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:49:9-80
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:48:53-77
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:49:53-77
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:48:19-52
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:49:19-52
 activity#com.example.unibus.EditarRotaActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:49:9-81
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:50:9-81
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:49:54-78
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:50:54-78
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:49:19-53
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:50:19-53
 activity#com.example.unibus.ExcluirRotaActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:50:9-82
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:51:9-82
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:50:55-79
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:51:55-79
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:50:19-54
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:51:19-54
 activity#com.example.unibus.SucessoExclusaoActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:51:9-86
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:52:9-86
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:51:59-83
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:52:59-83
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:51:19-58
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:52:19-58
 activity#com.example.unibus.Estatisticas2Activity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:52:9-84
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:53:9-84
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:52:57-81
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:53:57-81
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:52:19-56
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:53:19-56
 activity#com.example.unibus.EstatisticasActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:53:9-83
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:54:9-83
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:53:56-80
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:54:56-80
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:53:19-55
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:54:19-55
 activity#com.example.unibus.EstatisticasCalendarActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:54:9-91
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:55:9-91
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:54:64-88
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:55:64-88
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:54:19-63
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:55:19-63
 activity#com.example.unibus.ChamadosActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:57:9-79
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:58:9-79
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:57:52-76
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:58:52-76
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:57:19-51
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:58:19-51
 activity#com.example.unibus.ChamadosDetalhadosActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:58:9-89
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:59:9-89
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:58:62-86
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:59:62-86
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:58:19-61
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:59:19-61
 activity#com.example.unibus.ChamadoEspecificadoActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:59:9-90
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:60:9-90
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:59:63-87
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:60:63-87
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:59:19-62
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:60:19-62
 activity#com.example.unibus.ResponderChamadoActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:60:9-87
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:61:9-87
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:60:60-84
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:61:60-84
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:60:19-59
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:61:19-59
 activity#com.example.unibus.SucessoAvisoActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:61:9-83
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:62:9-83
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:61:56-80
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:62:56-80
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:61:19-55
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:62:19-55
 activity#com.example.unibus.RelatoriosActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:64:9-81
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:65:9-81
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:64:54-78
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:65:54-78
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:64:19-53
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:65:19-53
 activity#com.example.unibus.RelatoriosPicosActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:65:9-86
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:66:9-86
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:65:59-83
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:66:59-83
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:65:19-58
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:66:19-58
 activity#com.example.unibus.RelatoriosSolicitacaoActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:66:9-92
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:67:9-92
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:66:65-89
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:67:65-89
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:66:19-64
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:67:19-64
 activity#com.example.unibus.ErrorActivity
-ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:69:9-76
+ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:70:9-76
 	android:exported
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:69:49-73
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:70:49-73
 	android:name
-		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:69:19-48
+		ADDED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml:70:19-48
 uses-sdk
 INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Eduardo\Documents\GitHub\Unibus-project\app\src\main\AndroidManifest.xml
@@ -517,6 +526,8 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Eduardo\.gradle\
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\5a25766c24c166b8d034bb5e99db464a\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\4d6b905d491a1f1da26f5ba5388f9de1\workspace\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\4d6b905d491a1f1da26f5ba5388f9de1\workspace\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:5:5-7:41
+MERGED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:5:5-7:41
 MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\505bd695fddbe4af62c69dd9c53e3e1f\workspace\transformed\grpc-android-1.57.2\AndroidManifest.xml:5:5-44
 MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\505bd695fddbe4af62c69dd9c53e3e1f\workspace\transformed\grpc-android-1.57.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\c95913004ec34cab57ac16dfd3241c07\workspace\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
@@ -807,3 +818,35 @@ action#androidx.profileinstaller.action.BENCHMARK_OPERATION
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\93941944e9f760ba8035717b305b4d77\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
 	android:name
 		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\93941944e9f760ba8035717b305b4d77\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+supports-screens
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:9:5-12:40
+	android:largeScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:11:9-36
+	android:normalScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:12:9-37
+	android:anyDensity
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:10:9-34
+uses-feature#android.hardware.location.network
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:15:9-57
+uses-feature#android.hardware.location.gps
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:18:9-53
+uses-feature#android.hardware.telephony
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:21:9-50
+uses-feature#android.hardware.wifi
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] C:\Users\Eduardo\.gradle\caches\9.2.1\transforms\dba65898810913298357690928935047\workspace\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:24:9-45
