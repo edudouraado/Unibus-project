@@ -12,10 +12,12 @@ class SucessoAtivacaoActivity : AppCompatActivity() {
         setContentView(R.layout.activity_sucesso_ativacao)
 
         // Dentro do onCreate da SucessoAtivacaoActivity e da SucessoInativacaoActivity
-        val btnOk = findViewById<CardView>(R.id.btnOkAtivar) // ou btnOk
+        val btnOk = findViewById<androidx.cardview.widget.CardView>(R.id.btnOkAtivar) ?:
+        findViewById<androidx.cardview.widget.CardView>(R.id.btnOk)
 
         btnOk?.setOnClickListener {
-            finish() // ISSO É O MAIS IMPORTANTE: Apenas fecha o popup e você já estará na tela de rotas
+            // APENAS ISTO: Fecha o popup e você volta para a tela de Gerenciar Rotas que já está aberta
+            finish()
         }
     }
 }

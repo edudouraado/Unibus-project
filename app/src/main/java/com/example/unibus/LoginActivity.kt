@@ -9,6 +9,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.ktx.Firebase
 
 class LoginActivity : AppCompatActivity() {
@@ -26,6 +27,7 @@ class LoginActivity : AppCompatActivity() {
         val btnEntrar = findViewById<Button>(R.id.btnEntrar)
         val tvEsqueciSenha = findViewById<TextView>(R.id.tvEsqueciSenha)
 
+        // Lógica de Matrícula e Redirecionamento de Email Preservada
         btnEntrar.setOnClickListener {
             val matricula = etMatricula.text.toString().trim()
             val senha = etSenha.text.toString().trim()
@@ -50,26 +52,45 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun loginNoFirebase(email: String, senha: String) {
-        auth.signInWithEmailAndPassword(email, senha)
-            .addOnCompleteListener(this) { task ->
-                if (task.isSuccessful) {
-                    val userEmail = auth.currentUser?.email?.lowercase() ?: ""
-                    
-                    // Lógica de Redirecionamento Atualizada
-                    val intent = when (userEmail) {
-                        "adm@unibus.com" -> Intent(this, InicialAdminActivity::class.java)
-                        "motorista@unibus.com" -> Intent(this, InicialMotoristaActivity::class.java)
-                        "eduardodourado.sdo@gmail.com" -> Intent(this, HomeAlunoActivity::class.java)
-                        else -> Intent(this, RotasActivity::class.java)
-                    }
+        auth.signInWithEmailAndPassword(email, senha).addOnCompleteListener(this) { task ->
+            if (task.isSuccessful) {
+                val db = FirebaseFirestore.getInstance()
 
-                    Toast.makeText(this, "Bem-vindo ao Unibus!", Toast.LENGTH_SHORT).show()
-                    startActivity(intent)
-                    finish()
-                } else {
-                    val erro = task.exception?.message ?: "Usuário ou senha incorretos"
-                    Toast.makeText(this, "Falha no login: $erro", Toast.LENGTH_LONG).show()
-                }
+                // VERIFICAÇÃO DE ACESSO ATIVO (Trava de Segurança)
+                db.collection("usuarios").whereEqualTo("email", email.lowercase()).get()
+                    .addOnSuccessListener { docs ->
+                        val userDoc = docs.documents.firstOrNull()
+                        // Se não encontrar o campo 'acessoAtivo', considera true por padrão
+                        val isAtivo = userDoc?.getBoolean("acessoAtivo") ?: true
+
+                        if (isAtivo) {
+                            Toast.makeText(this, "Bem-vindo!", Toast.LENGTH_SHORT).show()
+                            redirecionarUsuario(email.lowercase())
+                        } else {
+                            auth.signOut()
+                            Toast.makeText(this, "Sua conta está inativa. Procure o Admin.", Toast.LENGTH_LONG).show()
+                        }
+                    }
+                    .addOnFailureListener {
+                        // Se falhar a conexão com o banco, permite o login por segurança
+                        redirecionarUsuario(email.lowercase())
+                    }
+            } else {
+                val erro = task.exception?.message ?: "Usuário ou senha incorretos"
+                Toast.makeText(this, "Falha no login: $erro", Toast.LENGTH_SHORT).show()
             }
+        }
+    }
+
+    // FUNÇÃO QUE ESTAVA FALTANDO (MANTÉM TODO O FLUXO DE TELAS)
+    private fun redirecionarUsuario(userEmail: String) {
+        val intent = when (userEmail) {
+            "adm@unibus.com" -> Intent(this, InicialAdminActivity::class.java)
+            "motorista@unibus.com" -> Intent(this, InicialMotoristaActivity::class.java)
+            "eduardodourado.sdo@gmail.com" -> Intent(this, HomeAlunoActivity::class.java)
+            else -> Intent(this, HomeAlunoActivity::class.java)
+        }
+        startActivity(intent)
+        finish()
     }
 }

@@ -4,23 +4,26 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.cardview.widget.CardView
 
 class ExcluirRotaActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_excluir_rota)
+        // Se você excluiu o XML "activity_excluir_rota_2", mude para o seu XML de confirmação ativo
+        setContentView(R.layout.activity_excluir_rota_2)
 
-        findViewById<View>(R.id.btnSim).setOnClickListener {
-            val intent = Intent(this, SucessoExclusaoPapicuActivity::class.java)
+        val btnSim = findViewById<CardView>(R.id.btnSim)
+        val btnNao = findViewById<CardView>(R.id.btnNao)
+
+        btnSim?.setOnClickListener {
+            // Garanta que esta Activity SucessoInativacaoActivity ainda exista
+            val intent = Intent(this, SucessoInativacaoActivity::class.java)
             startActivity(intent)
             finish()
         }
 
-        findViewById<View>(R.id.btnNao).setOnClickListener {
-            finish()
-        }
-
-        findViewById<View>(R.id.btnClosePopup).setOnClickListener {
+        btnNao?.setOnClickListener {
             finish()
         }
     }
