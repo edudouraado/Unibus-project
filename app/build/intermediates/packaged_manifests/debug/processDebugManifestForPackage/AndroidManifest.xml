@@ -114,6 +114,21 @@
 
         <!-- Telas do Motorista -->
         <activity
+            android:name="com.example.unibus.ConfirmarFinalizacaoActivity"
+            android:theme="@style/TemaPopup" />
+        <activity
+            android:name="com.example.unibus.SucessoFinalizacaoActivity"
+            android:theme="@style/TemaPopup" />
+        <activity
+            android:name="com.example.unibus.MapaMotoristaActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.unibus.RotasMotoristaActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.unibus.RotaAndamentoActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.unibus.InicialMotoristaActivity"
             android:exported="false" />
         <activity

@@ -24,8 +24,7 @@
             app:tint="@color/unibus_blue"
             android:clickable="true"
             android:focusable="true"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:contentDescription="Fechar"/>
+            android:background="?attr/selectableItemBackgroundBorderless" />
 
         <ImageView
             android:id="@+id/imgMascoteSucesso"
@@ -34,17 +33,17 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/chatgpt_image_11_de_mai__de_2025__15_39_41_removebg_preview_1" /> <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_marginBottom="16dp"
-        android:gravity="center"
-        android:text="Rota finalizada com sucesso."
-        android:textColor="@color/unibus_blue"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:includeFontPadding="true"/>
+            android:src="@drawable/chatgpt_image_11_de_mai__de_2025__15_39_41_removebg_preview_1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="Rota finalizada com sucesso."
+            android:textColor="@color/unibus_blue"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>
