@@ -74,7 +74,7 @@
                 android:textSize="28sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@id/vLine"
-                app:layout_constraintTop_toTopOf="parent" 
+                app:layout_constraintTop_toTopOf="parent"
         android:includeFontPadding="true"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
@@ -117,7 +117,7 @@
                 android:textSize="26sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@id/vLineSub"
-                app:layout_constraintTop_toTopOf="parent" 
+                app:layout_constraintTop_toTopOf="parent"
         android:includeFontPadding="true"/>
 
             <ScrollView
@@ -144,14 +144,14 @@
                             android:layout_height="wrap_content"
                             android:text="@string/notice_subject"
                             android:textStyle="bold"
-                            android:textColor="#555555" 
+                            android:textColor="#555555"
         android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
                             android:text="@string/notice_date"
-                            android:textColor="#555555" 
+                            android:textColor="#555555"
         android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="match_parent"
@@ -160,7 +160,7 @@
                             android:layout_marginTop="4dp"
                             android:text="@string/lorem_ipsum_short"
                             android:textColor="#777777"
-                            android:textSize="15sp" 
+                            android:textSize="15sp"
         android:includeFontPadding="true"/>
                     </RelativeLayout>
 
@@ -181,14 +181,14 @@
                             android:layout_height="wrap_content"
                             android:text="@string/notice_subject"
                             android:textStyle="bold"
-                            android:textColor="#555555" 
+                            android:textColor="#555555"
         android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
                             android:text="@string/notice_date"
-                            android:textColor="#555555" 
+                            android:textColor="#555555"
         android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="match_parent"
@@ -197,7 +197,7 @@
                             android:layout_marginTop="4dp"
                             android:text="@string/lorem_ipsum_short"
                             android:textColor="#777777"
-                            android:textSize="15sp" 
+                            android:textSize="15sp"
         android:includeFontPadding="true"/>
                     </RelativeLayout>
 
@@ -218,14 +218,14 @@
                             android:layout_height="wrap_content"
                             android:text="@string/notice_subject"
                             android:textStyle="bold"
-                            android:textColor="#555555" 
+                            android:textColor="#555555"
         android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
                             android:text="@string/notice_date"
-                            android:textColor="#555555" 
+                            android:textColor="#555555"
         android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="match_parent"
@@ -234,7 +234,7 @@
                             android:layout_marginTop="4dp"
                             android:text="@string/lorem_ipsum_short"
                             android:textColor="#777777"
-                            android:textSize="15sp" 
+                            android:textSize="15sp"
         android:includeFontPadding="true"/>
                     </RelativeLayout>
 
@@ -255,14 +255,14 @@
                             android:layout_height="wrap_content"
                             android:text="@string/notice_subject"
                             android:textStyle="bold"
-                            android:textColor="#555555" 
+                            android:textColor="#555555"
         android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
                             android:text="@string/notice_date"
-                            android:textColor="#555555" 
+                            android:textColor="#555555"
         android:includeFontPadding="true"/>
                         <TextView
                             android:layout_width="match_parent"
@@ -271,7 +271,7 @@
                             android:layout_marginTop="4dp"
                             android:text="@string/lorem_ipsum_short"
                             android:textColor="#777777"
-                            android:textSize="15sp" 
+                            android:textSize="15sp"
         android:includeFontPadding="true"/>
                     </RelativeLayout>
 
@@ -368,7 +368,7 @@
                     android:text="@string/btn_see_more"
                     android:textColor="@color/unibus_blue"
                     android:textSize="16sp"
-                    android:textStyle="bold" 
+                    android:textStyle="bold"
         android:includeFontPadding="true"/>
             </androidx.cardview.widget.CardView>
 

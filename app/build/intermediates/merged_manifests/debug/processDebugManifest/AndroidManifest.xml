@@ -88,6 +88,9 @@
 
         <!-- Telas do Admin -->
         <activity
+            android:name="com.example.unibus.GerenciarUsuariosActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.unibus.SucessoAtivacaoActivity"
             android:exported="false" />
         <activity
@@ -100,12 +103,6 @@
             android:name="com.example.unibus.GerenciarRotasActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.unibus.GerenciarRotas1Activity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.unibus.GerenciarRotas2Activity"
-            android:exported="false" />
-        <activity
             android:name="com.example.unibus.CriarRotaActivity"
             android:exported="false" />
         <activity
@@ -115,16 +112,7 @@
             android:name="com.example.unibus.ExcluirRotaActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.unibus.ExcluirRota2Activity"
-            android:exported="false" />
-        <activity
             android:name="com.example.unibus.SucessoExclusaoActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.unibus.SucessoExclusaoPapicuActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.unibus.SucessoExclusaoParangabaActivity"
             android:exported="false" />
         <activity
             android:name="com.example.unibus.Estatisticas2Activity"

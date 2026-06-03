@@ -1,6 +1,5 @@
 package com.example.unibus
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
@@ -14,9 +13,9 @@ class SucessoInativacaoActivity : AppCompatActivity() {
         val btnOk = findViewById<CardView>(R.id.btnOk)
 
         btnOk?.setOnClickListener {
-            val intent = Intent(this, GerenciarRotasActivity::class.java)
-            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-            startActivity(intent)
+            // APENAS ISTO:
+            // Fecha este popup e volta para a tela que já estava aberta por baixo (GerenciarRotas)
+            // Isso preserva a tela InicialAdmin lá no fundo da pilha.
             finish()
         }
     }

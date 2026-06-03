@@ -40,19 +40,15 @@
         <activity android:name=".ConfirmacaoAvisoActivity" android:exported="false" />
 
         <!-- Telas do Admin -->
+        <activity android:name=".GerenciarUsuariosActivity" android:exported="false" />
         <activity android:name=".SucessoAtivacaoActivity" android:exported="false" />
         <activity android:name=".SucessoInativacaoActivity" android:exported="false" />
         <activity android:name=".InicialAdminActivity" android:exported="false" />
         <activity android:name=".GerenciarRotasActivity" android:exported="false" />
-        <activity android:name=".GerenciarRotas1Activity" android:exported="false" />
-        <activity android:name=".GerenciarRotas2Activity" android:exported="false" />
         <activity android:name=".CriarRotaActivity" android:exported="false" />
         <activity android:name=".EditarRotaActivity" android:exported="false" />
         <activity android:name=".ExcluirRotaActivity" android:exported="false" />
-        <activity android:name=".ExcluirRota2Activity" android:exported="false" />
         <activity android:name=".SucessoExclusaoActivity" android:exported="false" />
-        <activity android:name=".SucessoExclusaoPapicuActivity" android:exported="false" />
-        <activity android:name=".SucessoExclusaoParangabaActivity" android:exported="false" />
         <activity android:name=".Estatisticas2Activity" android:exported="false" />
         <activity android:name=".EstatisticasActivity" android:exported="false" />
         <activity android:name=".EstatisticasCalendarActivity" android:exported="false" />

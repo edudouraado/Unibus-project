@@ -15,39 +15,67 @@ class InicialAdminActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_inicial_admin)
 
-        // Mapeando os campos do XML
-        // Dentro do onCreate
+        // 1. Mapeando os campos de texto (Contadores)
         val tvActiveStudentsValue = findViewById<TextView>(R.id.tvActiveStudentsValue)
         val tvTripsCountValue = findViewById<TextView>(R.id.tvTripsCountValue)
         val tvDriversCountValue = findViewById<TextView>(R.id.tvDriversCountValue)
         val tvTicketsCount = findViewById<TextView>(R.id.tvTicketsCount)
 
+        // 2. Mapeando os Cards Superiores (Cinzas)
         val cvTicketsCount = findViewById<CardView>(R.id.cvTicketsCount)
-        val btnManageRoutes = findViewById<CardView>(R.id.btnManageRoutes)
+
+        // 3. Mapeando os Botões Inferiores (Ações)
         val btnGeneralStats = findViewById<CardView>(R.id.btnGeneralStats)
+        val btnManageRoutes = findViewById<CardView>(R.id.btnManageRoutes)
+        val btnManageUsers = findViewById<CardView>(R.id.btnManageUsers)
         val btnReports = findViewById<CardView>(R.id.btnReports)
 
+        // --- FLUXOS DE NAVEGAÇÃO SEPARADOS ---
+
+        // CLIQUE NO CHAMADO (Card Cinza): Abre a tela de visualizar e responder
         cvTicketsCount?.setOnClickListener {
-            startActivity(Intent(this, ChamadosDetalhadosActivity::class.java))
+            val intent = Intent(this, ChamadosActivity::class.java)
+            startActivity(intent)
         }
 
+        // BOTÃO RELATÓRIOS (Lista inferior): Abre a tela de relatórios
+        btnReports?.setOnClickListener {
+            val intent = Intent(this, RelatoriosActivity::class.java)
+            startActivity(intent)
+        }
+
+        // ESTATÍSTICAS GERAIS: Abre Estatisticas2
+        btnGeneralStats?.setOnClickListener {
+            startActivity(Intent(this, Estatisticas2Activity::class.java))
+        }
+
+        // GERENCIAR ROTAS: Abre GerenciarRotas
         btnManageRoutes?.setOnClickListener {
             startActivity(Intent(this, GerenciarRotasActivity::class.java))
         }
 
-        btnGeneralStats?.setOnClickListener {
-            startActivity(Intent(this, EstatisticasActivity::class.java))
+        // GERENCIAR USUÁRIOS: Abre GerenciarUsuarios
+        btnManageUsers?.setOnClickListener {
+            startActivity(Intent(this, GerenciarUsuariosActivity::class.java))
         }
 
-        btnReports?.setOnClickListener {
-            startActivity(Intent(this, RelatoriosActivity::class.java))
-        }
+        // --- MANUTENÇÃO DOS CONTADORES EM TEMPO REAL ---
 
-        // Ligar os contadores em tempo real
-        ouvirContagemFirebase("usuarios", "perfil", "aluno", tvActiveStudentsValue)
+        ouvirContagemUsuariosAtivos("aluno", tvActiveStudentsValue)
+        ouvirContagemUsuariosAtivos("motorista", tvDriversCountValue)
         ouvirContagemFirebase("rotas", "ativa", true, tvTripsCountValue)
-        ouvirContagemFirebase("usuarios", "perfil", "motorista", tvDriversCountValue)
         ouvirContagemFirebase("avisos", "respondido", false, tvTicketsCount)
+    }
+
+    private fun ouvirContagemUsuariosAtivos(perfil: String, textView: TextView?) {
+        db.collection("usuarios")
+            .whereEqualTo("perfil", perfil)
+            .whereEqualTo("acessoAtivo", true)
+            .addSnapshotListener { snapshots, error ->
+                if (error == null && snapshots != null) {
+                    textView?.text = snapshots.size().toString()
+                }
+            }
     }
 
     private fun ouvirContagemFirebase(colecao: String, campo: String, valor: Any, textView: TextView?) {
