@@ -10,4 +10,14 @@
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:statusBarColor">@color/background_beige</item>
     </style>
+    <!-- Estilo para os popups de finalização de rota -->
+    <style name="TemaPopup" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Remove a barra de título (a barra preta com o nome Unibus) -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!-- Deixa o fundo em volta do CardView transparente -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- Remove o sombreamento escuro padrão do fundo se desejar -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
 </resources>

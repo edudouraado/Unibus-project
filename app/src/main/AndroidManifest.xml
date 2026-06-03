@@ -36,6 +36,17 @@
         <activity android:name=".SuporteActivity" android:exported="false" />
 
         <!-- Telas do Motorista -->
+        <activity
+            android:name=".ConfirmarFinalizacaoActivity"
+            android:theme="@style/TemaPopup" />
+
+        <activity
+            android:name=".SucessoFinalizacaoActivity"
+            android:theme="@style/TemaPopup" />
+
+        <activity android:name=".MapaMotoristaActivity" android:exported="false" />
+        <activity android:name=".RotasMotoristaActivity" android:exported="false" />
+        <activity android:name=".RotaAndamentoActivity" android:exported="false" />
         <activity android:name=".InicialMotoristaActivity" android:exported="false" />
         <activity android:name=".AvisosMotoristaActivity" android:exported="false" />
         <activity android:name=".ConfirmacaoAvisoActivity" android:exported="false" />
